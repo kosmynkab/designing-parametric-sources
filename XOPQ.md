@@ -1,6 +1,8 @@
 XOPQ
 ====
 
+Expected behavior: thick strokes get thicker while everything else “stays the same”.
+
 
 Uppercase
 ---------
@@ -12,11 +14,15 @@ Uppercase
 
 ##### XOPQ max
 
-/H
+![](imgs/AmstelvarA2-Roman_H__XOPQmax.png)
+
+![](imgs/AmstelvarA2-Italic_H__XOPQmax.png)
 
 ##### XOPQ min
 
-/H
+![](imgs/AmstelvarA2-Roman_H__XOPQmin.png)
+
+![](imgs/AmstelvarA2-Italic_H__XOPQmin.png)
 
 ### Round glyphs
 
@@ -26,11 +32,11 @@ Uppercase
 
 ##### XOPQ max
 
-/O
+![](imgs/AmstelvarA2-Roman_O__XOPQmax.png)
 
 ##### XOPQ min
 
-/O
+![](imgs/AmstelvarA2-Roman_O__XOPQmin.png)
 
 
 ### Diagonal glyphs
@@ -70,18 +76,17 @@ Lowercase
 
 AmstelvarA2 Roman:
 
-- XOLC changes in
-- YOLC changes on XOLC max because of /n's shoulder translation
 - Mostly x-direction deltas and a little bit of y-direction deltas in XOLC max
-- Only x-direction delta in XOLC min
+- YOLC changes on XOLC max because of /n's shoulder translation
+- Only x-direction delta in XOLC min (?)
 
 ##### XOPQ max
 
-/n
+![](imgs/AmstelvarA2-Roman_n_XOPQmax.png)
 
 ##### XOPQ min
 
-/n
+![](imgs/AmstelvarA2-Roman_n_XOPQmin.png)
 
 ### Round glyphs
 

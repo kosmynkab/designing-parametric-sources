@@ -13,15 +13,15 @@ Uppercase
 
 ##### YTRA min
 
-![](imgs/uc/AmstelvarA2-Roman_H_YTRAmin.png)
+![](imgs/uc/RobotoDelta-Roman_H_YTRAmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_H_YTRAmin.png)
+![](imgs/uc/RobotoDelta-Italic_H_YTRAmin.png)
 
 ##### YTRA max
 
-![](imgs/uc/AmstelvarA2-Roman_H_YTRAmax.png)
+![](imgs/uc/RobotoDelta-Roman_H_YTRAmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_H_YTRAmax.png)
+![](imgs/uc/RobotoDelta-Italic_H_YTRAmax.png)
 
 
 ### Round glyphs
@@ -31,15 +31,15 @@ Uppercase
 
 ##### YTRA min
 
-![](imgs/uc/AmstelvarA2-Roman_O_YTRAmin.png)
+![](imgs/uc/RobotoDelta-Roman_O_YTRAmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_O_YTRAmin.png)
+![](imgs/uc/RobotoDelta-Italic_O_YTRAmin.png)
 
 ##### YTRA max
 
-![](imgs/uc/AmstelvarA2-Roman_O_YTRAmax.png)
+![](imgs/uc/RobotoDelta-Roman_O_YTRAmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_O_YTRAmax.png)
+![](imgs/uc/RobotoDelta-Italic_O_YTRAmax.png)
 
 ### Diagonal glyphs
 
@@ -50,15 +50,15 @@ AmstelvarA2:
 
 ##### YTRA min
 
-![](imgs/uc/AmstelvarA2-Roman_V_YTRAmin.png)
+![](imgs/uc/RobotoDelta-Roman_V_YTRAmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_V_YTRAmin.png)
+![](imgs/uc/RobotoDelta-Italic_V_YTRAmin.png)
 
 ##### YTRA max
 
-![](imgs/uc/AmstelvarA2-Roman_V_YTRAmax.png)
+![](imgs/uc/RobotoDelta-Roman_V_YTRAmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_V_YTRAmax.png)
+![](imgs/uc/RobotoDelta-Italic_V_YTRAmax.png)
 
 
 Lowercase
@@ -73,15 +73,15 @@ AmstelvarA2 Roman:
 
 ##### YTRA min
 
-![](imgs/lc/AmstelvarA2-Roman_n_YTRAmin.png)
+![](imgs/lc/RobotoDelta-Roman_n_YTRAmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_n_YTRAmin.png)
+![](imgs/lc/RobotoDelta-Italic_n_YTRAmin.png)
 
 ##### YTRA max
 
-![](imgs/lc/AmstelvarA2-Roman_n_YTRAmax.png)
+![](imgs/lc/RobotoDelta-Roman_n_YTRAmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_n_YTRAmax.png)
+![](imgs/lc/RobotoDelta-Italic_n_YTRAmax.png)
 
 ### Round glyphs
 
@@ -93,15 +93,15 @@ AmstelvarA2 Roman:
 
 ##### YTRA min
 
-![](imgs/lc/AmstelvarA2-Roman_o_YTRAmin.png)
+![](imgs/lc/RobotoDelta-Roman_o_YTRAmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_o_YTRAmin.png)
+![](imgs/lc/RobotoDelta-Italic_o_YTRAmin.png)
 
 ##### YTRA max
 
-![](imgs/lc/AmstelvarA2-Roman_o_YTRAmax.png)
+![](imgs/lc/RobotoDelta-Roman_o_YTRAmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_o_YTRAmax.png)
+![](imgs/lc/RobotoDelta-Italic_o_YTRAmax.png)
 
 
 ### Diagonal glyphs
@@ -115,15 +115,15 @@ AmstelvarA2 Roman:
 
 ##### YTRA min
 
-![](imgs/lc/AmstelvarA2-Roman_v_YTRAmin.png)
+![](imgs/lc/RobotoDelta-Roman_v_YTRAmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_v_YTRAmin.png)
+![](imgs/lc/RobotoDelta-Italic_v_YTRAmin.png)
 
 ##### YTRA max
 
-![](imgs/lc/AmstelvarA2-Roman_v_YTRAmax.png)
+![](imgs/lc/RobotoDelta-Roman_v_YTRAmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_v_YTRAmax.png)
+![](imgs/lc/RobotoDelta-Italic_v_YTRAmax.png)
 
 
 Figures
@@ -137,15 +137,15 @@ AmstelvarA2 Roman:
 
 ##### YTRA min
 
-![](imgs/other/AmstelvarA2-Roman_one_YTRAmin.png)
+![](imgs/other/RobotoDelta-Roman_one_YTRAmin.png)
 
-![](imgs/other/AmstelvarA2-Italic_one_YTRAmin.png)
+![](imgs/other/RobotoDelta-Italic_one_YTRAmin.png)
 
 ##### YTRA max
 
-![](imgs/other/AmstelvarA2-Roman_one_YTRAmax.png)
+![](imgs/other/RobotoDelta-Roman_one_YTRAmax.png)
 
-![](imgs/other/AmstelvarA2-Italic_one_YTRAmax.png)
+![](imgs/other/RobotoDelta-Italic_one_YTRAmax.png)
 
 
 ### Round glyphs
@@ -158,15 +158,15 @@ AmstelvarA2 Roman:
 
 ##### YTRA min
 
-![](imgs/other/AmstelvarA2-Roman_zero_YTRAmin.png)
+![](imgs/other/RobotoDelta-Roman_zero_YTRAmin.png)
 
-![](imgs/other/AmstelvarA2-Italic_zero_YTRAmin.png)
+![](imgs/other/RobotoDelta-Italic_zero_YTRAmin.png)
 
 ##### YTRA max
 
-![](imgs/other/AmstelvarA2-Roman_zero_YTRAmax.png)
+![](imgs/other/RobotoDelta-Roman_zero_YTRAmax.png)
 
-![](imgs/other/AmstelvarA2-Italic_zero_YTRAmax.png)
+![](imgs/other/RobotoDelta-Italic_zero_YTRAmax.png)
 
 
 Etcetera

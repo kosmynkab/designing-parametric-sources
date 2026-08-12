@@ -13,44 +13,44 @@ Uppercase
 
 ##### YOPQ min
 
-![](imgs/uc/AmstelvarA2-Roman_H_YOPQmin.png)
+![](imgs/uc/RobotoDelta-Roman_H_YOPQmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_H_YOPQmin.png)
+![](imgs/uc/RobotoDelta-Italic_H_YOPQmin.png)
 
 ##### YOPQ max
 
-![](imgs/uc/AmstelvarA2-Roman_H_YOPQmax.png)
+![](imgs/uc/RobotoDelta-Roman_H_YOPQmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_H_YOPQmax.png)
+![](imgs/uc/RobotoDelta-Italic_H_YOPQmax.png)
 
 
 ### Round glyphs
 
 ##### YOPQ min
 
-![](imgs/uc/AmstelvarA2-Roman_O_YOPQmin.png)
+![](imgs/uc/RobotoDelta-Roman_O_YOPQmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_O_YOPQmin.png)
+![](imgs/uc/RobotoDelta-Italic_O_YOPQmin.png)
 
 ##### YOPQ max
 
-![](imgs/uc/AmstelvarA2-Roman_O_YOPQmax.png)
+![](imgs/uc/RobotoDelta-Roman_O_YOPQmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_O_YOPQmax.png)
+![](imgs/uc/RobotoDelta-Italic_O_YOPQmax.png)
 
 ### Diagonal glyphs
 
 ##### YOPQ min
 
-![](imgs/uc/AmstelvarA2-Roman_V_YOPQmin.png)
+![](imgs/uc/RobotoDelta-Roman_V_YOPQmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_V_YOPQmin.png)
+![](imgs/uc/RobotoDelta-Italic_V_YOPQmin.png)
 
 ##### YOPQ max
 
-![](imgs/uc/AmstelvarA2-Roman_V_YOPQmax.png)
+![](imgs/uc/RobotoDelta-Roman_V_YOPQmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_V_YOPQmax.png)
+![](imgs/uc/RobotoDelta-Italic_V_YOPQmax.png)
 
 
 Lowercase
@@ -65,15 +65,15 @@ AmstelvarA2 Roman:
 
 ##### YOPQ min
 
-![](imgs/lc/AmstelvarA2-Roman_n_YOPQmin.png)
+![](imgs/lc/RobotoDelta-Roman_n_YOPQmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_n_YOPQmin.png)
+![](imgs/lc/RobotoDelta-Italic_n_YOPQmin.png)
 
 ##### YOPQ max
 
-![](imgs/lc/AmstelvarA2-Roman_n_YOPQmax.png)
+![](imgs/lc/RobotoDelta-Roman_n_YOPQmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_n_YOPQmax.png)
+![](imgs/lc/RobotoDelta-Italic_n_YOPQmax.png)
 
 ### Round glyphs
 
@@ -85,15 +85,15 @@ AmstelvarA2 Roman:
 
 ##### YOPQ min
 
-![](imgs/lc/AmstelvarA2-Roman_o_YOPQmin.png)
+![](imgs/lc/RobotoDelta-Roman_o_YOPQmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_o_YOPQmin.png)
+![](imgs/lc/RobotoDelta-Italic_o_YOPQmin.png)
 
 ##### YOPQ max
 
-![](imgs/lc/AmstelvarA2-Roman_o_YOPQmax.png)
+![](imgs/lc/RobotoDelta-Roman_o_YOPQmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_o_YOPQmax.png)
+![](imgs/lc/RobotoDelta-Italic_o_YOPQmax.png)
 
 
 ### Diagonal glyphs
@@ -107,15 +107,15 @@ AmstelvarA2 Roman:
 
 ##### YOPQ min
 
-![](imgs/lc/AmstelvarA2-Roman_v_YOPQmin.png)
+![](imgs/lc/RobotoDelta-Roman_v_YOPQmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_v_YOPQmin.png)
+![](imgs/lc/RobotoDelta-Italic_v_YOPQmin.png)
 
 ##### YOPQ max
 
-![](imgs/lc/AmstelvarA2-Roman_v_YOPQmax.png)
+![](imgs/lc/RobotoDelta-Roman_v_YOPQmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_v_YOPQmax.png)
+![](imgs/lc/RobotoDelta-Italic_v_YOPQmax.png)
 
 
 Figures
@@ -129,15 +129,15 @@ AmstelvarA2 Roman:
 
 ##### YOPQ min
 
-![](imgs/other/AmstelvarA2-Roman_one_YOPQmin.png)
+![](imgs/other/RobotoDelta-Roman_one_YOPQmin.png)
 
-![](imgs/other/AmstelvarA2-Italic_one_YOPQmin.png)
+![](imgs/other/RobotoDelta-Italic_one_YOPQmin.png)
 
 ##### YOPQ max
 
-![](imgs/other/AmstelvarA2-Roman_one_YOPQmax.png)
+![](imgs/other/RobotoDelta-Roman_one_YOPQmax.png)
 
-![](imgs/other/AmstelvarA2-Italic_one_YOPQmax.png)
+![](imgs/other/RobotoDelta-Italic_one_YOPQmax.png)
 
 
 ### Round glyphs
@@ -150,15 +150,15 @@ AmstelvarA2 Roman:
 
 ##### YOPQ min
 
-![](imgs/other/AmstelvarA2-Roman_zero_YOPQmin.png)
+![](imgs/other/RobotoDelta-Roman_zero_YOPQmin.png)
 
-![](imgs/other/AmstelvarA2-Italic_zero_YOPQmin.png)
+![](imgs/other/RobotoDelta-Italic_zero_YOPQmin.png)
 
 ##### YOPQ max
 
-![](imgs/other/AmstelvarA2-Roman_zero_YOPQmax.png)
+![](imgs/other/RobotoDelta-Roman_zero_YOPQmax.png)
 
-![](imgs/other/AmstelvarA2-Italic_zero_YOPQmax.png)
+![](imgs/other/RobotoDelta-Italic_zero_YOPQmax.png)
 
 
 Etcetera

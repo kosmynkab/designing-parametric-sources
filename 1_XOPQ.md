@@ -14,15 +14,15 @@ Uppercase
 
 ##### XTSP max
 
-![](imgs/uc/AmstelvarA2-Roman_H_XTSPmax.png)
+![](imgs/uc/RobotoDelta-Roman_H_XTSPmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_H_XTSPmax.png)
+![](imgs/uc/RobotoDelta-Italic_H_XTSPmax.png)
 
 ##### XTSP min
 
-![](imgs/uc/AmstelvarA2-Roman_H_XTSPmin.png)
+![](imgs/uc/RobotoDelta-Roman_H_XTSPmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_H_XTSPmin.png)
+![](imgs/uc/RobotoDelta-Italic_H_XTSPmin.png)
 
 ### Round glyphs
 
@@ -32,15 +32,15 @@ Uppercase
 
 ##### XTSP max
 
-![](imgs/uc/AmstelvarA2-Roman_O_XTSPmax.png)
+![](imgs/uc/RobotoDelta-Roman_O_XTSPmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_O_XTSPmax.png)
+![](imgs/uc/RobotoDelta-Italic_O_XTSPmax.png)
 
 ##### XTSP min
 
-![](imgs/uc/AmstelvarA2-Roman_O_XTSPmin.png)
+![](imgs/uc/RobotoDelta-Roman_O_XTSPmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_O_XTSPmin.png)
+![](imgs/uc/RobotoDelta-Italic_O_XTSPmin.png)
 
 
 ### Diagonal glyphs
@@ -54,15 +54,15 @@ Uppercase
 
 ##### XTSP max
 
-![](imgs/uc/AmstelvarA2-Roman_V_XTSPmax.png)
+![](imgs/uc/RobotoDelta-Roman_V_XTSPmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_V_XTSPmax.png)
+![](imgs/uc/RobotoDelta-Italic_V_XTSPmax.png)
 
 ##### XTSP min
 
-![](imgs/uc/AmstelvarA2-Roman_V_XTSPmin.png)
+![](imgs/uc/RobotoDelta-Roman_V_XTSPmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_V_XTSPmin.png)
+![](imgs/uc/RobotoDelta-Italic_V_XTSPmin.png)
 
 > The italic V in XTSPmin seems like its too thick.
 
@@ -72,15 +72,15 @@ Uppercase
 
 ##### XTSP max
 
-![](imgs/uc/AmstelvarA2-Roman_E_XTSPmax.png)
+![](imgs/uc/RobotoDelta-Roman_E_XTSPmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_E_XTSPmax.png)
+![](imgs/uc/RobotoDelta-Italic_E_XTSPmax.png)
 
 ##### XTSP min
 
-![](imgs/uc/AmstelvarA2-Roman_E_XTSPmin.png)
+![](imgs/uc/RobotoDelta-Roman_E_XTSPmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_E_XTSPmin.png)
+![](imgs/uc/RobotoDelta-Italic_E_XTSPmin.png)
 
 > Is the italic E not too narrow in XTSPmin?
 
@@ -97,15 +97,15 @@ AmstelvarA2 Roman:
 
 ##### XTSP max
 
-![](imgs/lc/AmstelvarA2-Roman_n_XTSPmax.png)
+![](imgs/lc/RobotoDelta-Roman_n_XTSPmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_n_XTSPmax.png)
+![](imgs/lc/RobotoDelta-Italic_n_XTSPmax.png)
 
 ##### XTSP min
 
-![](imgs/lc/AmstelvarA2-Roman_n_XTSPmin.png)
+![](imgs/lc/RobotoDelta-Roman_n_XTSPmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_n_XTSPmin.png)
+![](imgs/lc/RobotoDelta-Italic_n_XTSPmin.png)
 
 ### Round glyphs
 
@@ -115,15 +115,15 @@ AmstelvarA2 Roman:
 
 ##### XTSP max
 
-![](imgs/lc/AmstelvarA2-Roman_o_XTSPmax.png)
+![](imgs/lc/RobotoDelta-Roman_o_XTSPmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_o_XTSPmax.png)
+![](imgs/lc/RobotoDelta-Italic_o_XTSPmax.png)
 
 ##### XTSP min
 
-![](imgs/lc/AmstelvarA2-Roman_o_XTSPmin.png)
+![](imgs/lc/RobotoDelta-Roman_o_XTSPmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_o_XTSPmin.png)
+![](imgs/lc/RobotoDelta-Italic_o_XTSPmin.png)
 
 ### Diagonal glyphs
 
@@ -136,15 +136,15 @@ AmstelvarA2 Roman:
 
 ##### XTSP max
 
-![](imgs/lc/AmstelvarA2-Roman_v_XTSPmax.png)
+![](imgs/lc/RobotoDelta-Roman_v_XTSPmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_v_XTSPmax.png)
+![](imgs/lc/RobotoDelta-Italic_v_XTSPmax.png)
 
 ##### XTSP min
 
-![](imgs/lc/AmstelvarA2-Roman_v_XTSPmin.png)
+![](imgs/lc/RobotoDelta-Roman_v_XTSPmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_v_XTSPmin.png)
+![](imgs/lc/RobotoDelta-Italic_v_XTSPmin.png)
 
 
 Figures
@@ -159,15 +159,15 @@ AmstelvarA2 Roman:
 
 ##### XTSP max
 
-![](imgs/other/AmstelvarA2-Roman_one_XTSPmax.png)
+![](imgs/other/RobotoDelta-Roman_one_XTSPmax.png)
 
-![](imgs/other/AmstelvarA2-Italic_one_XTSPmax.png)
+![](imgs/other/RobotoDelta-Italic_one_XTSPmax.png)
 
 ##### XTSP min
 
-![](imgs/other/AmstelvarA2-Roman_one_XTSPmin.png)
+![](imgs/other/RobotoDelta-Roman_one_XTSPmin.png)
 
-![](imgs/other/AmstelvarA2-Italic_one_XTSPmin.png)
+![](imgs/other/RobotoDelta-Italic_one_XTSPmin.png)
 
 ### Round glyphs
 
@@ -177,15 +177,15 @@ AmstelvarA2 Roman:
 
 ##### XTSP max
 
-![](imgs/other/AmstelvarA2-Roman_zero_XTSPmax.png)
+![](imgs/other/RobotoDelta-Roman_zero_XTSPmax.png)
 
-![](imgs/other/AmstelvarA2-Italic_zero_XTSPmax.png)
+![](imgs/other/RobotoDelta-Italic_zero_XTSPmax.png)
 
 ##### XTSP min
 
-![](imgs/other/AmstelvarA2-Roman_zero_XTSPmin.png)
+![](imgs/other/RobotoDelta-Roman_zero_XTSPmin.png)
 
-![](imgs/other/AmstelvarA2-Italic_zero_XTSPmin.png)
+![](imgs/other/RobotoDelta-Italic_zero_XTSPmin.png)
 
 
 Etcetera

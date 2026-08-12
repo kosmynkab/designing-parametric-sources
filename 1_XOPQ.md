@@ -1,4 +1,4 @@
-XTSP
+XOPQ
 ====
 
 Expected behavior: thick strokes get thinner/thicker while everything else “stays the same”.

@@ -1,40 +1,56 @@
-YOPQ
+XTSP
 ====
 
+Expected behavior: sidebearings get tighter/looser, while strokes and details “stay the same”.
 
 Uppercase
 ---------
 
 ### Straight glyphs
 
-##### YOPQ min
+- only XTSP changes
 
-/H
+##### XTSP min
 
-##### YOPQ max
+![](imgs/uc/AmstelvarA2-Roman_H_XTSPmin.png)
 
-/H
+![](imgs/uc/AmstelvarA2-Italic_H_XTSPmin.png)
+
+##### XTSP max
+
+![](imgs/uc/AmstelvarA2-Roman_H_XTSPmax.png)
+
+![](imgs/uc/AmstelvarA2-Italic_H_XTSPmax.png)
 
 
 ### Round glyphs
 
-##### YOPQ min
+##### XTSP min
 
-/O
+![](imgs/uc/AmstelvarA2-Roman_O_XTSPmin.png)
 
-##### YOPQ max
+![](imgs/uc/AmstelvarA2-Italic_O_XTSPmin.png)
 
-/O
+##### XTSP max
+
+![](imgs/uc/AmstelvarA2-Roman_O_XTSPmax.png)
+
+![](imgs/uc/AmstelvarA2-Italic_O_XTSPmax.png)
+
 
 ### Diagonal glyphs
 
-##### YOPQ min
+##### XTSP min
 
-/V
+![](imgs/uc/AmstelvarA2-Roman_V_XTSPmin.png)
 
-##### YOPQ max
+![](imgs/uc/AmstelvarA2-Italic_V_XTSPmin.png)
 
-/V
+##### XTSP max
+
+![](imgs/uc/AmstelvarA2-Roman_V_XTSPmax.png)
+
+![](imgs/uc/AmstelvarA2-Italic_V_XTSPmax.png)
 
 
 Lowercase
@@ -42,53 +58,49 @@ Lowercase
 
 ### Straight glyphs
 
-AmstelvarA2 Roman:
+- only XTSP changes
 
-- only YOPQ changes
-- only y direction deltas 
+##### XTSP min
 
-##### YOPQ min
+![](imgs/lc/AmstelvarA2-Roman_n_XTSPmin.png)
 
-/n
+![](imgs/lc/AmstelvarA2-Italic_n_XTSPmin.png)
 
+##### XTSP max
 
-##### YOPQ max
+![](imgs/lc/AmstelvarA2-Roman_n_XTSPmax.png)
 
-/n
+![](imgs/lc/AmstelvarA2-Italic_n_XTSPmax.png)
+
 
 ### Round glyphs
 
-AmstelvarA2 Roman:
+##### XTSP min
 
-- only YOPQ changes
-- only y direction deltas 
-- There might be situations where you need to change XTEQ YTEQ parametric axes
+![](imgs/lc/AmstelvarA2-Roman_o_XTSPmin.png)
 
-##### YOPQ min
+![](imgs/lc/AmstelvarA2-Italic_o_XTSPmin.png)
 
-/o
+##### XTSP max
 
-##### YOPQ max
+![](imgs/lc/AmstelvarA2-Roman_o_XTSPmax.png)
 
-/o
+![](imgs/lc/AmstelvarA2-Italic_o_XTSPmax.png)
 
 
 ### Diagonal glyphs
 
-AmstelvarA2 Roman:
+##### XTSP min
 
-- angle of slanted strokes does not change
-- xy-direction deltas allowed in slanted strokes
-- slanted measurements are aligned to stroke
-- XTRA may change slightly to accommodate angles
+![](imgs/lc/AmstelvarA2-Roman_v_XTSPmin.png)
 
-##### YOPQ min
+![](imgs/lc/AmstelvarA2-Italic_v_XTSPmin.png)
 
-/v
+##### XTSP max
 
-##### YOPQ max
+![](imgs/lc/AmstelvarA2-Roman_v_XTSPmax.png)
 
-/v
+![](imgs/lc/AmstelvarA2-Italic_v_XTSPmax.png)
 
 
 Figures
@@ -96,34 +108,32 @@ Figures
 
 ### Straight glyphs
 
-AmstelvarA2 Roman:
+##### XTSP min
 
-- only YOFI changes
+![](imgs/other/AmstelvarA2-Roman_one_XTSPmin.png)
 
-##### YOPQ min
+![](imgs/other/AmstelvarA2-Italic_one_XTSPmin.png)
 
-/one
+##### XTSP max
 
-##### YOPQ max
+![](imgs/other/AmstelvarA2-Roman_one_XTSPmax.png)
 
-/one
+![](imgs/other/AmstelvarA2-Italic_one_XTSPmax.png)
 
 
 ### Round glyphs
 
-AmstelvarA2 Roman:
+##### XTSP min
 
-- only YOFI changes
-- only y direction deltas 
-- There might be situations where you need to change XTEQ YTEQ parametric axes
+![](imgs/other/AmstelvarA2-Roman_zero_XTSPmin.png)
 
-##### YOPQ min
+![](imgs/other/AmstelvarA2-Italic_zero_XTSPmin.png)
 
-/zero
+##### XTSP max
 
-##### YOPQ max
+![](imgs/other/AmstelvarA2-Roman_zero_XTSPmax.png)
 
-/zero
+![](imgs/other/AmstelvarA2-Italic_zero_XTSPmax.png)
 
 
 Etcetera

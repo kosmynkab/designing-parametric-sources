@@ -1,16 +1,15 @@
 GRAD
 ====
 
-Expected behavior: thick strokes get thinner/thicker while everything else “stays the same”.
+Expected behaviour: the stroke gets lighter/heavier without changing advanced width, proportions and positioning.
+
+More grad axis information can be found [here](https://github.com/googlefonts/gf-docs/tree/main/Grade).
 
 
 Uppercase
 ---------
 
 ### Straight glyphs
-
-- only GRAD changes
-- only x-direction deltas
 
 ##### GRAD max
 
@@ -25,10 +24,6 @@ Uppercase
 ![](imgs/uc/AmstelvarA2-Italic_H_GRADmin.png)
 
 ### Round glyphs
-
-- only x-direction deltas (?),
-
-> In AmstelvarA2 Italic, should we add some rotation with y-deltas? See [XTRA / Round glyphs](../XTRA/#round-glyphs).
 
 ##### GRAD max
 
@@ -45,13 +40,6 @@ Uppercase
 
 ### Diagonal glyphs
 
-- angle of slanted strokes does not change
-- xy-direction deltas allowed in slanted strokes
-- in AmstelvarA2, slanted measurements are aligned to stroke
-- XTRA may change slightly to accommodate angles
-
-> In RobotoDelta, the angle of slanted strokes is different from the default.
-
 ##### GRAD max
 
 ![](imgs/uc/AmstelvarA2-Roman_V_GRADmax.png)
@@ -64,11 +52,7 @@ Uppercase
 
 ![](imgs/uc/AmstelvarA2-Italic_V_GRADmin.png)
 
-> The italic V in GRADmin seems like its too thick.
-
 ### Single-stem glyphs
-
-- XTRA should increase proportionally with GRAD, to account for second vertical stroke in control glyph
 
 ##### GRAD max
 
@@ -82,18 +66,10 @@ Uppercase
 
 ![](imgs/uc/AmstelvarA2-Italic_E_GRADmin.png)
 
-> Is the italic E not too narrow in GRADmin?
-
 Lowercase
 ---------
 
 ### Straight glyphs
-
-AmstelvarA2 Roman:
-
-- Mostly x-direction deltas and a little bit of y-direction deltas in XOLC max
-- YOLC changes on XOLC max because of /n's shoulder translation
-- Only x-direction delta in XOLC min (?)
 
 ##### GRAD max
 
@@ -109,10 +85,6 @@ AmstelvarA2 Roman:
 
 ### Round glyphs
 
-AmstelvarA2 Roman:
-
-- only x-direction deltas
-
 ##### GRAD max
 
 ![](imgs/lc/AmstelvarA2-Roman_o_GRADmax.png)
@@ -126,13 +98,6 @@ AmstelvarA2 Roman:
 ![](imgs/lc/AmstelvarA2-Italic_o_GRADmin.png)
 
 ### Diagonal glyphs
-
-AmstelvarA2 Roman:
-
-- angle of slanted strokes does not change
-- xy-direction deltas allowed in slanted strokes
-- slanted measurements are aligned to stroke
-- XTRA may change slightly to accommodate angles
 
 ##### GRAD max
 
@@ -151,11 +116,6 @@ Figures
 -------
 
 ### Straight glyphs
-
-AmstelvarA2 Roman:
-
-- XOFI changes
-- Since it's a single stem glyph XTRA changes according to the GRAD
 
 ##### GRAD max
 

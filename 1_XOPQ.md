@@ -1,4 +1,4 @@
-XOPQ
+XTSP
 ====
 
 Expected behavior: thick strokes get thinner/thicker while everything else “stays the same”.
@@ -9,20 +9,20 @@ Uppercase
 
 ### Straight glyphs
 
-- only XOPQ changes
+- only XTSP changes
 - only x-direction deltas
 
-##### XOPQ max
+##### XTSP max
 
-![](imgs/uc/AmstelvarA2-Roman_H_XOPQmax.png)
+![](imgs/uc/AmstelvarA2-Roman_H_XTSPmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_H_XOPQmax.png)
+![](imgs/uc/AmstelvarA2-Italic_H_XTSPmax.png)
 
-##### XOPQ min
+##### XTSP min
 
-![](imgs/uc/AmstelvarA2-Roman_H_XOPQmin.png)
+![](imgs/uc/AmstelvarA2-Roman_H_XTSPmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_H_XOPQmin.png)
+![](imgs/uc/AmstelvarA2-Italic_H_XTSPmin.png)
 
 ### Round glyphs
 
@@ -30,17 +30,17 @@ Uppercase
 
 > In AmstelvarA2 Italic, should we add some rotation with y-deltas? See [XTRA / Round glyphs](../XTRA/#round-glyphs).
 
-##### XOPQ max
+##### XTSP max
 
-![](imgs/uc/AmstelvarA2-Roman_O_XOPQmax.png)
+![](imgs/uc/AmstelvarA2-Roman_O_XTSPmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_O_XOPQmax.png)
+![](imgs/uc/AmstelvarA2-Italic_O_XTSPmax.png)
 
-##### XOPQ min
+##### XTSP min
 
-![](imgs/uc/AmstelvarA2-Roman_O_XOPQmin.png)
+![](imgs/uc/AmstelvarA2-Roman_O_XTSPmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_O_XOPQmin.png)
+![](imgs/uc/AmstelvarA2-Italic_O_XTSPmin.png)
 
 
 ### Diagonal glyphs
@@ -52,37 +52,37 @@ Uppercase
 
 > In RobotoDelta, the angle of slanted strokes is different from the default.
 
-##### XOPQ max
+##### XTSP max
 
-![](imgs/uc/AmstelvarA2-Roman_V_XOPQmax.png)
+![](imgs/uc/AmstelvarA2-Roman_V_XTSPmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_V_XOPQmax.png)
+![](imgs/uc/AmstelvarA2-Italic_V_XTSPmax.png)
 
-##### XOPQ min
+##### XTSP min
 
-![](imgs/uc/AmstelvarA2-Roman_V_XOPQmin.png)
+![](imgs/uc/AmstelvarA2-Roman_V_XTSPmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_V_XOPQmin.png)
+![](imgs/uc/AmstelvarA2-Italic_V_XTSPmin.png)
 
-> The italic V in XOPQmin seems like its too thick.
+> The italic V in XTSPmin seems like its too thick.
 
 ### Single-stem glyphs
 
-- XTRA should increase proportionally with XOPQ, to account for second vertical stroke in control glyph
+- XTRA should increase proportionally with XTSP, to account for second vertical stroke in control glyph
 
-##### XOPQ max
+##### XTSP max
 
-![](imgs/uc/AmstelvarA2-Roman_E_XOPQmax.png)
+![](imgs/uc/AmstelvarA2-Roman_E_XTSPmax.png)
 
-![](imgs/uc/AmstelvarA2-Italic_E_XOPQmax.png)
+![](imgs/uc/AmstelvarA2-Italic_E_XTSPmax.png)
 
-##### XOPQ min
+##### XTSP min
 
-![](imgs/uc/AmstelvarA2-Roman_E_XOPQmin.png)
+![](imgs/uc/AmstelvarA2-Roman_E_XTSPmin.png)
 
-![](imgs/uc/AmstelvarA2-Italic_E_XOPQmin.png)
+![](imgs/uc/AmstelvarA2-Italic_E_XTSPmin.png)
 
-> Is the italic E not too narrow in XOPQmin?
+> Is the italic E not too narrow in XTSPmin?
 
 Lowercase
 ---------
@@ -95,17 +95,17 @@ AmstelvarA2 Roman:
 - YOLC changes on XOLC max because of /n's shoulder translation
 - Only x-direction delta in XOLC min (?)
 
-##### XOPQ max
+##### XTSP max
 
-![](imgs/lc/AmstelvarA2-Roman_n_XOPQmax.png)
+![](imgs/lc/AmstelvarA2-Roman_n_XTSPmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_n_XOPQmax.png)
+![](imgs/lc/AmstelvarA2-Italic_n_XTSPmax.png)
 
-##### XOPQ min
+##### XTSP min
 
-![](imgs/lc/AmstelvarA2-Roman_n_XOPQmin.png)
+![](imgs/lc/AmstelvarA2-Roman_n_XTSPmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_n_XOPQmin.png)
+![](imgs/lc/AmstelvarA2-Italic_n_XTSPmin.png)
 
 ### Round glyphs
 
@@ -113,17 +113,17 @@ AmstelvarA2 Roman:
 
 - only x-direction deltas
 
-##### XOPQ max
+##### XTSP max
 
-![](imgs/lc/AmstelvarA2-Roman_o_XOPQmax.png)
+![](imgs/lc/AmstelvarA2-Roman_o_XTSPmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_o_XOPQmax.png)
+![](imgs/lc/AmstelvarA2-Italic_o_XTSPmax.png)
 
-##### XOPQ min
+##### XTSP min
 
-![](imgs/lc/AmstelvarA2-Roman_o_XOPQmin.png)
+![](imgs/lc/AmstelvarA2-Roman_o_XTSPmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_o_XOPQmin.png)
+![](imgs/lc/AmstelvarA2-Italic_o_XTSPmin.png)
 
 ### Diagonal glyphs
 
@@ -134,17 +134,17 @@ AmstelvarA2 Roman:
 - slanted measurements are aligned to stroke
 - XTRA may change slightly to accommodate angles
 
-##### XOPQ max
+##### XTSP max
 
-![](imgs/lc/AmstelvarA2-Roman_v_XOPQmax.png)
+![](imgs/lc/AmstelvarA2-Roman_v_XTSPmax.png)
 
-![](imgs/lc/AmstelvarA2-Italic_v_XOPQmax.png)
+![](imgs/lc/AmstelvarA2-Italic_v_XTSPmax.png)
 
-##### XOPQ min
+##### XTSP min
 
-![](imgs/lc/AmstelvarA2-Roman_v_XOPQmin.png)
+![](imgs/lc/AmstelvarA2-Roman_v_XTSPmin.png)
 
-![](imgs/lc/AmstelvarA2-Italic_v_XOPQmin.png)
+![](imgs/lc/AmstelvarA2-Italic_v_XTSPmin.png)
 
 
 Figures
@@ -155,19 +155,19 @@ Figures
 AmstelvarA2 Roman:
 
 - XOFI changes
-- Since it's a single stem glyph XTRA changes according to the XOPQ
+- Since it's a single stem glyph XTRA changes according to the XTSP
 
-##### XOPQ max
+##### XTSP max
 
-![](imgs/other/AmstelvarA2-Roman_one_XOPQmax.png)
+![](imgs/other/AmstelvarA2-Roman_one_XTSPmax.png)
 
-![](imgs/other/AmstelvarA2-Italic_one_XOPQmax.png)
+![](imgs/other/AmstelvarA2-Italic_one_XTSPmax.png)
 
-##### XOPQ min
+##### XTSP min
 
-![](imgs/other/AmstelvarA2-Roman_one_XOPQmin.png)
+![](imgs/other/AmstelvarA2-Roman_one_XTSPmin.png)
 
-![](imgs/other/AmstelvarA2-Italic_one_XOPQmin.png)
+![](imgs/other/AmstelvarA2-Italic_one_XTSPmin.png)
 
 ### Round glyphs
 
@@ -175,17 +175,17 @@ AmstelvarA2 Roman:
 
 - only x-direction deltas
 
-##### XOPQ max
+##### XTSP max
 
-![](imgs/other/AmstelvarA2-Roman_zero_XOPQmax.png)
+![](imgs/other/AmstelvarA2-Roman_zero_XTSPmax.png)
 
-![](imgs/other/AmstelvarA2-Italic_zero_XOPQmax.png)
+![](imgs/other/AmstelvarA2-Italic_zero_XTSPmax.png)
 
-##### XOPQ min
+##### XTSP min
 
-![](imgs/other/AmstelvarA2-Roman_zero_XOPQmin.png)
+![](imgs/other/AmstelvarA2-Roman_zero_XTSPmin.png)
 
-![](imgs/other/AmstelvarA2-Italic_zero_XOPQmin.png)
+![](imgs/other/AmstelvarA2-Italic_zero_XTSPmin.png)
 
 
 Etcetera
@@ -193,16 +193,16 @@ Etcetera
 
 ### Accents
 
-#### XOPQ min
+#### XTSP min
 
-#### XOPQ max
+#### XTSP max
 
 
 ### Symbols
 
-#### XOPQ min
+#### XTSP min
 
-#### XOPQ max
+#### XTSP max
 
 
 Greek

@@ -7,19 +7,26 @@ tags:
 
 # Straight glyphs
 
-This collection gathers glyphs whose dominant construction is straight.
+This collection gathers glyphs whose primary construction is straight.
 
-The tags are provisional and will be refined as the taxonomy develops.
+The classification is provisional. Glyphs can belong to more than one
+subcategory—for example, a dual-stem glyph can also contain diagonals.
 
-## Subgroups
+## Browse by construction
 
-- Straight / dual stem
-- Straight / single stem
-- Straight / diagonal
-- Straight / mixed
+- [Dual stem](straight/dual-stem.md)
+- [Single stem](straight/single-stem.md)
+- [Diagonal](straight/diagonal.md)
+- [Mixed](straight/mixed.md)
 
-## Questions
+## Related axis documentation
 
-- Should `mixed` remain a category, or should it always name the other construction?
-- Should diagonal direction become a further tag?
-- Should descenders be a construction category or a separate property?
+- [XOPQ](../axes/1_XOPQ.md)
+- [XTRA](../axes/3_XTRA.md)
+- [GRAD](../axes/D_GRAD.md)
+
+## Questions for review
+
+- Should `mixed` remain a category, or should it always name the second construction?
+- Do diagonal forms need further directional subclasses?
+- Is a descender a construction category or a separate property?

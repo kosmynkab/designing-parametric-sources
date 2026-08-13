@@ -1,0 +1,140 @@
+{
+  "schema_version": "0.1",
+  "glyphs": {
+    "H": {
+      "unicode": "U+0048",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "dual_stem"],
+      "review": "provisional"
+    },
+    "I": {
+      "unicode": "U+0049",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "single_stem"],
+      "review": "provisional"
+    },
+    "E": {
+      "unicode": "U+0045",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "single_stem"],
+      "review": "provisional"
+    },
+    "F": {
+      "unicode": "U+0046",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "single_stem"],
+      "review": "provisional"
+    },
+    "L": {
+      "unicode": "U+004C",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "single_stem"],
+      "review": "provisional"
+    },
+    "T": {
+      "unicode": "U+0054",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "single_stem"],
+      "review": "provisional"
+    },
+    "M": {
+      "unicode": "U+004D",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "dual_stem", "diagonal"],
+      "review": "provisional"
+    },
+    "N": {
+      "unicode": "U+004E",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "dual_stem", "diagonal"],
+      "review": "provisional"
+    },
+    "K": {
+      "unicode": "U+004B",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "single_stem", "diagonal"],
+      "review": "provisional"
+    },
+    "Y": {
+      "unicode": "U+0059",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "mixed", "diagonal"],
+      "review": "provisional"
+    },
+    "one": {
+      "unicode": "U+0031",
+      "group": "figures",
+      "script": "common",
+      "tags": ["straight", "single_stem"],
+      "review": "provisional"
+    },
+    "Gamma": {
+      "unicode": "U+0393",
+      "group": "uppercase",
+      "script": "greek",
+      "tags": ["straight", "single_stem"],
+      "review": "provisional",
+      "note": "Used as the source glyph for Cyrillic Ge."
+    },
+    "Pi": {
+      "unicode": "U+03A0",
+      "group": "uppercase",
+      "script": "greek",
+      "tags": ["straight", "dual_stem"],
+      "review": "provisional",
+      "note": "Used as the source glyph for Cyrillic Pe."
+    },
+    "Sha": {
+      "unicode": "U+0428",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "multi_stem"],
+      "review": "provisional"
+    },
+    "Icyr": {
+      "unicode": "U+0418",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "dual_stem", "diagonal"],
+      "review": "provisional"
+    },
+    "Ka": {
+      "unicode": "U+041A",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "single_stem", "diagonal"],
+      "review": "provisional"
+    },
+    "Zhe": {
+      "unicode": "U+0416",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "multi_stem", "diagonal"],
+      "review": "provisional"
+    },
+    "Tse": {
+      "unicode": "U+0426",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "multi_stem", "descender"],
+      "review": "provisional"
+    },
+    "Che": {
+      "unicode": "U+0427",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "mixed"],
+      "review": "provisional"
+    }
+  }
+}

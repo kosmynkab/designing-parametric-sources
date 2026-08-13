@@ -38,7 +38,6 @@ from xTools4.modules.sys import timer
 subFamilies = ["Roman", "Italic"]
 includeGRAD = True
                 
-#glyphNames = ["H", "O", "G", "V", "E", "T", "o", "v", "one", "zero", "n", "r", "c"]
 with open(glyphsPath, "r", encoding="utf-8") as f:
     glyphs = json.load(f)["glyphs"]
 
@@ -47,9 +46,6 @@ glyphNames = list(glyphs)
 # sourceNames = ["XOUC4", "XOUC310"]
 sourceNames = None
 
-# Prefer general parent-axis names such as XOPQ rather than Amstelvar's
-# class-specific source names such as XOUC/XOLC.
-useParentAxisNames = True
 
 # ---------------------------------------------------------------------------
 # IMPLEMENTATION
@@ -90,7 +86,7 @@ def split_source_name(sourceName):
         return sourceName, None
     return match.group(1), int(match.group(2))
 
-# Turn XOUC4/XOUC310 or XOLC4/XOLC293 into XOPQmin/XOPQmax
+# Turn XOUC4/XOUC310 into XOUCmin/XOUCmax
 def source_label(sourceName, availableSourceNames):
 
     tag, value = split_source_name(sourceName)
@@ -101,7 +97,7 @@ def source_label(sourceName, availableSourceNames):
         if otherTag == tag and otherValue is not None
     ]
 
-    axisName = PARENT_AXIS_NAMES.get(tag, tag) if useParentAxisNames else tag
+    axisName = tag
     if value is not None and len(set(values)) > 1:
         if value == min(values):
             return f"{axisName}min"
@@ -124,7 +120,8 @@ def specimen_record(glyphName, styleName, sourceName, availableSourceNames, pngP
     record = {
         "id": f"amstelvar-{sourceLabel.lower()}-{glyphName}-{styleName.lower()}",
         "glyph": glyphName,
-        "axis": PARENT_AXIS_NAMES.get(sourceTag, sourceTag),
+        "axis": sourceTag,
+        "axis-group": PARENT_AXIS_NAMES.get(sourceTag, sourceTag)
         "style": styleName.lower(),
         "source": sourceName,
         "image": os.path.relpath(pngPath, siteSourceFolder),

@@ -11,11 +11,12 @@ import time
 # SETTINGS
 
 baseFolder = os.path.dirname(os.getcwd())
-outputFolder = os.path.join(baseFolder, "docs", "imgs")
-dataFolder = os.path.join(baseFolder, "docs", "data")
-generatedDataFolder = os.path.join(dataFolder, "generated")
+
+siteSourceFolder = os.path.join(baseFolder, "src")
+outputFolder = os.path.join(baseFolder, "src", "imgs")
+dataFolder = os.path.join(baseFolder, "src", "_data")
 glyphsPath = os.path.join(dataFolder, "glyphs.json")
-specimensPath = os.path.join(generatedDataFolder, "specimens.json")
+specimensPath = os.path.join(dataFolder, "specimens.json")
 
 scriptFolder = os.path.dirname(os.path.abspath(__file__))
 localSettingsPath = os.path.join(scriptFolder, "local-settings.json")
@@ -126,7 +127,7 @@ def specimen_record(glyphName, styleName, sourceName, availableSourceNames, pngP
         "axis": PARENT_AXIS_NAMES.get(sourceTag, sourceTag),
         "style": styleName.lower(),
         "source": sourceName,
-        "image": os.path.relpath(pngPath, baseFolder),
+        "image": os.path.relpath(pngPath, siteSourceFolder),
         "group": glyphMetadata.get("group"),
         "tags": glyphMetadata.get("tags", []),
     }
@@ -215,7 +216,7 @@ def export_glyph(glyphName, designspacePath, familyName, styleName, glyphs, spec
         print(f"saved {pngPath}")
 
 os.makedirs(outputFolder, exist_ok=True)
-os.makedirs(generatedDataFolder, exist_ok=True)
+os.makedirs(dataFolder, exist_ok=True)
 
 specimens = []
 

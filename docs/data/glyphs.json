@@ -135,6 +135,146 @@
       "script": "cyrillic",
       "tags": ["straight", "mixed"],
       "review": "provisional"
+    },
+    "Dzhe": {
+      "unicode": "U+040F",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "mixed"],
+      "review": "provisional"
+    },
+    "Phi": {
+      "unicode": "U+03A6",
+      "group": "uppercase",
+      "script": "greek",
+      "tags": ["straight", "mixed"],
+      "review": "provisional"
+    },
+    "Nje": {
+      "unicode": "U+040A",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "mixed"],
+      "review": "provisional"
+    },
+    "Soft": {
+      "unicode": "U+042C",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "mixed"],
+      "review": "provisional"
+    },
+    "U": {
+      "unicode": "U+0055",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "mixed"],
+      "review": "provisional"
+    },
+    "El": {
+      "unicode": "U+041B",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "mixed"],
+      "review": "provisional"
+    },
+    "De": {
+      "unicode": "U+0414",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "mixed"],
+      "review": "provisional"
+    },
+    "Lje": {
+      "unicode": "U+0409",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "mixed"],
+      "review": "provisional"
+    },
+    "Zhe.bgr": {
+      "unicode": "U+0416",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "diagonal"],
+      "review": "provisional"
+    },
+    "B": {
+      "unicode": "U+0042",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "round"],
+      "review": "provisional"
+    },
+    "D": {
+      "unicode": "U+0044",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "round"],
+      "review": "provisional"
+    },
+    "P": {
+      "unicode": "U+0050",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["straight", "round"],
+      "review": "provisional"
+    },
+    "Ya": {
+      "unicode": "U+042F",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "round"],
+      "review": "provisional"
+    },
+    "Be": {
+      "unicode": "U+0411",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "round"],
+      "review": "provisional"
+    },
+    "Tshe": {
+      "unicode": "U+040B",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "round"],
+      "review": "provisional"
+    },
+    "Dje": {
+      "unicode": "U+0402",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "round"],
+      "review": "provisional"
+    },
+    "Hard": {
+      "unicode": "U+042A",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "round"],
+      "review": "provisional"
+    },
+    "Gheup": {
+      "unicode": "U+0490",
+      "group": "uppercase",
+      "script": "cyrillic",
+      "tags": ["straight", "single_stem"],
+      "review": "provisional"
+    },
+    "four": {
+      "unicode": "U+0034",
+      "group": "figures",
+      "script": "common",
+      "tags": ["straight", "diagonal"],
+      "review": "provisional"
+    },
+    "Psi": {
+      "unicode": "U+03A8",
+      "group": "uppercase",
+      "script": "greek",
+      "tags": ["straight", "multi_stem"],
+      "review": "provisional"
     }
   }
 }

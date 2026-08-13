@@ -11014,6 +11014,510 @@
       "instance": "max"
     },
     {
+      "id": "amstelvar-xtspmax-four-roman",
+      "glyph": "four",
+      "axis": "XTSP",
+      "style": "roman",
+      "source": "XFIR97",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_XTSPmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xtspmin-four-roman",
+      "glyph": "four",
+      "axis": "XTSP",
+      "style": "roman",
+      "source": "XFIR0",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_XTSPmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-xopqmax-four-roman",
+      "glyph": "four",
+      "axis": "XOPQ",
+      "style": "roman",
+      "source": "XOFI302",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_XOPQmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xopqmin-four-roman",
+      "glyph": "four",
+      "axis": "XOPQ",
+      "style": "roman",
+      "source": "XOFI4",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_XOPQmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-xshamin-four-roman",
+      "glyph": "four",
+      "axis": "XSHA",
+      "style": "roman",
+      "source": "XSHF0",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_XSHAmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-xshamax-four-roman",
+      "glyph": "four",
+      "axis": "XSHA",
+      "style": "roman",
+      "source": "XSHF239",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_XSHAmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xtramin-four-roman",
+      "glyph": "four",
+      "axis": "XTRA",
+      "style": "roman",
+      "source": "XTFI40",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_XTRAmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-xtramax-four-roman",
+      "glyph": "four",
+      "axis": "XTRA",
+      "style": "roman",
+      "source": "XTFI868",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_XTRAmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-yopqmin-four-roman",
+      "glyph": "four",
+      "axis": "YOPQ",
+      "style": "roman",
+      "source": "YOFI4",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_YOPQmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-yopqmax-four-roman",
+      "glyph": "four",
+      "axis": "YOPQ",
+      "style": "roman",
+      "source": "YOFI196",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_YOPQmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-yshamin-four-roman",
+      "glyph": "four",
+      "axis": "YSHA",
+      "style": "roman",
+      "source": "YSHF0",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_YSHAmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-yshamax-four-roman",
+      "glyph": "four",
+      "axis": "YSHA",
+      "style": "roman",
+      "source": "YSHF147",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_YSHAmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-ytosmax-four-roman",
+      "glyph": "four",
+      "axis": "YTOS",
+      "style": "roman",
+      "source": "YTOS30",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_YTOSmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-ytosmin-four-roman",
+      "glyph": "four",
+      "axis": "YTOS",
+      "style": "roman",
+      "source": "YTOS0",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_YTOSmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-gradmin-four-roman",
+      "glyph": "four",
+      "axis": "GRAD",
+      "style": "roman",
+      "source": "GRAD-300",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_GRADmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-gradmax-four-roman",
+      "glyph": "four",
+      "axis": "GRAD",
+      "style": "roman",
+      "source": "GRAD500",
+      "image": "docs/imgs/other/AmstelvarA2-Roman_four_GRADmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xopqmin-Psi-roman",
+      "glyph": "Psi",
+      "axis": "XOPQ",
+      "style": "roman",
+      "source": "XOUC4",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_XOPQmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-xopqmax-Psi-roman",
+      "glyph": "Psi",
+      "axis": "XOPQ",
+      "style": "roman",
+      "source": "XOUC310",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_XOPQmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xteqmax-Psi-roman",
+      "glyph": "Psi",
+      "axis": "XTEQ",
+      "style": "roman",
+      "source": "XQUC220",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_XTEQmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xteqmin-Psi-roman",
+      "glyph": "Psi",
+      "axis": "XTEQ",
+      "style": "roman",
+      "source": "XQUC22",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_XTEQmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-xshamin-Psi-roman",
+      "glyph": "Psi",
+      "axis": "XSHA",
+      "style": "roman",
+      "source": "XSHU0",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_XSHAmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-xshamax-Psi-roman",
+      "glyph": "Psi",
+      "axis": "XSHA",
+      "style": "roman",
+      "source": "XSHU154",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_XSHAmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xtramax-Psi-roman",
+      "glyph": "Psi",
+      "axis": "XTRA",
+      "style": "roman",
+      "source": "XTUR907",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_XTRAmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xtramin-Psi-roman",
+      "glyph": "Psi",
+      "axis": "XTRA",
+      "style": "roman",
+      "source": "XTUR58",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_XTRAmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-xtspmin-Psi-roman",
+      "glyph": "Psi",
+      "axis": "XTSP",
+      "style": "roman",
+      "source": "XUCR0",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_XTSPmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-xtspmax-Psi-roman",
+      "glyph": "Psi",
+      "axis": "XTSP",
+      "style": "roman",
+      "source": "XUCR100",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_XTSPmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-yopqmax-Psi-roman",
+      "glyph": "Psi",
+      "axis": "YOPQ",
+      "style": "roman",
+      "source": "YOUC208",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_YOPQmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-yopqmin-Psi-roman",
+      "glyph": "Psi",
+      "axis": "YOPQ",
+      "style": "roman",
+      "source": "YOUC4",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_YOPQmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-yteqmin-Psi-roman",
+      "glyph": "Psi",
+      "axis": "YTEQ",
+      "style": "roman",
+      "source": "YQUC92",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_YTEQmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-yteqmax-Psi-roman",
+      "glyph": "Psi",
+      "axis": "YTEQ",
+      "style": "roman",
+      "source": "YQUC307",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_YTEQmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-yshamin-Psi-roman",
+      "glyph": "Psi",
+      "axis": "YSHA",
+      "style": "roman",
+      "source": "YSHU0",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_YSHAmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-yshamax-Psi-roman",
+      "glyph": "Psi",
+      "axis": "YSHA",
+      "style": "roman",
+      "source": "YSHU150",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_YSHAmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-ytramax-Psi-roman",
+      "glyph": "Psi",
+      "axis": "YTRA",
+      "style": "roman",
+      "source": "YTUC875",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_YTRAmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-ytramin-Psi-roman",
+      "glyph": "Psi",
+      "axis": "YTRA",
+      "style": "roman",
+      "source": "YTUC541",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_YTRAmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-gradmin-Psi-roman",
+      "glyph": "Psi",
+      "axis": "GRAD",
+      "style": "roman",
+      "source": "GRAD-300",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_GRADmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-gradmax-Psi-roman",
+      "glyph": "Psi",
+      "axis": "GRAD",
+      "style": "roman",
+      "source": "GRAD500",
+      "image": "docs/imgs/uc/AmstelvarA2-Roman_Psi_GRADmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
       "id": "amstelvar-xopqmin-H-italic",
       "glyph": "H",
       "axis": "XOPQ",
@@ -19942,6 +20446,314 @@
       "tags": [
         "straight",
         "single_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xopqmax-four-italic",
+      "glyph": "four",
+      "axis": "XOPQ",
+      "style": "italic",
+      "source": "XOFI308",
+      "image": "docs/imgs/other/AmstelvarA2-Italic_four_XOPQmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xopqmin-four-italic",
+      "glyph": "four",
+      "axis": "XOPQ",
+      "style": "italic",
+      "source": "XOFI3",
+      "image": "docs/imgs/other/AmstelvarA2-Italic_four_XOPQmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-yopqmax-four-italic",
+      "glyph": "four",
+      "axis": "YOPQ",
+      "style": "italic",
+      "source": "YOFI214",
+      "image": "docs/imgs/other/AmstelvarA2-Italic_four_YOPQmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-yopqmin-four-italic",
+      "glyph": "four",
+      "axis": "YOPQ",
+      "style": "italic",
+      "source": "YOFI4",
+      "image": "docs/imgs/other/AmstelvarA2-Italic_four_YOPQmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-ytramin-four-italic",
+      "glyph": "four",
+      "axis": "YTRA",
+      "style": "italic",
+      "source": "YTFI281",
+      "image": "docs/imgs/other/AmstelvarA2-Italic_four_YTRAmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-ytramax-four-italic",
+      "glyph": "four",
+      "axis": "YTRA",
+      "style": "italic",
+      "source": "YTFI895",
+      "image": "docs/imgs/other/AmstelvarA2-Italic_four_YTRAmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-ytosmax-four-italic",
+      "glyph": "four",
+      "axis": "YTOS",
+      "style": "italic",
+      "source": "YTOS25",
+      "image": "docs/imgs/other/AmstelvarA2-Italic_four_YTOSmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-ytosmin-four-italic",
+      "glyph": "four",
+      "axis": "YTOS",
+      "style": "italic",
+      "source": "YTOS-4",
+      "image": "docs/imgs/other/AmstelvarA2-Italic_four_YTOSmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-gradmin-four-italic",
+      "glyph": "four",
+      "axis": "GRAD",
+      "style": "italic",
+      "source": "GRAD-300",
+      "image": "docs/imgs/other/AmstelvarA2-Italic_four_GRADmin.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-gradmax-four-italic",
+      "glyph": "four",
+      "axis": "GRAD",
+      "style": "italic",
+      "source": "GRAD500",
+      "image": "docs/imgs/other/AmstelvarA2-Italic_four_GRADmax.png",
+      "group": "figures",
+      "tags": [
+        "straight",
+        "diagonal"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xopqmin-Psi-italic",
+      "glyph": "Psi",
+      "axis": "XOPQ",
+      "style": "italic",
+      "source": "XOUC9",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_XOPQmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-xopqmax-Psi-italic",
+      "glyph": "Psi",
+      "axis": "XOPQ",
+      "style": "italic",
+      "source": "XOUC310",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_XOPQmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xshamax-Psi-italic",
+      "glyph": "Psi",
+      "axis": "XSHA",
+      "style": "italic",
+      "source": "XSHU142",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_XSHAmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-xshamin-Psi-italic",
+      "glyph": "Psi",
+      "axis": "XSHA",
+      "style": "italic",
+      "source": "XSHU0",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_XSHAmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-yopqmin-Psi-italic",
+      "glyph": "Psi",
+      "axis": "YOPQ",
+      "style": "italic",
+      "source": "YOUC4",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_YOPQmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-yopqmax-Psi-italic",
+      "glyph": "Psi",
+      "axis": "YOPQ",
+      "style": "italic",
+      "source": "YOUC219",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_YOPQmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-yshamax-Psi-italic",
+      "glyph": "Psi",
+      "axis": "YSHA",
+      "style": "italic",
+      "source": "YSHU150",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_YSHAmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-yshamin-Psi-italic",
+      "glyph": "Psi",
+      "axis": "YSHA",
+      "style": "italic",
+      "source": "YSHU0",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_YSHAmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-ytramin-Psi-italic",
+      "glyph": "Psi",
+      "axis": "YTRA",
+      "style": "italic",
+      "source": "YTUC541",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_YTRAmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-ytramax-Psi-italic",
+      "glyph": "Psi",
+      "axis": "YTRA",
+      "style": "italic",
+      "source": "YTUC875",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_YTRAmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-gradmin-Psi-italic",
+      "glyph": "Psi",
+      "axis": "GRAD",
+      "style": "italic",
+      "source": "GRAD-300",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_GRADmin.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-gradmax-Psi-italic",
+      "glyph": "Psi",
+      "axis": "GRAD",
+      "style": "italic",
+      "source": "GRAD500",
+      "image": "docs/imgs/uc/AmstelvarA2-Italic_Psi_GRADmax.png",
+      "group": "uppercase",
+      "tags": [
+        "straight",
+        "multi_stem"
       ],
       "instance": "max"
     }

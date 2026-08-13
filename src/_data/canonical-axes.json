@@ -1,0 +1,28 @@
+{
+  "schema_version": "0.1",
+  "projects": {
+    "amstelvar-a2": {
+      "canonical_axes": {
+        "GRAD": ["GRAD"],
+
+        "XOPQ": ["XOUC", "XOLC", "XOFI", "XOET"],
+        "YOPQ": ["YOUC", "YOLC", "YOFI", "YOET"],
+
+        "XTRA": ["XTUC", "XTUR", "XTUD", "XTUA", "XTLC", "XTLR", "XTLD", "XTLA", "XTFI", "XTET"],
+        "YTRA": ["YTUC", "YTLC", "YTFI"],
+
+        "XTSP": ["XUCS", "XUCD", "XUCR", "XLCS", "XLCD", "XLCR", "XFIR", "XETS"],
+
+        "XSHA": ["XSHU", "XSHL", "XSHF"],
+        "YSHA": ["YSHU", "YSHL", "YSHF"],
+
+        "XSVA": ["XSVU", "XSVL", "XSVF"],
+        "YSVA": ["YSVU", "YSVL", "YSVF"],
+        "XVAA": ["XVAU"],
+        
+        "XTEQ": ["XQUC", "XQLC", "XQFI"],
+        "YTEQ": ["YQUC", "YQLC", "YQFI"]
+      }
+    }
+  }
+}

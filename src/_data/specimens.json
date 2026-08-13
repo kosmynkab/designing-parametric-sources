@@ -15,7 +15,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xdotmax-exclam-roman",
@@ -31,7 +32,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xetsmin-exclam-roman",
@@ -47,7 +49,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xetsmax-exclam-roman",
@@ -63,7 +66,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xoetmax-exclam-roman",
@@ -79,7 +83,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoetmin-exclam-roman",
@@ -95,7 +100,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-yoetmax-exclam-roman",
@@ -111,7 +117,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yoetmin-exclam-roman",
@@ -127,7 +134,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-gradmin-exclam-roman",
@@ -143,7 +151,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-exclam-roman",
@@ -159,7 +168,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-ampersand-roman",
@@ -175,7 +185,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-ampersand-roman",
@@ -191,7 +202,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xtucmin-ampersand-roman",
@@ -207,7 +219,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmax-ampersand-roman",
@@ -223,7 +236,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmax-ampersand-roman",
@@ -239,7 +253,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-ampersand-roman",
@@ -255,7 +270,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmax-ampersand-roman",
@@ -271,7 +287,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-ampersand-roman",
@@ -287,7 +304,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-gradmin-ampersand-roman",
@@ -303,7 +321,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-ampersand-roman",
@@ -319,7 +338,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xetsmin-parenleft-roman",
@@ -335,7 +355,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xetsmax-parenleft-roman",
@@ -351,7 +372,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xoetmax-parenleft-roman",
@@ -367,7 +389,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoetmin-parenleft-roman",
@@ -383,7 +406,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-yoetmax-parenleft-roman",
@@ -399,7 +423,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yoetmin-parenleft-roman",
@@ -415,7 +440,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-gradmin-parenleft-roman",
@@ -431,7 +457,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-parenleft-roman",
@@ -447,7 +474,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xfirmax-zero-roman",
@@ -464,7 +492,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xfirmin-zero-roman",
@@ -481,7 +510,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xofimax-zero-roman",
@@ -498,7 +528,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xofimin-zero-roman",
@@ -515,7 +546,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xqfimin-zero-roman",
@@ -532,7 +564,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xqfimax-zero-roman",
@@ -549,7 +582,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xtfimin-zero-roman",
@@ -566,7 +600,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtfimax-zero-roman",
@@ -583,7 +618,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yofimin-zero-roman",
@@ -600,7 +636,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yofimax-zero-roman",
@@ -617,7 +654,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yqfimin-zero-roman",
@@ -634,7 +672,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yqfimax-zero-roman",
@@ -651,7 +690,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-ytfimin-zero-roman",
@@ -668,7 +708,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytfimax-zero-roman",
@@ -685,7 +726,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytosmax-zero-roman",
@@ -702,7 +744,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-zero-roman",
@@ -719,7 +762,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-zero-roman",
@@ -736,7 +780,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-zero-roman",
@@ -753,7 +798,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xfirmax-one-roman",
@@ -771,7 +817,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xfirmin-one-roman",
@@ -789,7 +836,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xofimax-one-roman",
@@ -807,7 +855,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xofimin-one-roman",
@@ -825,7 +874,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshfmin-one-roman",
@@ -843,7 +893,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshfmax-one-roman",
@@ -861,7 +912,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtfimin-one-roman",
@@ -879,7 +931,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtfimax-one-roman",
@@ -897,7 +950,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yofimin-one-roman",
@@ -915,7 +969,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yofimax-one-roman",
@@ -933,7 +988,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshfmin-one-roman",
@@ -951,7 +1007,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshfmax-one-roman",
@@ -969,7 +1026,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytfimin-one-roman",
@@ -987,7 +1045,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytfimax-one-roman",
@@ -1005,7 +1064,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytosmax-one-roman",
@@ -1023,7 +1083,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-one-roman",
@@ -1041,7 +1102,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-one-roman",
@@ -1059,7 +1121,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-one-roman",
@@ -1077,7 +1140,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xfirmax-four-roman",
@@ -1095,7 +1159,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xfirmin-four-roman",
@@ -1113,7 +1178,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xofimax-four-roman",
@@ -1131,7 +1197,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xofimin-four-roman",
@@ -1149,7 +1216,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshfmin-four-roman",
@@ -1167,7 +1235,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshfmax-four-roman",
@@ -1185,7 +1254,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtfimin-four-roman",
@@ -1203,7 +1273,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtfimax-four-roman",
@@ -1221,7 +1292,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yofimin-four-roman",
@@ -1239,7 +1311,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yofimax-four-roman",
@@ -1257,7 +1330,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshfmin-four-roman",
@@ -1275,7 +1349,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshfmax-four-roman",
@@ -1293,7 +1368,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytosmax-four-roman",
@@ -1311,7 +1387,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-four-roman",
@@ -1329,7 +1406,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-four-roman",
@@ -1347,7 +1425,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-four-roman",
@@ -1365,7 +1444,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xetsmin-at-roman",
@@ -1382,7 +1462,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xetsmax-at-roman",
@@ -1399,7 +1480,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xoetmax-at-roman",
@@ -1416,7 +1498,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoetmin-at-roman",
@@ -1433,7 +1516,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xtetmin-at-roman",
@@ -1450,7 +1534,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtetmax-at-roman",
@@ -1467,7 +1552,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yoetmax-at-roman",
@@ -1484,7 +1570,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yoetmin-at-roman",
@@ -1501,7 +1588,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-gradmin-at-roman",
@@ -1518,7 +1606,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-at-roman",
@@ -1535,7 +1624,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-A-roman",
@@ -1552,7 +1642,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-A-roman",
@@ -1569,7 +1660,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumin-A-roman",
@@ -1586,7 +1678,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-A-roman",
@@ -1603,7 +1696,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xttwmax-A-roman",
@@ -1620,7 +1714,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-A-roman",
@@ -1637,7 +1732,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xtudmin-A-roman",
@@ -1654,7 +1750,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtudmax-A-roman",
@@ -1671,7 +1768,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucdmax-A-roman",
@@ -1688,7 +1786,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucdmin-A-roman",
@@ -1705,7 +1804,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmax-A-roman",
@@ -1722,7 +1822,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-A-roman",
@@ -1739,7 +1840,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumin-A-roman",
@@ -1756,7 +1858,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-A-roman",
@@ -1773,7 +1876,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytosmax-A-roman",
@@ -1790,7 +1894,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-A-roman",
@@ -1807,7 +1912,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmin-A-roman",
@@ -1824,7 +1930,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmax-A-roman",
@@ -1841,7 +1948,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmax-A-roman",
@@ -1858,7 +1966,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-A-roman",
@@ -1875,7 +1984,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-A-roman",
@@ -1892,7 +2002,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-A-roman",
@@ -1909,7 +2020,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-B-roman",
@@ -1926,7 +2038,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-B-roman",
@@ -1943,7 +2056,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xqucmax-B-roman",
@@ -1960,7 +2074,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xqucmin-B-roman",
@@ -1977,7 +2092,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xshumin-B-roman",
@@ -1994,7 +2110,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-B-roman",
@@ -2011,7 +2128,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xttwmax-B-roman",
@@ -2028,7 +2146,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-B-roman",
@@ -2045,7 +2164,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xturmax-B-roman",
@@ -2062,7 +2182,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xturmin-B-roman",
@@ -2079,7 +2200,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmax-B-roman",
@@ -2096,7 +2218,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-B-roman",
@@ -2113,7 +2236,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmax-B-roman",
@@ -2130,7 +2254,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-B-roman",
@@ -2147,7 +2272,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yqucmin-B-roman",
@@ -2164,7 +2290,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yqucmax-B-roman",
@@ -2181,7 +2308,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yshumin-B-roman",
@@ -2198,7 +2326,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-B-roman",
@@ -2215,7 +2344,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytucmax-B-roman",
@@ -2232,7 +2362,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-B-roman",
@@ -2249,7 +2380,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-B-roman",
@@ -2266,7 +2398,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-B-roman",
@@ -2283,7 +2416,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-E-roman",
@@ -2301,7 +2435,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-E-roman",
@@ -2319,7 +2454,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumin-E-roman",
@@ -2337,7 +2473,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-E-roman",
@@ -2355,7 +2492,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xsvumin-E-roman",
@@ -2373,7 +2511,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xsvumax-E-roman",
@@ -2391,7 +2530,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xtucmin-E-roman",
@@ -2409,7 +2549,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmax-E-roman",
@@ -2427,7 +2568,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmax-E-roman",
@@ -2445,7 +2587,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-E-roman",
@@ -2463,7 +2606,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xvaumin-E-roman",
@@ -2481,7 +2625,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XVAA"
     },
     {
       "id": "amstelvar-a2-xvaumax-E-roman",
@@ -2499,7 +2644,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XVAA"
     },
     {
       "id": "amstelvar-a2-youcmax-E-roman",
@@ -2517,7 +2663,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-E-roman",
@@ -2535,7 +2682,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumin-E-roman",
@@ -2553,7 +2701,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-E-roman",
@@ -2571,7 +2720,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ysvumin-E-roman",
@@ -2589,7 +2739,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-ysvumax-E-roman",
@@ -2607,7 +2758,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-ytucmax-E-roman",
@@ -2625,7 +2777,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-E-roman",
@@ -2643,7 +2796,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-E-roman",
@@ -2661,7 +2815,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-E-roman",
@@ -2679,7 +2834,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-H-roman",
@@ -2697,7 +2853,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-H-roman",
@@ -2715,7 +2872,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumin-H-roman",
@@ -2733,7 +2891,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-H-roman",
@@ -2751,7 +2910,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtucmin-H-roman",
@@ -2769,7 +2929,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmax-H-roman",
@@ -2787,7 +2948,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmax-H-roman",
@@ -2805,7 +2967,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-H-roman",
@@ -2823,7 +2986,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmax-H-roman",
@@ -2841,7 +3005,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-H-roman",
@@ -2859,7 +3024,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumin-H-roman",
@@ -2877,7 +3043,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-H-roman",
@@ -2895,7 +3062,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytucmax-H-roman",
@@ -2913,7 +3081,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-H-roman",
@@ -2931,7 +3100,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-H-roman",
@@ -2949,7 +3119,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-H-roman",
@@ -2967,7 +3138,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-J-roman",
@@ -2985,7 +3157,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-J-roman",
@@ -3003,7 +3176,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumin-J-roman",
@@ -3021,7 +3195,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-J-roman",
@@ -3039,7 +3214,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtucmin-J-roman",
@@ -3057,7 +3233,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmax-J-roman",
@@ -3075,7 +3252,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmax-J-roman",
@@ -3093,7 +3271,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-J-roman",
@@ -3111,7 +3290,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-yshumin-J-roman",
@@ -3129,7 +3309,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-J-roman",
@@ -3147,7 +3328,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytjdmax-J-roman",
@@ -3165,7 +3347,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytjdmin-J-roman",
@@ -3183,7 +3366,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmax-J-roman",
@@ -3201,7 +3385,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-J-roman",
@@ -3219,7 +3404,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-J-roman",
@@ -3237,7 +3423,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-J-roman",
@@ -3255,7 +3442,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-K-roman",
@@ -3273,7 +3461,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-K-roman",
@@ -3291,7 +3480,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumin-K-roman",
@@ -3309,7 +3499,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-K-roman",
@@ -3327,7 +3518,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtudmin-K-roman",
@@ -3345,7 +3537,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtudmax-K-roman",
@@ -3363,7 +3556,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucdmax-K-roman",
@@ -3381,7 +3575,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucdmin-K-roman",
@@ -3399,7 +3594,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-K-roman",
@@ -3417,7 +3613,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-K-roman",
@@ -3435,7 +3632,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmax-K-roman",
@@ -3453,7 +3651,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-K-roman",
@@ -3471,7 +3670,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumin-K-roman",
@@ -3489,7 +3689,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-K-roman",
@@ -3507,7 +3708,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytucmax-K-roman",
@@ -3525,7 +3727,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-K-roman",
@@ -3543,7 +3746,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-K-roman",
@@ -3561,7 +3765,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-K-roman",
@@ -3579,7 +3784,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-M-roman",
@@ -3597,7 +3803,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-M-roman",
@@ -3615,7 +3822,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumin-M-roman",
@@ -3633,7 +3841,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-M-roman",
@@ -3651,7 +3860,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xttwmax-M-roman",
@@ -3669,7 +3879,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-M-roman",
@@ -3687,7 +3898,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xtudmin-M-roman",
@@ -3705,7 +3917,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtudmax-M-roman",
@@ -3723,7 +3936,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmax-M-roman",
@@ -3741,7 +3955,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-M-roman",
@@ -3759,7 +3974,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmax-M-roman",
@@ -3777,7 +3993,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-M-roman",
@@ -3795,7 +4012,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumin-M-roman",
@@ -3813,7 +4031,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-M-roman",
@@ -3831,7 +4050,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yttlmin-M-roman",
@@ -3849,7 +4069,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmax-M-roman",
@@ -3867,7 +4088,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmax-M-roman",
@@ -3885,7 +4107,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-M-roman",
@@ -3903,7 +4126,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-M-roman",
@@ -3921,7 +4145,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-M-roman",
@@ -3939,7 +4164,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-N-roman",
@@ -3957,7 +4183,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-N-roman",
@@ -3975,7 +4202,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumin-N-roman",
@@ -3993,7 +4221,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-N-roman",
@@ -4011,7 +4240,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xttwmax-N-roman",
@@ -4029,7 +4259,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-N-roman",
@@ -4047,7 +4278,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xtudmin-N-roman",
@@ -4065,7 +4297,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtudmax-N-roman",
@@ -4083,7 +4316,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmax-N-roman",
@@ -4101,7 +4335,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-N-roman",
@@ -4119,7 +4354,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmax-N-roman",
@@ -4137,7 +4373,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-N-roman",
@@ -4155,7 +4392,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumin-N-roman",
@@ -4173,7 +4411,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-N-roman",
@@ -4191,7 +4430,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yttlmin-N-roman",
@@ -4209,7 +4449,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmax-N-roman",
@@ -4227,7 +4468,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmax-N-roman",
@@ -4245,7 +4487,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-N-roman",
@@ -4263,7 +4506,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-N-roman",
@@ -4281,7 +4525,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-N-roman",
@@ -4299,7 +4544,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-O-roman",
@@ -4316,7 +4562,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-O-roman",
@@ -4333,7 +4580,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xqucmax-O-roman",
@@ -4350,7 +4598,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xqucmin-O-roman",
@@ -4367,7 +4616,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xturmax-O-roman",
@@ -4384,7 +4634,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xturmin-O-roman",
@@ -4401,7 +4652,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucrmin-O-roman",
@@ -4418,7 +4670,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucrmax-O-roman",
@@ -4435,7 +4688,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmax-O-roman",
@@ -4452,7 +4706,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-O-roman",
@@ -4469,7 +4724,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yqucmin-O-roman",
@@ -4486,7 +4742,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yqucmax-O-roman",
@@ -4503,7 +4760,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-ytosmax-O-roman",
@@ -4520,7 +4778,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-O-roman",
@@ -4537,7 +4796,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmax-O-roman",
@@ -4554,7 +4814,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-O-roman",
@@ -4571,7 +4832,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-O-roman",
@@ -4588,7 +4850,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-O-roman",
@@ -4605,7 +4868,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-P-roman",
@@ -4622,7 +4886,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-P-roman",
@@ -4639,7 +4904,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xqucmax-P-roman",
@@ -4656,7 +4922,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xqucmin-P-roman",
@@ -4673,7 +4940,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xshumin-P-roman",
@@ -4690,7 +4958,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-P-roman",
@@ -4707,7 +4976,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xturmax-P-roman",
@@ -4724,7 +4994,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xturmin-P-roman",
@@ -4741,7 +5012,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmax-P-roman",
@@ -4758,7 +5030,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-P-roman",
@@ -4775,7 +5048,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmax-P-roman",
@@ -4792,7 +5066,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-P-roman",
@@ -4809,7 +5084,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yqucmin-P-roman",
@@ -4826,7 +5102,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yqucmax-P-roman",
@@ -4843,7 +5120,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yshumin-P-roman",
@@ -4860,7 +5138,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-P-roman",
@@ -4877,7 +5156,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytucmax-P-roman",
@@ -4894,7 +5174,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-P-roman",
@@ -4911,7 +5192,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-P-roman",
@@ -4928,7 +5210,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-P-roman",
@@ -4945,7 +5228,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-T-roman",
@@ -4963,7 +5247,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-T-roman",
@@ -4981,7 +5266,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumin-T-roman",
@@ -4999,7 +5285,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-T-roman",
@@ -5017,7 +5304,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xsvumin-T-roman",
@@ -5035,7 +5323,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xsvumax-T-roman",
@@ -5053,7 +5342,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xtucmin-T-roman",
@@ -5071,7 +5361,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmax-T-roman",
@@ -5089,7 +5380,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmax-T-roman",
@@ -5107,7 +5399,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-T-roman",
@@ -5125,7 +5418,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xvaumin-T-roman",
@@ -5143,7 +5437,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XVAA"
     },
     {
       "id": "amstelvar-a2-xvaumax-T-roman",
@@ -5161,7 +5456,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XVAA"
     },
     {
       "id": "amstelvar-a2-youcmax-T-roman",
@@ -5179,7 +5475,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-T-roman",
@@ -5197,7 +5494,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumin-T-roman",
@@ -5215,7 +5513,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-T-roman",
@@ -5233,7 +5532,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ysvumin-T-roman",
@@ -5251,7 +5551,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-ysvumax-T-roman",
@@ -5269,7 +5570,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-ytucmax-T-roman",
@@ -5287,7 +5589,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-T-roman",
@@ -5305,7 +5608,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-T-roman",
@@ -5323,7 +5627,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-T-roman",
@@ -5341,7 +5646,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-U-roman",
@@ -5358,7 +5664,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-U-roman",
@@ -5375,7 +5682,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xqucmax-U-roman",
@@ -5392,7 +5700,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xqucmin-U-roman",
@@ -5409,7 +5718,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xshumin-U-roman",
@@ -5426,7 +5736,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-U-roman",
@@ -5443,7 +5754,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xturmax-U-roman",
@@ -5460,7 +5772,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xturmin-U-roman",
@@ -5477,7 +5790,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmax-U-roman",
@@ -5494,7 +5808,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-U-roman",
@@ -5511,7 +5826,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmax-U-roman",
@@ -5528,7 +5844,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-U-roman",
@@ -5545,7 +5862,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yqucmin-U-roman",
@@ -5562,7 +5880,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yqucmax-U-roman",
@@ -5579,7 +5898,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yshumin-U-roman",
@@ -5596,7 +5916,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-U-roman",
@@ -5613,7 +5934,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytosmax-U-roman",
@@ -5630,7 +5952,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-U-roman",
@@ -5647,7 +5970,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmax-U-roman",
@@ -5664,7 +5988,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-U-roman",
@@ -5681,7 +6006,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-U-roman",
@@ -5698,7 +6024,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-U-roman",
@@ -5715,7 +6042,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-V-roman",
@@ -5733,7 +6061,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-V-roman",
@@ -5751,7 +6080,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumin-V-roman",
@@ -5769,7 +6099,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumax-V-roman",
@@ -5787,7 +6118,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xttwmax-V-roman",
@@ -5805,7 +6137,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-V-roman",
@@ -5823,7 +6156,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xtudmin-V-roman",
@@ -5841,7 +6175,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtudmax-V-roman",
@@ -5859,7 +6194,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucdmax-V-roman",
@@ -5877,7 +6213,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucdmin-V-roman",
@@ -5895,7 +6232,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmax-V-roman",
@@ -5913,7 +6251,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmin-V-roman",
@@ -5931,7 +6270,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumin-V-roman",
@@ -5949,7 +6289,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumax-V-roman",
@@ -5967,7 +6308,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytosmax-V-roman",
@@ -5985,7 +6327,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-V-roman",
@@ -6003,7 +6346,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmin-V-roman",
@@ -6021,7 +6365,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmax-V-roman",
@@ -6039,7 +6384,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmax-V-roman",
@@ -6057,7 +6403,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmin-V-roman",
@@ -6075,7 +6422,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-V-roman",
@@ -6093,7 +6441,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-V-roman",
@@ -6111,7 +6460,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xlcsmin-n-roman",
@@ -6129,7 +6479,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xlcsmax-n-roman",
@@ -6147,7 +6498,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xolcmin-n-roman",
@@ -6165,7 +6517,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xolcmax-n-roman",
@@ -6183,7 +6536,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshlmax-n-roman",
@@ -6201,7 +6555,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshlmin-n-roman",
@@ -6219,7 +6574,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtlcmin-n-roman",
@@ -6237,7 +6593,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtlcmax-n-roman",
@@ -6255,7 +6612,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yolcmax-n-roman",
@@ -6273,7 +6631,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yolcmin-n-roman",
@@ -6291,7 +6650,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshlmin-n-roman",
@@ -6309,7 +6669,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshlmax-n-roman",
@@ -6327,7 +6688,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytlcmax-n-roman",
@@ -6345,7 +6707,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytlcmin-n-roman",
@@ -6363,7 +6726,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytosmax-n-roman",
@@ -6381,7 +6745,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-n-roman",
@@ -6399,7 +6764,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-n-roman",
@@ -6417,7 +6783,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-n-roman",
@@ -6435,7 +6802,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xlcrmax-o-roman",
@@ -6452,7 +6820,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xlcrmin-o-roman",
@@ -6469,7 +6838,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xolcmin-o-roman",
@@ -6486,7 +6856,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xolcmax-o-roman",
@@ -6503,7 +6874,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xqlcmax-o-roman",
@@ -6520,7 +6892,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xqlcmin-o-roman",
@@ -6537,7 +6910,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xtlrmin-o-roman",
@@ -6554,7 +6928,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtlrmax-o-roman",
@@ -6571,7 +6946,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yolcmax-o-roman",
@@ -6588,7 +6964,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yolcmin-o-roman",
@@ -6605,7 +6982,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yqlcmin-o-roman",
@@ -6622,7 +7000,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yqlcmax-o-roman",
@@ -6639,7 +7018,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-ytlcmax-o-roman",
@@ -6656,7 +7036,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytlcmin-o-roman",
@@ -6673,7 +7054,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytosmax-o-roman",
@@ -6690,7 +7072,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-o-roman",
@@ -6707,7 +7090,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-o-roman",
@@ -6724,7 +7108,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-o-roman",
@@ -6741,7 +7126,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xlcsmin-r-roman",
@@ -6759,7 +7145,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xlcsmax-r-roman",
@@ -6777,7 +7164,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xolcmin-r-roman",
@@ -6795,7 +7183,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xolcmax-r-roman",
@@ -6813,7 +7202,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshlmax-r-roman",
@@ -6831,7 +7221,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshlmin-r-roman",
@@ -6849,7 +7240,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xsvlmax-r-roman",
@@ -6867,7 +7259,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xsvlmin-r-roman",
@@ -6885,7 +7278,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xtlcmin-r-roman",
@@ -6903,7 +7297,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtlcmax-r-roman",
@@ -6921,7 +7316,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yolcmax-r-roman",
@@ -6939,7 +7335,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yolcmin-r-roman",
@@ -6957,7 +7354,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshlmin-r-roman",
@@ -6975,7 +7373,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshlmax-r-roman",
@@ -6993,7 +7392,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ysvlmax-r-roman",
@@ -7011,7 +7411,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-ysvlmin-r-roman",
@@ -7029,7 +7430,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-gradmin-r-roman",
@@ -7047,7 +7449,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-r-roman",
@@ -7065,7 +7468,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xlcdmax-v-roman",
@@ -7083,7 +7487,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xlcdmin-v-roman",
@@ -7101,7 +7506,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xolcmin-v-roman",
@@ -7119,7 +7525,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xolcmax-v-roman",
@@ -7137,7 +7544,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshlmax-v-roman",
@@ -7155,7 +7563,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshlmin-v-roman",
@@ -7173,7 +7582,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtldmin-v-roman",
@@ -7191,7 +7601,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtldmax-v-roman",
@@ -7209,7 +7620,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xttwmax-v-roman",
@@ -7227,7 +7639,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-v-roman",
@@ -7245,7 +7658,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yolcmax-v-roman",
@@ -7263,7 +7677,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yolcmin-v-roman",
@@ -7281,7 +7696,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshlmin-v-roman",
@@ -7299,7 +7715,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshlmax-v-roman",
@@ -7317,7 +7734,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytlcmax-v-roman",
@@ -7335,7 +7753,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytlcmin-v-roman",
@@ -7353,7 +7772,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytosmax-v-roman",
@@ -7371,7 +7791,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-v-roman",
@@ -7389,7 +7810,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmin-v-roman",
@@ -7407,7 +7829,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmax-v-roman",
@@ -7425,7 +7848,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-v-roman",
@@ -7443,7 +7867,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-v-roman",
@@ -7461,7 +7886,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xolamin-acutecomb-roman",
@@ -7477,7 +7903,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xolamax-acutecomb-roman",
@@ -7493,7 +7920,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xtlamin-acutecomb-roman",
@@ -7509,7 +7937,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtlamax-acutecomb-roman",
@@ -7525,7 +7954,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yolamin-acutecomb-roman",
@@ -7541,7 +7971,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yolamax-acutecomb-roman",
@@ -7557,7 +7988,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-acutecomb-roman",
@@ -7573,7 +8005,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-acutecomb-roman",
@@ -7589,7 +8022,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xdotmin-exclam-italic",
@@ -7605,7 +8039,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xdotmax-exclam-italic",
@@ -7621,7 +8056,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xolcmax-exclam-italic",
@@ -7637,7 +8073,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xolcmin-exclam-italic",
@@ -7653,7 +8090,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xucsmin-exclam-italic",
@@ -7669,7 +8107,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-exclam-italic",
@@ -7685,7 +8124,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-yolcmax-exclam-italic",
@@ -7701,7 +8141,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yolcmin-exclam-italic",
@@ -7717,7 +8158,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-gradmin-exclam-italic",
@@ -7733,7 +8175,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-exclam-italic",
@@ -7749,7 +8192,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-ytosmax-ampersand-italic",
@@ -7765,7 +8209,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-ampersand-italic",
@@ -7781,7 +8226,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmin-ampersand-italic",
@@ -7797,7 +8243,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-ampersand-italic",
@@ -7813,7 +8260,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-ampersand-italic",
@@ -7829,7 +8277,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-ampersand-italic",
@@ -7845,7 +8294,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xucrmin-parenleft-italic",
@@ -7861,7 +8311,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucrmax-parenleft-italic",
@@ -7877,7 +8328,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-parenleft-italic",
@@ -7893,7 +8345,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-parenleft-italic",
@@ -7909,7 +8362,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-gradmin-parenleft-italic",
@@ -7925,7 +8379,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-parenleft-italic",
@@ -7941,7 +8396,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xfirmax-zero-italic",
@@ -7958,7 +8414,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xfirmin-zero-italic",
@@ -7975,7 +8432,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xofimax-zero-italic",
@@ -7992,7 +8450,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xofimin-zero-italic",
@@ -8009,7 +8468,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xqfimax-zero-italic",
@@ -8026,7 +8486,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xqfimin-zero-italic",
@@ -8043,7 +8504,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xtfimax-zero-italic",
@@ -8060,7 +8522,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtfimin-zero-italic",
@@ -8077,7 +8540,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yofimax-zero-italic",
@@ -8094,7 +8558,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yofimin-zero-italic",
@@ -8111,7 +8576,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yqfimax-zero-italic",
@@ -8128,7 +8594,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yqfimin-zero-italic",
@@ -8145,7 +8612,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-ytfimin-zero-italic",
@@ -8162,7 +8630,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytfimax-zero-italic",
@@ -8179,7 +8648,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-zero-italic",
@@ -8196,7 +8666,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-zero-italic",
@@ -8213,7 +8684,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xofimax-one-italic",
@@ -8231,7 +8703,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xofimin-one-italic",
@@ -8249,7 +8722,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-yofimax-one-italic",
@@ -8267,7 +8741,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yofimin-one-italic",
@@ -8285,7 +8760,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-ytfimin-one-italic",
@@ -8303,7 +8779,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytfimax-one-italic",
@@ -8321,7 +8798,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytosmax-one-italic",
@@ -8339,7 +8817,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-one-italic",
@@ -8357,7 +8836,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-one-italic",
@@ -8375,7 +8855,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-one-italic",
@@ -8393,7 +8874,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xofimax-four-italic",
@@ -8411,7 +8893,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xofimin-four-italic",
@@ -8429,7 +8912,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-yofimax-four-italic",
@@ -8447,7 +8931,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yofimin-four-italic",
@@ -8465,7 +8950,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-ytfimin-four-italic",
@@ -8483,7 +8969,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytfimax-four-italic",
@@ -8501,7 +8988,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytosmax-four-italic",
@@ -8519,7 +9007,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-four-italic",
@@ -8537,7 +9026,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-four-italic",
@@ -8555,7 +9045,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-four-italic",
@@ -8573,7 +9064,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xlcrmin-at-italic",
@@ -8590,7 +9082,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xlcrmax-at-italic",
@@ -8607,7 +9100,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-ytosmax-at-italic",
@@ -8624,7 +9118,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-at-italic",
@@ -8641,7 +9136,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-at-italic",
@@ -8658,7 +9154,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-at-italic",
@@ -8675,7 +9172,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-A-italic",
@@ -8692,7 +9190,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-A-italic",
@@ -8709,7 +9208,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-A-italic",
@@ -8726,7 +9226,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-A-italic",
@@ -8743,7 +9244,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xttwmax-A-italic",
@@ -8760,7 +9262,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-A-italic",
@@ -8777,7 +9280,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xtudmax-A-italic",
@@ -8794,7 +9298,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtudmin-A-italic",
@@ -8811,7 +9316,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucdmax-A-italic",
@@ -8828,7 +9334,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucdmin-A-italic",
@@ -8845,7 +9352,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-A-italic",
@@ -8862,7 +9370,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-A-italic",
@@ -8879,7 +9388,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-A-italic",
@@ -8896,7 +9406,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-A-italic",
@@ -8913,7 +9424,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yttlmin-A-italic",
@@ -8930,7 +9442,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmax-A-italic",
@@ -8947,7 +9460,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmin-A-italic",
@@ -8964,7 +9478,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-A-italic",
@@ -8981,7 +9496,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-A-italic",
@@ -8998,7 +9514,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-A-italic",
@@ -9015,7 +9532,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-B-italic",
@@ -9032,7 +9550,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-B-italic",
@@ -9049,7 +9568,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-B-italic",
@@ -9066,7 +9586,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-B-italic",
@@ -9083,7 +9604,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xttwmax-B-italic",
@@ -9100,7 +9622,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-B-italic",
@@ -9117,7 +9640,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xtucmax-B-italic",
@@ -9134,7 +9658,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmin-B-italic",
@@ -9151,7 +9676,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmin-B-italic",
@@ -9168,7 +9694,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-B-italic",
@@ -9185,7 +9712,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-B-italic",
@@ -9202,7 +9730,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-B-italic",
@@ -9219,7 +9748,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-B-italic",
@@ -9236,7 +9766,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-B-italic",
@@ -9253,7 +9784,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytucmin-B-italic",
@@ -9270,7 +9802,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-B-italic",
@@ -9287,7 +9820,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-B-italic",
@@ -9304,7 +9838,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-B-italic",
@@ -9321,7 +9856,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-E-italic",
@@ -9339,7 +9875,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-E-italic",
@@ -9357,7 +9894,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-E-italic",
@@ -9375,7 +9913,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-E-italic",
@@ -9393,7 +9932,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xsvumin-E-italic",
@@ -9411,7 +9951,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xsvumax-E-italic",
@@ -9429,7 +9970,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xtucmax-E-italic",
@@ -9447,7 +9989,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmin-E-italic",
@@ -9465,7 +10008,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmin-E-italic",
@@ -9483,7 +10027,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-E-italic",
@@ -9501,7 +10046,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-E-italic",
@@ -9519,7 +10065,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-E-italic",
@@ -9537,7 +10084,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-E-italic",
@@ -9555,7 +10103,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-E-italic",
@@ -9573,7 +10122,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ysvumax-E-italic",
@@ -9591,7 +10141,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-ysvumin-E-italic",
@@ -9609,7 +10160,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-ytucmin-E-italic",
@@ -9627,7 +10179,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-E-italic",
@@ -9645,7 +10198,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-E-italic",
@@ -9663,7 +10217,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-E-italic",
@@ -9681,7 +10236,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-H-italic",
@@ -9699,7 +10255,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-H-italic",
@@ -9717,7 +10274,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-H-italic",
@@ -9735,7 +10293,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-H-italic",
@@ -9753,7 +10312,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtucmax-H-italic",
@@ -9771,7 +10331,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmin-H-italic",
@@ -9789,7 +10350,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmin-H-italic",
@@ -9807,7 +10369,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-H-italic",
@@ -9825,7 +10388,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-H-italic",
@@ -9843,7 +10407,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-H-italic",
@@ -9861,7 +10426,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-H-italic",
@@ -9879,7 +10445,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-H-italic",
@@ -9897,7 +10464,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytucmin-H-italic",
@@ -9915,7 +10483,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-H-italic",
@@ -9933,7 +10502,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-H-italic",
@@ -9951,7 +10521,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-H-italic",
@@ -9969,7 +10540,8 @@
         "straight",
         "dual_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-J-italic",
@@ -9987,7 +10559,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-J-italic",
@@ -10005,7 +10578,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-J-italic",
@@ -10023,7 +10597,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-J-italic",
@@ -10041,7 +10616,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtucmax-J-italic",
@@ -10059,7 +10635,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmin-J-italic",
@@ -10077,7 +10654,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmin-J-italic",
@@ -10095,7 +10673,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-J-italic",
@@ -10113,7 +10692,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-J-italic",
@@ -10131,7 +10711,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-J-italic",
@@ -10149,7 +10730,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-J-italic",
@@ -10167,7 +10749,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-J-italic",
@@ -10185,7 +10768,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytjdmax-J-italic",
@@ -10203,7 +10787,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytjdmin-J-italic",
@@ -10221,7 +10806,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmin-J-italic",
@@ -10239,7 +10825,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-J-italic",
@@ -10257,7 +10844,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-J-italic",
@@ -10275,7 +10863,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-J-italic",
@@ -10293,7 +10882,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-K-italic",
@@ -10311,7 +10901,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-K-italic",
@@ -10329,7 +10920,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-K-italic",
@@ -10347,7 +10939,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-K-italic",
@@ -10365,7 +10958,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtudmax-K-italic",
@@ -10383,7 +10977,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtudmin-K-italic",
@@ -10401,7 +10996,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucdmax-K-italic",
@@ -10419,7 +11015,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucdmin-K-italic",
@@ -10437,7 +11034,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-K-italic",
@@ -10455,7 +11053,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-K-italic",
@@ -10473,7 +11072,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-K-italic",
@@ -10491,7 +11091,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-K-italic",
@@ -10509,7 +11110,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-K-italic",
@@ -10527,7 +11129,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-K-italic",
@@ -10545,7 +11148,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytucmin-K-italic",
@@ -10563,7 +11167,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-K-italic",
@@ -10581,7 +11186,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-K-italic",
@@ -10599,7 +11205,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-K-italic",
@@ -10617,7 +11224,8 @@
         "single_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-M-italic",
@@ -10635,7 +11243,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-M-italic",
@@ -10653,7 +11262,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-M-italic",
@@ -10671,7 +11281,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-M-italic",
@@ -10689,7 +11300,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xttwmax-M-italic",
@@ -10707,7 +11319,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-M-italic",
@@ -10725,7 +11338,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xtudmax-M-italic",
@@ -10743,7 +11357,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtudmin-M-italic",
@@ -10761,7 +11376,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmin-M-italic",
@@ -10779,7 +11395,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-M-italic",
@@ -10797,7 +11414,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-M-italic",
@@ -10815,7 +11433,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-M-italic",
@@ -10833,7 +11452,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-M-italic",
@@ -10851,7 +11471,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-M-italic",
@@ -10869,7 +11490,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yttlmin-M-italic",
@@ -10887,7 +11509,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmax-M-italic",
@@ -10905,7 +11528,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-M-italic",
@@ -10923,7 +11547,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-M-italic",
@@ -10941,7 +11566,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-N-italic",
@@ -10959,7 +11585,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-N-italic",
@@ -10977,7 +11604,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-N-italic",
@@ -10995,7 +11623,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-N-italic",
@@ -11013,7 +11642,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xttwmax-N-italic",
@@ -11031,7 +11661,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-N-italic",
@@ -11049,7 +11680,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xtudmax-N-italic",
@@ -11067,7 +11699,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtudmin-N-italic",
@@ -11085,7 +11718,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmin-N-italic",
@@ -11103,7 +11737,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-N-italic",
@@ -11121,7 +11756,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-N-italic",
@@ -11139,7 +11775,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-N-italic",
@@ -11157,7 +11794,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-N-italic",
@@ -11175,7 +11813,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-N-italic",
@@ -11193,7 +11832,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yttlmin-N-italic",
@@ -11211,7 +11851,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmax-N-italic",
@@ -11229,7 +11870,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmin-N-italic",
@@ -11247,7 +11889,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-N-italic",
@@ -11265,7 +11908,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-N-italic",
@@ -11283,7 +11927,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-N-italic",
@@ -11301,7 +11946,8 @@
         "dual_stem",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-O-italic",
@@ -11318,7 +11964,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-O-italic",
@@ -11335,7 +11982,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xqucmax-O-italic",
@@ -11352,7 +12000,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xqucmin-O-italic",
@@ -11369,7 +12018,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xturmin-O-italic",
@@ -11386,7 +12036,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xturmax-O-italic",
@@ -11403,7 +12054,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucrmin-O-italic",
@@ -11420,7 +12072,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucrmax-O-italic",
@@ -11437,7 +12090,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-O-italic",
@@ -11454,7 +12108,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-O-italic",
@@ -11471,7 +12126,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yqucmin-O-italic",
@@ -11488,7 +12144,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yqucmax-O-italic",
@@ -11505,7 +12162,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-ytosmax-O-italic",
@@ -11522,7 +12180,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-O-italic",
@@ -11539,7 +12198,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmin-O-italic",
@@ -11556,7 +12216,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-O-italic",
@@ -11573,7 +12234,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-O-italic",
@@ -11590,7 +12252,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-O-italic",
@@ -11607,7 +12270,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-P-italic",
@@ -11624,7 +12288,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-P-italic",
@@ -11641,7 +12306,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-P-italic",
@@ -11658,7 +12324,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-P-italic",
@@ -11675,7 +12342,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtucmax-P-italic",
@@ -11692,7 +12360,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmin-P-italic",
@@ -11709,7 +12378,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucrmin-P-italic",
@@ -11726,7 +12396,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucrmax-P-italic",
@@ -11743,7 +12414,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmin-P-italic",
@@ -11760,7 +12432,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-P-italic",
@@ -11777,7 +12450,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-P-italic",
@@ -11794,7 +12468,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-P-italic",
@@ -11811,7 +12486,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-P-italic",
@@ -11828,7 +12504,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-P-italic",
@@ -11845,7 +12522,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytucmin-P-italic",
@@ -11862,7 +12540,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-P-italic",
@@ -11879,7 +12558,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-P-italic",
@@ -11896,7 +12576,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-P-italic",
@@ -11913,7 +12594,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-T-italic",
@@ -11931,7 +12613,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-T-italic",
@@ -11949,7 +12632,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-T-italic",
@@ -11967,7 +12651,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-T-italic",
@@ -11985,7 +12670,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xsvumin-T-italic",
@@ -12003,7 +12689,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xsvumax-T-italic",
@@ -12021,7 +12708,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xtucmax-T-italic",
@@ -12039,7 +12727,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmin-T-italic",
@@ -12057,7 +12746,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmin-T-italic",
@@ -12075,7 +12765,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-T-italic",
@@ -12093,7 +12784,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xvaumax-T-italic",
@@ -12111,7 +12803,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XVAA"
     },
     {
       "id": "amstelvar-a2-xvaumin-T-italic",
@@ -12129,7 +12822,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XVAA"
     },
     {
       "id": "amstelvar-a2-youcmin-T-italic",
@@ -12147,7 +12841,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-T-italic",
@@ -12165,7 +12860,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-T-italic",
@@ -12183,7 +12879,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-T-italic",
@@ -12201,7 +12898,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ysvumax-T-italic",
@@ -12219,7 +12917,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-ysvumin-T-italic",
@@ -12237,7 +12936,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-ytucmin-T-italic",
@@ -12255,7 +12955,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-T-italic",
@@ -12273,7 +12974,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-T-italic",
@@ -12291,7 +12993,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-T-italic",
@@ -12309,7 +13012,8 @@
         "straight",
         "single_stem"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-U-italic",
@@ -12326,7 +13030,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-U-italic",
@@ -12343,7 +13048,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-U-italic",
@@ -12360,7 +13066,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-U-italic",
@@ -12377,7 +13084,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtucmax-U-italic",
@@ -12394,7 +13102,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtucmin-U-italic",
@@ -12411,7 +13120,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucsmin-U-italic",
@@ -12428,7 +13138,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucsmax-U-italic",
@@ -12445,7 +13156,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-U-italic",
@@ -12462,7 +13174,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-U-italic",
@@ -12479,7 +13192,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-U-italic",
@@ -12496,7 +13210,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-U-italic",
@@ -12513,7 +13228,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytosmax-U-italic",
@@ -12530,7 +13246,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-U-italic",
@@ -12547,7 +13264,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmin-U-italic",
@@ -12564,7 +13282,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-U-italic",
@@ -12581,7 +13300,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-U-italic",
@@ -12598,7 +13318,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-U-italic",
@@ -12615,7 +13336,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xoucmin-V-italic",
@@ -12633,7 +13355,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xoucmax-V-italic",
@@ -12651,7 +13374,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshumax-V-italic",
@@ -12669,7 +13393,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshumin-V-italic",
@@ -12687,7 +13412,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xttwmax-V-italic",
@@ -12705,7 +13431,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-V-italic",
@@ -12723,7 +13450,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xtudmax-V-italic",
@@ -12741,7 +13469,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtudmin-V-italic",
@@ -12759,7 +13488,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xucdmax-V-italic",
@@ -12777,7 +13507,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xucdmin-V-italic",
@@ -12795,7 +13526,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-youcmin-V-italic",
@@ -12813,7 +13545,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-youcmax-V-italic",
@@ -12831,7 +13564,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshumax-V-italic",
@@ -12849,7 +13583,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshumin-V-italic",
@@ -12867,7 +13602,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytosmax-V-italic",
@@ -12885,7 +13621,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-V-italic",
@@ -12903,7 +13640,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmin-V-italic",
@@ -12921,7 +13659,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmax-V-italic",
@@ -12939,7 +13678,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytucmin-V-italic",
@@ -12957,7 +13697,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytucmax-V-italic",
@@ -12975,7 +13716,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-gradmin-V-italic",
@@ -12993,7 +13735,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-V-italic",
@@ -13011,7 +13754,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xlcsmin-n-italic",
@@ -13029,7 +13773,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xlcsmax-n-italic",
@@ -13047,7 +13792,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xolcmax-n-italic",
@@ -13065,7 +13811,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xolcmin-n-italic",
@@ -13083,7 +13830,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshlmax-n-italic",
@@ -13101,7 +13849,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshlmin-n-italic",
@@ -13119,7 +13868,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtlcmax-n-italic",
@@ -13137,7 +13887,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtlcmin-n-italic",
@@ -13155,7 +13906,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yolcmax-n-italic",
@@ -13173,7 +13925,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yolcmin-n-italic",
@@ -13191,7 +13944,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshlmax-n-italic",
@@ -13209,7 +13963,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshlmin-n-italic",
@@ -13227,7 +13982,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytlcmax-n-italic",
@@ -13245,7 +14001,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytlcmin-n-italic",
@@ -13263,7 +14020,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytosmax-n-italic",
@@ -13281,7 +14039,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-n-italic",
@@ -13299,7 +14058,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-n-italic",
@@ -13317,7 +14077,8 @@
         "straight",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-n-italic",
@@ -13335,7 +14096,8 @@
         "straight",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xlcrmin-o-italic",
@@ -13352,7 +14114,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xlcrmax-o-italic",
@@ -13369,7 +14132,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xolcmax-o-italic",
@@ -13386,7 +14150,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xolcmin-o-italic",
@@ -13403,7 +14168,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xqlcmin-o-italic",
@@ -13420,7 +14186,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xqlcmax-o-italic",
@@ -13437,7 +14204,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTEQ"
     },
     {
       "id": "amstelvar-a2-xtlrmin-o-italic",
@@ -13454,7 +14222,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtlrmax-o-italic",
@@ -13471,7 +14240,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yolcmax-o-italic",
@@ -13488,7 +14258,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yolcmin-o-italic",
@@ -13505,7 +14276,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yqlcmax-o-italic",
@@ -13522,7 +14294,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-yqlcmin-o-italic",
@@ -13539,7 +14312,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTEQ"
     },
     {
       "id": "amstelvar-a2-ytlcmax-o-italic",
@@ -13556,7 +14330,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytlcmin-o-italic",
@@ -13573,7 +14348,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytosmax-o-italic",
@@ -13590,7 +14366,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-o-italic",
@@ -13607,7 +14384,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-o-italic",
@@ -13624,7 +14402,8 @@
         "control",
         "round"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-o-italic",
@@ -13641,7 +14420,8 @@
         "control",
         "round"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xlcsmin-r-italic",
@@ -13659,7 +14439,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xlcsmax-r-italic",
@@ -13677,7 +14458,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xolcmax-r-italic",
@@ -13695,7 +14477,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xolcmin-r-italic",
@@ -13713,7 +14496,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshlmax-r-italic",
@@ -13731,7 +14515,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshlmin-r-italic",
@@ -13749,7 +14534,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xsvlmax-r-italic",
@@ -13767,7 +14553,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xsvlmin-r-italic",
@@ -13785,7 +14572,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSVA"
     },
     {
       "id": "amstelvar-a2-xtlcmax-r-italic",
@@ -13803,7 +14591,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtlcmin-r-italic",
@@ -13821,7 +14610,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yolcmax-r-italic",
@@ -13839,7 +14629,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yolcmin-r-italic",
@@ -13857,7 +14648,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshlmax-r-italic",
@@ -13875,7 +14667,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshlmin-r-italic",
@@ -13893,7 +14686,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ysvlmin-r-italic",
@@ -13911,7 +14705,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-ysvlmax-r-italic",
@@ -13929,7 +14724,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSVA"
     },
     {
       "id": "amstelvar-a2-ytlcmax-r-italic",
@@ -13947,7 +14743,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytlcmin-r-italic",
@@ -13965,7 +14762,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytosmax-r-italic",
@@ -13983,7 +14781,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-r-italic",
@@ -14001,7 +14800,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-r-italic",
@@ -14019,7 +14819,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-r-italic",
@@ -14037,7 +14838,8 @@
         "straight",
         "mixed"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xlcdmin-v-italic",
@@ -14055,7 +14857,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xlcdmax-v-italic",
@@ -14073,7 +14876,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTSP"
     },
     {
       "id": "amstelvar-a2-xolcmax-v-italic",
@@ -14091,7 +14895,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xolcmin-v-italic",
@@ -14109,7 +14914,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XOPQ"
     },
     {
       "id": "amstelvar-a2-xshlmax-v-italic",
@@ -14127,7 +14933,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xshlmin-v-italic",
@@ -14145,7 +14952,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XSHA"
     },
     {
       "id": "amstelvar-a2-xtldmax-v-italic",
@@ -14163,7 +14971,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtldmin-v-italic",
@@ -14181,7 +14990,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xttwmax-v-italic",
@@ -14199,7 +15009,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xttwmin-v-italic",
@@ -14217,7 +15028,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yolcmax-v-italic",
@@ -14235,7 +15047,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yolcmin-v-italic",
@@ -14253,7 +15066,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YOPQ"
     },
     {
       "id": "amstelvar-a2-yshlmax-v-italic",
@@ -14271,7 +15085,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-yshlmin-v-italic",
@@ -14289,7 +15104,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YSHA"
     },
     {
       "id": "amstelvar-a2-ytlcmax-v-italic",
@@ -14307,7 +15123,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytlcmin-v-italic",
@@ -14325,7 +15142,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "YTRA"
     },
     {
       "id": "amstelvar-a2-ytosmax-v-italic",
@@ -14343,7 +15161,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-ytosmin-v-italic",
@@ -14361,7 +15180,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmin-v-italic",
@@ -14379,7 +15199,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yttlmax-v-italic",
@@ -14397,7 +15218,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-v-italic",
@@ -14415,7 +15237,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-v-italic",
@@ -14433,7 +15256,8 @@
         "straight",
         "diagonal"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-xolamax-acutecomb-italic",
@@ -14449,7 +15273,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xolamin-acutecomb-italic",
@@ -14465,7 +15290,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-xtlamin-acutecomb-italic",
@@ -14481,7 +15307,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-xtlamax-acutecomb-italic",
@@ -14497,7 +15324,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "XTRA"
     },
     {
       "id": "amstelvar-a2-yolamax-acutecomb-italic",
@@ -14513,7 +15341,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-yolamin-acutecomb-italic",
@@ -14529,7 +15358,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": null
     },
     {
       "id": "amstelvar-a2-gradmin-acutecomb-italic",
@@ -14545,7 +15375,8 @@
       "tags": [
         "control"
       ],
-      "instance": "min"
+      "instance": "min",
+      "canonical_axis": "GRAD"
     },
     {
       "id": "amstelvar-a2-gradmax-acutecomb-italic",
@@ -14561,7 +15392,8 @@
       "tags": [
         "control"
       ],
-      "instance": "max"
+      "instance": "max",
+      "canonical_axis": "GRAD"
     }
   ]
 }

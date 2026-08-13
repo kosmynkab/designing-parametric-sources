@@ -1,5 +1,5 @@
 const cards = [...document.querySelectorAll(".specimen-card")];
-const axisGroupFilter = document.querySelector("#axis-group-filter");
+const canonicalAxisFilter = document.querySelector("#canonical-axis-filter");
 const glyphGroupFilter = document.querySelector("#glyph-group-filter");
 const styleFilter = document.querySelector("#style-filter");
 const axisFilter = document.querySelector("#axis-filter");
@@ -10,37 +10,39 @@ const specimenGrid = document.querySelector(".specimen-grid");
 cards.sort((firstCard, secondCard) => {
   const firstGroup = groupOrder.indexOf(firstCard.dataset.group);
   const secondGroup = groupOrder.indexOf(secondCard.dataset.group);
+  const instanceOrder = {min: 0, max: 1,};
 
-  if (firstGroup !== secondGroup) {
-    return firstGroup - secondGroup;
-  }
+  if (firstGroup !== secondGroup) {return firstGroup - secondGroup;}
 
-  const glyphOrder = firstCard.dataset.glyph.localeCompare(
-    secondCard.dataset.glyph
+  const glyphOrder = firstCard.dataset.glyph.localeCompare(secondCard.dataset.glyph);
+
+  if (glyphOrder !== 0) {return glyphOrder;}
+  
+  const axisOrder = firstCard.dataset.axis.localeCompare(secondCard.dataset.axis);
+
+if (axisOrder !== 0) {return axisOrder;}
+
+return (
+  (instanceOrder[firstCard.dataset.instance] ?? 2) -
+  (instanceOrder[secondCard.dataset.instance] ?? 2)
   );
-
-  if (glyphOrder !== 0) {
-    return glyphOrder;
-  }
-
-  return firstCard.dataset.axis.localeCompare(secondCard.dataset.axis);
 });
 
 for (const card of cards) {
   specimenGrid.append(card);
 }
 
-const axisGroups = [...new Set(
-  cards.map(card => card.dataset.axisGroup)
+const canonicalAxes = [...new Set(
+  cards.map(card => card.dataset.canonicalAxis)
 )]
   .filter(Boolean)
   .sort();
 
-for (const axisGroup of axisGroups) {
+for (const canonicalAxis of canonicalAxes) {
   const option = document.createElement("option");
-  option.value = axisGroup;
-  option.textContent = axisGroup;
-  axisGroupFilter.append(option);
+  option.value = canonicalAxis;
+  option.textContent = canonicalAxis;
+  canonicalAxisFilter.append(option);
 }
 
 const glyphGroups = [...new Set(
@@ -69,29 +71,47 @@ for (const style of styles) {
   styleFilter.append(option);
 }
 
-const axes = [...new Set(
-  cards.map(card => card.dataset.axis)
-)]
-  .filter(Boolean)
-  .sort();
+function populateAxisFilter() {
+  const selectedCanonicalAxis = canonicalAxisFilter.value;
 
-for (const axis of axes) {
-  const option = document.createElement("option");
-  option.value = axis;
-  option.textContent = axis;
-  axisFilter.append(option);
+  const axes = [...new Set(
+    cards
+      .filter(card => (
+        !selectedCanonicalAxis ||
+        card.dataset.canonicalAxis === selectedCanonicalAxis
+      ))
+      .map(card => card.dataset.axis)
+  )]
+    .filter(Boolean)
+    .sort();
+
+  axisFilter.replaceChildren(
+    new Option("All design axes", "")
+  );
+
+  for (const axis of axes) {
+    axisFilter.append(
+      new Option(axis, axis)
+    );
+  }
+
+  if (!axes.includes(axisFilter.value)) {
+    axisFilter.value = "";
+  }
 }
 
+populateAxisFilter();
+
 function updateCards() {
-  const selectedAxisGroup = axisGroupFilter.value;
+  const selectedCanonicalAxis = canonicalAxisFilter.value;
   const selectedGlyphGroup = glyphGroupFilter.value;
   const selectedStyle = styleFilter.value;
   const selectedAxis = axisFilter.value;
 
   for (const card of cards) {
-    const matchesAxisGroup = (
-      !selectedAxisGroup ||
-      card.dataset.axisGroup === selectedAxisGroup
+    const matchesCanonicalAxis = (
+      !selectedCanonicalAxis ||
+      card.dataset.canonicalAxis === selectedCanonicalAxis
     );
 
     const matchesGlyphGroup = (
@@ -109,11 +129,15 @@ function updateCards() {
       card.dataset.axis === selectedAxis
     );
 
-    card.hidden = !(matchesAxisGroup && matchesGlyphGroup && matchesStyle && matchesAxis);
+    card.hidden = !(matchesCanonicalAxis && matchesGlyphGroup && matchesStyle && matchesAxis);
   }
 }
 
-axisGroupFilter.addEventListener("change", updateCards);
+canonicalAxisFilter.addEventListener("change", () => {
+  populateAxisFilter();
+  updateCards();
+});
+
 glyphGroupFilter.addEventListener("change", updateCards);
 styleFilter.addEventListener("change", updateCards);
 axisFilter.addEventListener("change", updateCards);

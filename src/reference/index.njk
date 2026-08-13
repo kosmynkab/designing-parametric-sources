@@ -15,6 +15,15 @@ title: Parametric Sources
 <section class="filters" aria-label="Filter specimens">
   
   <div class="filter-control">
+    <label for="canonical-axis-filter">Parent axis</label>
+
+    <select id="canonical-axis-filter">
+      <option value="">All parent axes</option>
+    </select>
+    
+  </div>  
+
+  <div class="filter-control">
     <label for="axis-filter">Design axis</label>
 
     <select id="axis-filter">
@@ -38,22 +47,15 @@ title: Parametric Sources
     </select>
   </div>
 
-  <div class="filter-control">
-    <label for="axis-group-filter">Parent axis</label>
-
-    <select id="axis-group-filter">
-      <option value="">All parent axes</option>
-    </select>
-  </div>  
-  
 </section>
 
 <section class="specimen-grid" aria-label="Specimen images">
   {% for specimen in specimens.specimens %}
     <article
       class="specimen-card"
-      data-axis-group="{{ specimen.axis_group }}"
+      data-canonical-axis="{{ specimen.canonical_axis or '' }}"
       data-axis="{{ specimen.axis }}"
+      data-instance="{{ specimen.instance or '' }}"
       data-style="{{ specimen.style }}"
       data-group="{{ specimen.group }}"
       data-glyph="{{ specimen.glyph }}"

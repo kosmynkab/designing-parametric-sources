@@ -1,0 +1,70 @@
+---
+layout: base.njk
+title: Parametric Sources
+---
+
+<header class="site-header">
+  <p class="eyebrow">Designing Parametric Sources</p>
+  <h1>Amstelvar proofing specimens</h1>
+  <p>
+    A first explorer for child design axes, their parent-axis groupings,
+    and representative glyphs.
+  </p>
+</header>
+
+<section class="filters" aria-label="Filter specimens">
+  
+  <div class="filter-control">
+    <label for="axis-filter">Design axis</label>
+
+    <select id="axis-filter">
+      <option value="">All design axes</option>
+    </select>
+  </div>
+
+  <div class="filter-control">
+    <label for="glyph-group-filter">Glyph group</label>
+
+    <select id="glyph-group-filter">
+      <option value="">All glyph groups</option>
+    </select>
+  </div>
+
+  <div class="filter-control">
+    <label for="style-filter">Style</label>
+
+    <select id="style-filter">
+      <option value="">Roman and Italic</option>
+    </select>
+  </div>
+
+  <div class="filter-control">
+    <label for="axis-group-filter">Parent axis</label>
+
+    <select id="axis-group-filter">
+      <option value="">All parent axes</option>
+    </select>
+  </div>  
+  
+</section>
+
+<section class="specimen-grid" aria-label="Specimen images">
+  {% for specimen in specimens.specimens %}
+    <article
+      class="specimen-card"
+      data-axis-group="{{ specimen.axis_group }}"
+      data-axis="{{ specimen.axis }}"
+      data-style="{{ specimen.style }}"
+      data-group="{{ specimen.group }}"
+      data-glyph="{{ specimen.glyph }}"
+      data-tags="{{ specimen.tags | join(' ') }}"
+    >
+      <img
+        src="{{ ("/" + specimen.image) | url }}"
+        alt="{{ specimen.glyph }} — {{ specimen.style }}, {{ specimen.axis }}"
+        loading="lazy"
+      >
+      <p>{{ specimen.glyph }} · {{ specimen.axis }}{{ specimen.instance }}</p>
+    </article>
+  {% endfor %}
+</section>

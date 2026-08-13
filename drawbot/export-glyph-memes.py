@@ -56,6 +56,13 @@ def split_source_name(sourceName):
         return sourceName, None
     return match.group(1), int(match.group(2))
 
+def project_id(familyName):
+    return re.sub(
+        r"(?<=[a-z])(?=[A-Z0-9])|(?<=[A-Z])(?=[A-Z][a-z])",
+        "-",
+        familyName,
+    ).lower()
+
 # Turn XOUC4/XOUC310 into XOUCmin/XOUCmax
 def source_label(sourceName, availableSourceNames):
 
@@ -82,15 +89,17 @@ def file_name(familyName, glyphName, sourceName, availableSourceNames):
         f"{source_label(sourceName, availableSourceNames)}.png"
     )
 
-def specimen_record(glyphName, styleName, sourceName, availableSourceNames, pngPath, glyphs, measurements):
+def specimen_record(glyphName, familyName, styleName, sourceName, availableSourceNames, pngPath, glyphs, measurements):
     sourceTag, _ = split_source_name(sourceName)
     sourceLabel = source_label(sourceName, availableSourceNames)
     glyphMetadata = glyphs.get(glyphName, {})
     axisMetadata = measurements.get(sourceTag, {})
     axisGroup = axisMetadata.get("parent") or sourceTag
+    projectId = project_id(familyName)
 
     record = {
-        "id": f"amstelvar-{sourceLabel.lower()}-{glyphName}-{styleName.lower()}",
+        "id": f"{projectId}-{sourceLabel.lower()}-{glyphName}-{styleName.lower()}",
+        "project": projectId,
         "glyph": glyphName,
         "axis": sourceTag,
         "axis_group": axisGroup,
@@ -155,7 +164,8 @@ def export_glyph(glyphName, designspacePath, familyName, styleName, glyphs, spec
         else:
             category = "other"
 
-    glyphFolder = os.path.join(outputFolder, category)
+    projectId = project_id(familyName)
+    glyphFolder = os.path.join(outputFolder, projectId, category)
     os.makedirs(glyphFolder, exist_ok=True)
 
     for sourceName, glyph in glyphsBySource.items():
@@ -175,6 +185,7 @@ def export_glyph(glyphName, designspacePath, familyName, styleName, glyphs, spec
         specimens.append(
             specimen_record(
                 glyphName,
+                familyName,
                 styleName,
                 sourceName,
                 availableSourceNames,

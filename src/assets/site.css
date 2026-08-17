@@ -72,9 +72,9 @@ h1 {
   margin: 0 0 1.35rem;
   font-size: clamp(2.25rem, 3.5vw, 3rem);
   font-weight: 600;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.01em;
   line-height: 1.1;
-  font-variation-settings: "wdth" 95, "wght" 600;
+  font-variation-settings: "wdth" 90, "wght" 600;
 }
 
 h2 {
@@ -283,8 +283,10 @@ h2 {
 }
 
 /* ==========================================================================
-   6. Reference-page filters
+   6. Reference-pages
    ========================================================================== */
+
+/* Filters */
 
 .filters {
   display: flex;
@@ -324,6 +326,103 @@ h2 {
 }
 
 
+/* Canonical-axis pages */
+
+.axis-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.35rem;
+  border-bottom: 1px solid #a9a9a4;
+}
+
+.axis-page {
+  display: block;
+}
+
+.axis-page > h2 {
+  margin: 0 0 0.6rem;
+}
+
+.axis-page > p {
+  margin: 0;
+}
+
+.axis-page .axis-principle {
+  padding: 1.5rem;
+  border: 1px solid #a9a9a4;
+  background: #e3e3e0;
+}
+
+.axis-page .axis-principle h2 {
+  margin-bottom: 0.75rem;
+}
+
+.project-axis-map-wrapper {
+  margin-top: 3rem;
+}
+
+.project-axis-map .eyebrow {
+  margin-bottom: 1rem;
+}
+
+.axis-button-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.axis-button {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.5rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #a9a9a4;
+  background: #dededb;
+  color: inherit;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.axis-button:hover {
+  background: #d2d2ce;
+}
+
+.axis-examples {
+  margin-top: 3rem;
+}
+
+.axis-examples .specimen-grid {
+  margin-top: 1rem;
+}
+
+.axis-page > h3 {
+  margin: 1.75rem 0 0.45rem;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  font-variation-settings: "wdth" 95, "wght" 600;
+}
+
+.axis-page > h3 + p {
+  margin-top: 0;
+}
+
+.axis-page > p + p {
+  margin-top: 1rem;
+}
+
+.axis-evidence {
+  margin-top: 3rem;
+}
+
+.axis-evidence h3 {
+  margin: 1.75rem 0 0.75rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  font-variation-settings: "wdth" 95, "wght" 600;
+}
+
 /* ==========================================================================
    7. Specimen grid and cards
    ========================================================================== */
@@ -359,8 +458,226 @@ h2 {
 
 
 /* ==========================================================================
-   8. Small-screen adjustments
+   8. Image dialog
    ========================================================================== */
+
+.specimen-zoom {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: zoom-in;
+}
+
+.specimen-zoom:focus-visible {
+  outline: 2px solid #1a1a1a;
+  outline-offset: -4px;
+}
+
+.image-dialog {
+  width: min(90vw, 72rem);
+  max-width: none;
+  max-height: 90vh;
+  padding: 0;
+  border: 1px solid #a9a9a4;
+  background: #ececea;
+  color: inherit;
+}
+
+.image-dialog::backdrop {
+  background: rgb(26 26 26 / 65%);
+}
+
+.image-dialog__content {
+  position: relative;
+  padding: 3.5rem 1rem 1rem;
+}
+
+.image-dialog__close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #a9a9a4;
+  background: #ececea;
+  color: inherit;
+  cursor: pointer;
+}
+
+.image-dialog__figure {
+  margin: 0;
+}
+
+.image-dialog__image {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: calc(90vh - 7rem);
+  margin: 0 auto;
+  background: white;
+}
+
+.image-dialog__caption {
+  padding-top: 0.75rem;
+  font-family: ui-monospace, monospace;
+  text-align: center;
+}
+
+/* ==========================================================================
+   9. Reference tree and page layout
+   ========================================================================== */
+
+.page-shell {
+  display: grid;
+  grid-template-columns: 13rem minmax(0, 1fr);
+  align-items: start;
+  gap: 2rem;
+}
+
+.page-content {
+  min-width: 0;
+}
+
+.reference-tree {
+  position: sticky;
+  top: 5.5rem;
+  align-self: start;
+  width: 100%;
+  max-height: calc(100vh - 6.5rem);
+  overflow-y: auto;
+  padding: 0 1.5rem 1rem 0;
+  border: 0;
+  border-right: 1px solid #a9a9a4;
+  background: transparent;
+  scrollbar-width: none;
+}
+
+.reference-tree::-webkit-scrollbar {
+  display: none;
+}
+
+.reference-tree > summary {
+  padding: 0 0 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.reference-tree nav {
+  padding: 0;
+}
+
+.site-tree__section {
+  margin-top: 0.9rem;
+}
+
+.site-tree__section > summary {
+  padding: 0.35rem 0;
+  font-size: 0.84rem;
+  font-weight: 500;
+  line-height: 1.25;
+  cursor: pointer;
+}
+
+.site-tree__section[open] > summary {
+  margin-bottom: 0.4rem;
+}
+
+.site-tree__list,
+.reference-tree__list,
+.reference-tree__project ul {
+  display: grid;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-tree__list {
+  padding-left: 0.75rem;
+}
+
+.reference-tree__section {
+  margin-top: 0.85rem;
+}
+
+.reference-tree__section > summary {
+  padding: 0.25rem 0;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.reference-tree__section[open] > summary {
+  margin-bottom: 0.5rem;
+}
+
+.reference-tree a {
+  color: inherit;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.reference-tree__list > li > a {
+  font-weight: 500;
+}
+
+.reference-tree a[aria-current="page"] {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+.reference-tree__project {
+  margin-top: 0.45rem;
+  margin-left: 0.25rem;
+  padding-left: 0.75rem;
+}
+
+.reference-tree__project > span {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.reference-tree__project ul {
+  margin-left: 0.25rem;
+}
+
+.reference-tree__specimens {
+  display: block;
+  margin-top: 1rem;
+  color: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+
+/* ==========================================================================
+   10. Responsive layout
+   ========================================================================== */
+
+@media (max-width: 900px) {
+  .page-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .reference-tree {
+    position: static;
+    max-height: none;
+    padding: 0 0 1rem;
+    border-right: 0;
+    border-bottom: 1px solid #a9a9a4;
+  }
+}
 
 @media (max-width: 700px) {
   main {
@@ -371,7 +688,19 @@ h2 {
     padding: 1rem 1.25rem;
   }
 
+  .axis-directory {
+    padding: 1.25rem;
+  }
+
+  .axis-directory ul,
   .specimen-grid {
     grid-template-columns: 1fr;
+  }
+
+  .axis-directory li:nth-child(odd),
+  .axis-directory li:nth-child(even) {
+    padding-right: 0;
+    padding-left: 0;
+    border-left: 0;
   }
 }

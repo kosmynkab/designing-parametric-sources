@@ -1,11 +1,25 @@
 {
   "schema_version": "0.1",
   "glyphs": {
+    "space": {
+      "unicode": "U+0020",
+      "group": "spaces",
+      "script": "common",
+      "tags": ["control", "space"],
+      "review": "provisional"
+    },
     "exclam": {
       "unicode": "U+0021",
       "group": "punctuation",
       "script": "common",
       "tags": ["control"],
+      "review": "provisional"
+    },
+    "dollar": {
+      "unicode": "U+0024",
+      "group": "symbols",
+      "script": "common",
+      "tags": ["control", "straight", "mixed"],
       "review": "provisional"
     },
     "ampersand": {
@@ -41,6 +55,13 @@
       "group": "figures",
       "script": "common",
       "tags": ["control", "straight", "diagonal"],
+      "review": "provisional"
+    },
+    "seven": {
+      "unicode": "U+0037",
+      "group": "figures",
+      "script": "common",
+      "tags": ["control", "straight", "vertical_serif"],
       "review": "provisional"
     },
     "at": {
@@ -141,6 +162,13 @@
       "tags": ["control", "straight", "diagonal"],
       "review": "provisional"
     },
+    "l": {
+      "unicode": "U+006C",
+      "group": "lowercase",
+      "script": "latin",
+      "tags": ["control", "straight", "single_stem", "ascender"],
+      "review": "provisional"
+    },
     "n": {
       "unicode": "U+006E",
       "group": "lowercase",
@@ -153,6 +181,13 @@
       "group": "lowercase",
       "script": "latin",
       "tags": ["control", "round"],
+      "review": "provisional"
+    },
+    "p": {
+      "unicode": "U+0070",
+      "group": "lowercase",
+      "script": "latin",
+      "tags": ["control", "straight", "round", "single_stem", "descender"],
       "review": "provisional"
     },
     "r": {
@@ -174,6 +209,13 @@
       "group": "parts",
       "script": "inherited",
       "tags": ["control"],
+      "review": "provisional"
+    },
+    "acutecomb.case": {
+      "unicode": "U+0301",
+      "group": "parts",
+      "script": "inherited",
+      "tags": ["control", "accent", "uppercase"],
       "review": "provisional"
     }
   }

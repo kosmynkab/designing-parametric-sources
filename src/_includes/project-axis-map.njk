@@ -1,0 +1,20 @@
+{% set axis = canonicalAxes.byId[axisId] %}
+{% set project = projectAxisMappings.byId[projectId] %}
+{% set designAxes = project.canonicalAxes[axis.tag] %}
+
+{% if designAxes and designAxes.length %}
+  <div class="intro-content project-axis-map-wrapper">
+    <section class="project-axis-map">
+      <p class="eyebrow">Project implementation</p>
+      <h2>{{ project.name }}</h2>
+
+      <div class="axis-button-list">
+        {% for designAxis in designAxes %}
+          <a class="axis-button" href="{{ ('/reference/design-axes/' ~ designAxis | lower ~ '/') | url }}">
+            <code>{{ designAxis }}</code>
+          </a>
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+{% endif %}

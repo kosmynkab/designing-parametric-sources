@@ -1,0 +1,30 @@
+{% if not specimenStyle %}
+  {% set specimenStyle = "roman" %}
+{% endif %}
+
+<div class="specimen-grid">
+  {% for specimen in specimens.specimens %}
+    {% if specimen.project == specimenProject
+      and specimen.axis == specimenAxis
+      and specimen.glyph == specimenGlyph
+      and specimen.style == specimenStyle %}
+
+      <figure class="specimen-card">
+        <button class="specimen-zoom" type="button">
+          <img
+            src="{{ ('/' + specimen.image) | url }}"
+            alt="{{ specimen.style | capitalize }} {{ specimen.glyph }} at {{ specimen.axis }} {{ specimen.instance }}"
+          >
+        </button>
+
+        <figcaption>
+          {{ specimen.glyph }} · {{ specimen.style | capitalize }} ·
+          <a href="{{ ('/reference/design-axes/' ~ specimen.axis | lower ~ '/') | url }}">
+            {{ specimen.axis }}
+          </a>
+          {{ specimen.instance }} · {{ specimen.source }}
+        </figcaption>
+      </figure>
+    {% endif %}
+  {% endfor %}
+</div>

@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/site.css' | url }}">
     <script src="{{ '/assets/filters.js' | url }}" defer></script>
+    <script src="{{ '/assets/image-dialog.js' | url }}" defer></script>
   </head>
   <body>
     <header class="site-nav">
@@ -19,13 +20,19 @@
       <nav aria-label="Primary navigation">
         <a href="{{ '/tutorials/' | url }}">Tutorials</a>
         <a href="{{ '/how-to/' | url }}">How-to</a>
-        <a href="{{ '/explanation/canonical-axes/' | url }}">Explanation</a>
+        <a href="{{ '/explanation/' | url }}">Explanation</a>
         <a href="{{ '/reference/specimens/' | url }}">Reference</a>
       </nav>
     </header>
 
-    <main>
+<main>
+  <div class="page-shell">
+    {% include "site-tree.njk" %}
+
+    <div class="page-content">
       {{ content | safe }}
-    </main>
+    </div>
+  </div>
+</main>
   </body>
 </html>

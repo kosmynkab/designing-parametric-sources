@@ -7,70 +7,73 @@ navigation:
   group: canonical-axes
   id: xopq
   label: XOPQ – Thick strokes
-  order: 20
+  order: 10
 permalink: /reference/axes/xopq/
 ---
 
-<header class="site-header">
-  <p class="eyebrow">Reference / Canonical axis</p>
-  <h1>XOPQ</h1>
-  <p>
-    A thick-stroke transformation. XOPQ changes the thickness of thick-stroke
-    components while preserving other aspects of the design where possible.
-  </p>
-</header>
+{% set axisId = "xopq" %}
+{% set projectId = "amstelvar-a2" %}
+{% set specimenProject = "amstelvar-a2" %}
 
-<div class="intro-content axis-page">
-  <section>
-    <h2>Current content source</h2>
-    <p>Amstelvar Avar2</p>
-  </section>
+{% include "canonical-axis-document.njk" %}
+{% include "project-axis-map.njk" %}
 
+<div class="intro-content axis-examples">
   <section>
-    <h2>Expected behaviour</h2>
+    <h2>Behaviour in Amstelvar Avar2</h2>
     <p>
-      Thick strokes become thinner or thicker while other aspects of the design
-      remain stable where possible.
+      Amstelvar Avar2 implements XOPQ through several construction-specific
+      design axes. These examples show the same broad transformation under
+      different structural conditions.
     </p>
   </section>
 
   <section>
-    <h2>Design axes</h2>
-    <ul>
-      <li><a href="/reference/design-axes/xouc/">XOUC</a> – Uppercase</li>
-      <li><a href="/reference/design-axes/xolc/">XOLC</a> – Lowercase</li>
-      <li><a href="/reference/design-axes/xofi/">XOFI</a> – Figures</li>
-      <li><a href="/reference/design-axes/xoet/">XOET</a> – Other forms</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Specimens</h2>
-    {% set axisId = "xopq" %}
-    {% include "axis-specimens.njk" %}
-  </section>
-
-  <section>
-    <h2>Dependencies and exceptions</h2>
+    <h2>Straight construction — H</h2>
     <p>
-      In single-stem glyphs, an XTRA adjustment may be needed to preserve the
-      intended proportion as XOPQ changes.
+      H is a useful control: thick strokes change while the
+      overall skeleton remains stable.
     </p>
+
+{% set specimenAxis = "XOUC" %}
+{% set specimenGlyph = "H" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Research notes</h2>
-    <ul>
-      <li>The italic V at XOPQ minimum may be too thick.</li>
-      <li>The italic E at XOPQ minimum may be too narrow.</li>
-    </ul>
+    <h2>Round construction — o</h2>
+    <p>
+      In o, the thick-stroke change is followed by the outside curvature.
+    </p>
+
+{% set specimenAxis = "XOLC" %}
+{% set specimenGlyph = "o" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Related axes</h2>
-    <ul>
-      <li><a href="/reference/axes/xtra/">XTRA</a> – Width</li>
-      <li><a href="/reference/axes/yopq/">YOPQ</a> – Thin strokes</li>
-    </ul>
+    <h2>Diagonal construction — V</h2>
+    <p>
+      V tests how XOPQ relates to the glyph’s changing width and diagonal
+      construction. Points in the middle of the stroke have diagonal delta adjustments (x+y transformation).
+    </p>
+
+{% set specimenAxis = "XOUC" %}
+{% set specimenGlyph = "V" %}
+{% set specimenStyle = "italic" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Multi-arm construction — E</h2>
+    <p>
+      E introduces a different constraint: one stem must remain in proportion
+      to several horizontal arms. That introduces <a href="{{ '/reference/axes/xtra/' | url }}">XTRA</a href> transformation.
+    </p>
+
+{% set specimenAxis = "XOUC" %}
+{% set specimenGlyph = "E" %}
+{% set specimenStyle = "roman" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
 </div>

@@ -1,0 +1,111 @@
+<details class="reference-tree site-tree" open>
+  <summary>Contents</summary>
+
+  <nav aria-label="Site navigation">
+    <details class="site-tree__section" open>
+      <summary>Tutorials</summary>
+
+      <ul class="site-tree__list">
+        {% for item in collections.siteNavigation %}
+          {% if item.data.navigation.section == "tutorials" %}
+            <li>
+              <a
+                href="{{ item.url | url }}"
+                {% if page.url == item.url %}aria-current="page"{% endif %}
+              >
+                {{ item.data.navigation.label }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </details>
+
+    <details class="site-tree__section" open>
+      <summary>How-to</summary>
+
+      <ul class="site-tree__list">
+        {% for item in collections.siteNavigation %}
+          {% if item.data.navigation.section == "how-to" %}
+            <li>
+              <a
+                href="{{ item.url | url }}"
+                {% if page.url == item.url %}aria-current="page"{% endif %}
+              >
+                {{ item.data.navigation.label }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </details>
+
+    <details class="site-tree__section" open>
+      <summary>Explanation</summary>
+
+      <ul class="site-tree__list">
+        {% for item in collections.siteNavigation %}
+          {% if item.data.navigation.section == "explanation"
+            and item.data.navigation.id != "explanation" %}
+            <li>
+              <a
+                href="{{ item.url | url }}"
+                {% if page.url == item.url %}aria-current="page"{% endif %}
+              >
+                {{ item.data.navigation.label }}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </details>
+
+    <details class="site-tree__section" open>
+      <summary>Reference</summary>
+
+      <details class="reference-tree__section" open>
+        <summary>Canonical axes</summary>
+
+        <ul class="reference-tree__list">
+          {% for axis in referenceTree.canonicalAxes %}
+            <li>
+              <a
+                href="{{ axis.url | url }}"
+                {% if page.url == axis.url %}aria-current="page"{% endif %}
+              >
+                {{ axis.tag }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </details>
+
+      <details class="reference-tree__section" open>
+        <summary>Design axes</summary>
+
+        {% for project in referenceTree.projects %}
+          <div class="reference-tree__project">
+            <span>{{ project.name }}</span>
+
+            <ul>
+              {% for designAxis in project.designAxes %}
+                <li>
+                  <a
+                    href="{{ designAxis.url | url }}"
+                    {% if page.url == designAxis.url %}aria-current="page"{% endif %}
+                  >
+                    {{ designAxis.tag }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        {% endfor %}
+      </details>
+
+      <a class="reference-tree__specimens" href="{{ '/reference/specimens/' | url }}">
+        Specimen browser
+      </a>
+    </details>
+  </nav>
+</details>

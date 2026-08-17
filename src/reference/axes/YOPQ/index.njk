@@ -1,55 +1,83 @@
 ---
 layout: base.njk
 title: YOPQ – Thin Strokes
+
 navigation:
   section: reference
   group: canonical-axes
   id: yopq
   label: YOPQ – Thin strokes
-  order: 40
+  order: 20
+
 permalink: /reference/axes/yopq/
 ---
 
-<header class="site-header">
-  <p class="eyebrow">Reference / Canonical axis</p>
-  <h1>YOPQ</h1>
-  <p>Thin-stroke transformation</p>
-</header>
+{% set axisId = "yopq" %}
+{% set projectId = "amstelvar-a2" %}
+{% set specimenProject = "amstelvar-a2" %}
 
-<div class="intro-content">
+{% include "canonical-axis-document.njk" %}
+{% include "project-axis-map.njk" %}
+
+<div class="intro-content axis-examples">
   <section>
-    <h2>Current content source</h2>
-    <p>Amstelvar Avar2</p>
+    <h2>Behaviour in Amstelvar Avar2</h2>
+    <p>
+      Amstelvar Avar2 implements YOPQ through several construction-specific
+      design axes. These examples show how thin-stroke change is handled in
+      different uppercase constructions.
+    </p>
   </section>
 
   <section>
-    <h2>Expected behaviour</h2>
-    <p>YOPQ controls the thickness of thin strokes while preserving the overall structure of the glyph.</p>
+    <h2>Straight construction — H</h2>
+    <p>
+      H is a useful control: the thin horizontal crossbar changes while the
+      vertical stems and serifs remain the same.
+    </p>
+
+    {% set specimenAxis = "YOUC" %}
+    {% set specimenGlyph = "H" %}
+    {% set specimenStyle = "roman" %}
+    {% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Design axes</h2>
-    <p>YOUC, YOLC, YOFI, YOET</p>
+    <h2>Round construction — o</h2>
+    <p>
+      In o, thin-stroke change is carried through the top and bottom of the
+      curve while preserving the outside curvature.
+    </p>
+
+    {% set specimenAxis = "YOLC" %}
+    {% set specimenGlyph = "o" %}
+    {% set specimenStyle = "roman" %}
+    {% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Specimens</h2>
-    {% set axisId = "yopq" %}
-    {% include "axis-specimens.njk" %}
+    <h2>Diagonal construction — V</h2>
+    <p>
+      V tests how the thin-stroke transformation is distributed along
+      diagonal construction and through the point where the diagonals meet.
+    </p>
+
+    {% set specimenAxis = "YOUC" %}
+    {% set specimenGlyph = "V" %}
+    {% set specimenStyle = "italic" %}
+    {% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Dependencies and exceptions</h2>
-    <p>Axis relationships and design-specific exceptions will be documented here.</p>
-  </section>
+    <h2>Multi-arm construction — E</h2>
+    <p>
+      E tests the changing relationship between the thin horizontal arms and
+      the vertical stem.
+    </p>
 
-  <section>
-    <h2>Research notes</h2>
-    <p>Open questions, measurements, and source-specific observations will be collected here.</p>
-  </section>
-
-  <section>
-    <h2>Related axes</h2>
-    <p><a href="{{ '/reference/axes/xopq/' | url }}">XOPQ</a> and <a href="{{ '/reference/axes/ytra/' | url }}">YTRA</a>.</p>
+    {% set specimenAxis = "YOUC" %}
+    {% set specimenGlyph = "E" %}
+    {% set specimenStyle = "roman" %}
+    {% include "project-axis-specimen-pair.njk" %}
   </section>
 </div>

@@ -11,6 +11,7 @@ Uppercase
 
 - only XOPQ changes
 - only x-direction deltas
+- control glyph `H`
 
 ##### XOPQ max
 
@@ -24,9 +25,11 @@ Uppercase
 
 ![](imgs/uc/AmstelvarA2-Italic_H_XOPQmin.png)
 
+
 ### Round glyphs
 
 - only x-direction deltas (?),
+- control glyph `O`
 
 > In AmstelvarA2 Italic, should we add some rotation with y-deltas? See [XTRA / Round glyphs](../XTRA/#round-glyphs).
 
@@ -45,6 +48,7 @@ Uppercase
 
 ### Diagonal glyphs
 
+- control glyph `V`
 - angle of slanted strokes does not change
 - xy-direction deltas allowed in slanted strokes
 - in AmstelvarA2, slanted measurements are aligned to stroke

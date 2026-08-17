@@ -1,0 +1,33 @@
+---
+layout: base.njk
+title: XOUC – Uppercase thick strokes
+
+navigation:
+  section: reference
+  group: design-axes
+  id: xouc
+  label: XOUC – Uppercase thick strokes
+  order: 10
+
+permalink: /reference/design-axes/xouc/
+---
+
+{% set projectId = "amstelvar-a2" %}
+{% set designAxisId = "xouc" %}
+
+{% include "project-design-axis-document.njk" %}
+
+{% set specimenProject = projectId %}
+{% set specimenAxis = designAxisId | upper %}
+{% set specimenGlyphs = ["H", "O", "V", "E"] %}
+
+<div class="intro-content axis-evidence">
+  <section>
+    <h2>Selected evidence</h2>
+
+    {% for specimenGlyph in specimenGlyphs %}
+      <h3>{{ specimenGlyph }}</h3>
+      {% include "project-axis-specimen-pair.njk" %}
+    {% endfor %}
+  </section>
+</div>

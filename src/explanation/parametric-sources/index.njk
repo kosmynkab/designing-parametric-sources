@@ -1,0 +1,134 @@
+---
+layout: base.njk
+title: Parametric Sources
+
+navigation:
+  section: explanation
+  id: parametric-sources
+  label: Parametric sources
+  order: 20
+---
+
+<header class="site-header">
+  <p class="eyebrow">Explanation</p>
+  <h1>Parametric sources</h1>
+  <p>
+    Parametric sources are ufo font files organised around specific typographic
+    transformations, rather than complete named styles.
+  </p>
+</header>
+
+<div class="intro-content">
+  <section>
+    <h2>Sources for specific transformations</h2>
+
+    <p>
+      In a conventional interpolation workflow, a master usually represents a
+      complete location in a design space: a particular combination of weight,
+      width, optical size, and other design decisions. (MyFont Condensed Bold Italic)
+    </p>
+
+    <p>
+      A parametric source also functions as a master, <em>extreme of the axis,</em> but its purpose is more
+      specific. It records how one defined transformation should be realised in
+      the glyphs. That transformation may concern a stroke, a proportion, an
+      alignment, a serif, or another part of the design.
+    </p>
+  </section>
+
+  <section>
+    <h2>From axis to source</h2>
+
+    <p>
+      A design axis defines what is intended to change. A parametric source
+      provides the design information needed to make that change: measurements,
+      glyph constructions, outline adjustments, and any related values required
+      to preserve the intended behaviour.
+    </p>
+
+    <p>
+      The source is therefore not simply an axis value. It is the evidence of a
+      design decision at that value.
+    </p>
+
+    <aside class="note">
+      <p class="note-label">In brief</p>
+      <p>
+        A design axis names a transformation. A parametric source shows how
+        that transformation is drawn.
+      </p>
+    </aside>
+  </section>
+
+  <section>
+    <h2>Expected behaviour</h2>
+
+    <p>
+      Each parametric source begins with an expectation: what should change,
+      and what should remain stable? This expectation provides a basis for
+      designing and evaluating the source.
+    </p>
+
+    <p>
+      For an <code>XOPQ</code> transformation, for example, the primary change
+      concerns the thickness of horizontal stroke components. In many glyphs,
+      other aspects of the design can remain stable. In others, related
+      adjustments may be needed to preserve proportion, continuity, or
+      readability.
+    </p>
+
+    <p>
+      <em>The documentation records both the intended rule and the cases in which
+      the rule needs qualification.</em>
+    </p>
+  </section>
+
+  <section>
+    <h2>Parameters are related, not isolated</h2>
+
+    <p>
+      Parametric design does not require every parameter to act in complete
+      isolation. Type design contains connected decisions, and an adjustment to
+      one part of a glyph may require a related adjustment elsewhere.
+    </p>
+
+    <p>
+      For example, in a single-stem glyph, an <code>XOPQ</code> adjustment may require a
+      corresponding <a href="/reference/parameters/xtra/">XTRA</a> adjustment
+      to maintain the intended overall proportion. In a round glyph, changes to stroke
+      or proportion may interact with controls for external curvature.
+    </p>
+
+    <p>
+      These relationships are not failures of the system. They are part of the
+      design logic that parametric sources make visible.
+    </p>
+  </section>
+
+  <section>
+    <h2>A coordinated source system</h2>
+
+    <p>
+      A typeface is not made from isolated sources. Its parametric sources form
+      a coordinated system across glyph groups, scripts, styles, and related
+      transformations.
+    </p>
+
+    <p>
+      This system makes it possible to inspect whether a design decision behaves
+      consistently across the character set, and to identify the places where
+      different forms need their own treatment.
+    </p>
+  </section>
+
+  <section>
+    <h2>Where to go next</h2>
+
+    <p>
+      Continue to <a href="/explanation/canonical-axes/">Canonical axes and
+      design axes</a> for the framework used to organise transformations. Then
+      explore a documented project to see how parametric sources are realised
+      in specific glyphs.
+    </p>
+  </section>
+</div>

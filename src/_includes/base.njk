@@ -11,6 +11,19 @@
     <script src="{{ '/assets/filters.js' | url }}" defer></script>
   </head>
   <body>
+    <header class="site-nav">
+      <a class="site-name" href="{{ '/' | url }}">
+        Designing Parametric Sources
+      </a>
+
+      <nav aria-label="Primary navigation">
+        <a href="{{ '/tutorials/' | url }}">Tutorials</a>
+        <a href="{{ '/how-to/' | url }}">How-to</a>
+        <a href="{{ '/explanation/canonical-axes/' | url }}">Explanation</a>
+        <a href="{{ '/reference/specimens/' | url }}">Reference</a>
+      </nav>
+    </header>
+
     <main>
       {{ content | safe }}
     </main>

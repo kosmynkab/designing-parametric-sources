@@ -1,47 +1,113 @@
 ---
 layout: base.njk
-title: Designing Parametric Sources
+title: Parametric source design
 ---
 
 <header class="site-header">
-  <p class="eyebrow">Designing Parametric Sources</p>
-  <h1>Parametric source design – documentation.</h1>
+  <p class="eyebrow">An open reference for understanding parametric font design</p>
+  <h1>Parametric source design</h1>
   <p>
-    This archive examines how shared typographic principles are divided into
-    project-specific design parameters, and how those parameters behave across
-    glyphs, scripts, and styles.
+    Variable fonts make it possible to interpolate between many design states.
+    Parametric source design asks a more specific question: which individual
+    transformations make up those states, and how can each one be controlled
+    clearly and consistently?
   </p>
 </header>
 
 <div class="intro-content">
- <section>
-  <h2>About</h2>
-  <p>
-    A parametric source is not simply a variation-axis value. It is a design
-    decision expressed through measurements, glyph constructions, and related
-    groups of forms. This documentation makes those relationships visible.
-  </p>
-</section>
+  <section>
+    <h2>Parameters, sources, and transformations</h2>
+    <p>
+      This documentation examines the design decisions behind parametric
+      sources. It is intended for type designers who are familiar with
+      interpolation and want to understand how a typeface can be organised
+      around a set of smaller, purposeful controls.
+    </p>
+    <p>
+      A parametric axis controls one limited transformation in a typeface. It
+      might change the thickness of a particular kind of stroke, the width of a
+      character, the position of an alignment, or the size of a serif.
+    </p>
+    <p>
+      A parametric source functions like a master for one of these
+      transformations. Rather than describing a complete named style, it
+      records how a specific part of the design should change. Together, the
+      sources form a system from which more familiar design states can be
+      constructed.
+    </p>
+  </section>
 
-<section>
-  <h2>Explore the documentation</h2>
+  <section>
+    <h2>From canonical axes to design axes</h2>
+    <p>
+      Canonical axes describe broad typographic dimensions such as horizontal
+      and vertical proportions, stroke thickness, spacing, and serif shape.
+      They provide a shared way to name the kinds of transformation that may be
+      present in a typeface.
+    </p>
+    <aside class="note">
+      <p class="note-label">Example</p>
+      <p>
+        A canonical vertical-proportion axis describes a broad typographic
+        dimension. In a particular typeface, however, uppercase, lowercase, and
+        figures may need to change independently. The project therefore divides
+        that broad dimension into separate parameters, each designed for the
+        behaviour of a specific group of glyphs.
+      </p>
+    </aside>
+  </section>
 
-  <nav aria-label="Documentation sections">
+  <section>
+    <h2>What this documentation records</h2>
+    <p>
+      This is an open research archive. It records the intended behaviour of
+      individual parameters and the evidence used to evaluate them.
+    </p>
     <ul>
-      <li><a href="/tutorials/">Tutorials</a> — learn the system through guided examples.</li>
-      <li><a href="/how-to/">How-to guides</a> — complete a specific task.</li>
-      <li><a href="/explanation/">Explanation</a> — understand the ideas behind parametric sources.</li>
-      <li><a href="/reference/">Reference</a> — inspect axes, projects, and proofing specimens.</li>
+      <li>The transformations each parameter is expected to control.</li>
+      <li>The glyph groups and constructions that reveal those transformations.</li>
+      <li>Related parameters that may need to change together.</li>
+      <li>Design-specific exceptions and unresolved questions.</li>
+      <li>Sources, measurements, mappings, and proof specimens.</li>
     </ul>
-  </nav>
-</section>
+    <p>
+      The documentation does not treat a parameter as a fixed recipe. It
+      provides a way to inspect the reasoning behind a system, compare
+      implementations, and identify where a rule holds, where it needs
+      refinement, and why.
+    </p>
+  </section>
 
-<section>
-  <h2>Current scope</h2>
-  <p>
-    The first documented project is Amstelvar. Its specimens provide a working
-    proof of concept for a larger, cross-project reference including Roboto
-    Delta and Computer Modern.
+  <section>
+    <h2>How to use this archive</h2>
+     <p>
+    This archive is organised using the Diátaxis documentation framework. It
+    separates four different kinds of help, so that learning a process,
+    completing a task, understanding an idea, and looking up specific
+    information do not become mixed together.
   </p>
-</section>
-</div>
+
+  <ul>
+    <li><strong>Tutorials</strong> provide guided learning through a complete example.</li>
+    <li><strong>How-to guides</strong> help with a specific practical task.</li>
+    <li><strong>Explanation</strong> examines the concepts and reasoning behind parametric sources.</li>
+    <li><strong>Reference</strong> provides factual material for close inspection, including parameters, source data, mappings, and proof specimens.</li>
+  </ul>
+
+  <p>
+    Begin with the explanation of canonical axes, design axes, and parametric
+    sources. Then follow a project or parameter into the reference material as
+    needed.
+  </p>
+  </section>
+
+  <section>
+    <h2>Current scope</h2>
+    <p>
+      The first documented project is Amstelvar Avar2. Roboto Delta follows as a second
+      project and point of comparison.
+    </p>
+    <p>
+      The archive will expand as further projects and findings become available.
+    </p>
+  </section>

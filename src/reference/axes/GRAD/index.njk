@@ -1,0 +1,31 @@
+---
+layout: base.njk
+title: GRAD – Grade
+navigation:
+  section: reference
+  group: canonical-axes
+  id: grad
+  label: GRAD – Grade
+  order: 50
+permalink: /reference/axes/grad/
+---
+
+<header class="site-header">
+  <p class="eyebrow">Reference / Canonical axis</p>
+  <h1>GRAD</h1>
+  <p>Grade transformation</p>
+</header>
+
+<div class="intro-content">
+  <section><h2>Current content source</h2><p>Amstelvar Avar2</p></section>
+  <section><h2>Expected behaviour</h2><p>GRAD makes strokes lighter or heavier without changing the intended width, proportions, or positioning of the glyph.</p></section>
+  <section><h2>Design axes</h2><p>GRAD</p></section>
+  <section>
+    <h2>Specimens</h2>
+    {% set axisId = "grad" %}
+    {% include "axis-specimens.njk" %}
+  </section>
+  <section><h2>Dependencies and exceptions</h2><p>Axis relationships and design-specific exceptions will be documented here.</p></section>
+  <section><h2>Research notes</h2><p>Open questions, measurements, and source-specific observations will be collected here.</p></section>
+  <section><h2>Related axes</h2><p><a href="{{ '/reference/axes/xopq/' | url }}">XOPQ</a> and <a href="{{ '/reference/axes/yopq/' | url }}">YOPQ</a>.</p></section>
+</div>

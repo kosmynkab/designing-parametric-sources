@@ -1,0 +1,31 @@
+---
+layout: base.njk
+title: YSVA – Vertical Serif Height
+navigation:
+  section: reference
+  group: canonical-axes
+  id: ysva
+  label: YSVA – Vertical serif height
+  order: 100
+permalink: /reference/axes/ysva/
+---
+
+<header class="site-header">
+  <p class="eyebrow">Reference / Canonical axis</p>
+  <h1>YSVA</h1>
+  <p>Vertical serif-height transformation</p>
+</header>
+
+<div class="intro-content">
+  <section><h2>Current content source</h2><p>Amstelvar Avar2</p></section>
+  <section><h2>Expected behaviour</h2><p>YSVA controls the vertical extent of vertical serifs.</p></section>
+  <section><h2>Design axes</h2><p>YSVU, YSVL, YSVF</p></section>
+  <section>
+    <h2>Specimens</h2>
+    {% set axisId = "ysva" %}
+    {% include "axis-specimens.njk" %}
+  </section>
+  <section><h2>Dependencies and exceptions</h2><p>Axis relationships and design-specific exceptions will be documented here.</p></section>
+  <section><h2>Research notes</h2><p>Open questions, measurements, and source-specific observations will be collected here.</p></section>
+  <section><h2>Related axes</h2><p><a href="{{ '/reference/axes/xsha/' | url }}">XSHA</a>, <a href="{{ '/reference/axes/ysha/' | url }}">YSHA</a>, and <a href="{{ '/reference/axes/xsva/' | url }}">XSVA</a>.</p></section>
+</div>

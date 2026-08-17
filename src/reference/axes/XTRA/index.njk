@@ -1,0 +1,55 @@
+---
+layout: base.njk
+title: XTRA – Width
+navigation:
+  section: reference
+  group: canonical-axes
+  id: xtra
+  label: XTRA – Width
+  order: 10
+permalink: /reference/axes/xtra/
+---
+
+<header class="site-header">
+  <p class="eyebrow">Reference / Canonical axis</p>
+  <h1>XTRA</h1>
+  <p>Width transformation</p>
+</header>
+
+<div class="intro-content">
+  <section>
+    <h2>Current content source</h2>
+    <p>Amstelvar Avar2</p>
+  </section>
+
+  <section>
+    <h2>Expected behaviour</h2>
+    <p>XTRA controls glyph width while preserving stroke thickness and other intended proportions.</p>
+  </section>
+
+  <section>
+    <h2>Design axes</h2>
+    <p>XTUC, XTUR, XTUD, XTUA, XTLC, XTLR, XTLD, XTLA, XTFI, XTET</p>
+  </section>
+
+  <section>
+    <h2>Specimens</h2>
+    {% set axisId = "xtra" %}
+    {% include "axis-specimens.njk" %}
+  </section>
+
+  <section>
+    <h2>Dependencies and exceptions</h2>
+    <p>Axis relationships and design-specific exceptions will be documented here.</p>
+  </section>
+
+  <section>
+    <h2>Research notes</h2>
+    <p>Open questions, measurements, and source-specific observations will be collected here.</p>
+  </section>
+
+  <section>
+    <h2>Related axes</h2>
+    <p><a href="{{ '/reference/axes/xopq/' | url }}">XOPQ</a> and <a href="{{ '/reference/axes/xtsp/' | url }}">XTSP</a>.</p>
+  </section>
+</div>

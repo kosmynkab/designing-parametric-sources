@@ -1,3 +1,7 @@
+/* ==========================================================================
+   1. Global foundations
+   ========================================================================== */
+
 :root {
   color-scheme: light;
   font-family: "Roboto", system-ui, sans-serif;
@@ -14,112 +18,143 @@ body {
   margin: 0;
 }
 
+
+/* ==========================================================================
+   2. Page layout
+   ========================================================================== */
+
 main {
   max-width: 1600px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 3.5rem 2rem 4rem;
 }
 
-.site-header {
-  max-width: 48rem;
-  margin: 0 auto 2rem;
+
+/* ==========================================================================
+   3. Site navigation
+   ========================================================================== */
+
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 4.5rem;
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid #a9a9a4;
+  background: #ececea;
 }
 
-.eyebrow {
-  margin: 0 0 0.5rem;
-  font-size: 0.8rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+.site-nav nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
+
+.site-nav a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.site-name {
+  font-weight: 600;
+}
+
+
+/* ==========================================================================
+   4. General typography
+   ========================================================================== */
 
 h1 {
-  margin: 00 0 0;
-  font-size: clamp(2rem, 5vw, 4.5rem);
-  font-weight: 500;
-  letter-spacing: -0.02rem;
-  line-height: 1;
-  font-variation-settings: "wdth" 90, "wght" 600;
+  margin: 0 0 1.35rem;
+  font-size: clamp(2.25rem, 3.5vw, 3rem);
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  font-variation-settings: "wdth" 95, "wght" 600;
 }
 
 h2 {
   margin: 0 0 0.75rem;
   font-size: clamp(1.5rem, 3vw, 2.75rem);
   font-weight: 500;
-  letter-spacing: 0rem;
+  letter-spacing: 0;
   line-height: 1;
   font-variation-settings: "wdth" 90, "wght" 500;
 }
 
+
+/* ==========================================================================
+   5. Landing page
+   ========================================================================== */
+
+.site-header {
+  max-width: 48rem;
+  margin: 0 auto 3.5rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .site-header p:last-child {
   max-width: 42rem;
-  line-height: 1.5;
-}
-
-.specimen-grid {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  @media (max-width: 700px) {
-    .specimen-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-}
-
-.specimen-card {
   margin: 0;
-  overflow: hidden;
-  background: white;
-  border: 1px solid #d5d5d1;
-}
-
-.specimen-card img {
-  display: block;
-  width: 100%;
-  height: auto;
-  background: white;
-}
-
-.specimen-card p {
-  margin: 0;
-  padding: 0.75rem;
-  border-top: 1px solid #d5d5d1;
-  font-family: ui-monospace, monospace;
-  font-size: 0.75rem;
+  line-height: 1.6;
 }
 
 .intro-content {
   display: grid;
   gap: 3rem;
   max-width: 48rem;
-  padding-top: 2rem;
   margin: 0 auto;
 }
 
 .intro-content section {
   border-top: 1px solid #a9a9a4;
-  padding-top: 0.75rem;
+  padding-top: 1.35rem;
 }
 
 .intro-content h2 {
-  margin: 0 0 0.75rem;
-  font-size: 1rem;
+  margin: 0 0 0.6rem;
+  font-size: 1.25rem;
   font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.15;
+  font-variation-settings: "wdth" 95, "wght" 600;
 }
 
 .intro-content p,
 .intro-content li {
   max-width: 42rem;
-  line-height: 1.5;
+  line-height: 1.6;
+}
+
+.intro-content p {
+  margin: 0;
+  text-wrap: pretty;
+  text-wrap: avoid-orphans;
+}
+
+.intro-content p + p,
+.intro-content p + ul,
+.intro-content ul + p {
+  margin-top: 0.8rem;
 }
 
 .intro-content ul {
   display: grid;
-  gap: 0.6rem;
+  gap: 0.45rem;
   margin: 0;
-  padding: 0;
-  list-style: none;
+  padding-left: 1.25rem;
+  list-style: disc;
 }
 
 .intro-content a {
@@ -129,17 +164,139 @@ h2 {
   text-underline-offset: 0.15em;
 }
 
+/* Highlighted notes and examples */
+
+.note {
+  max-width: 42rem;
+  margin-top: 1.25rem;
+  padding: 1rem 1.25rem;
+  border-left: 3px solid #a9a9a4;
+  background: #e3e3e0;
+}
+
+.note-label {
+  margin: 0 0 0.35rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.note p {
+  margin: 0;
+  line-height: 1.55;
+}
+
+.note p + p {
+  margin-top: 0.5rem;
+}
+
+/* ==========================================================================
+   Explanation pages
+   ========================================================================== */
+
+.axis-directory {
+  display: grid;
+  gap: 1.25rem;
+  max-width: 48rem;
+  margin: 0 auto 3.5rem;
+  padding: 1.5rem;
+  border: 1px solid #a9a9a4;
+  background: #e3e3e0;
+}
+
+.axis-directory .eyebrow {
+  margin: 0;
+}
+
+.axis-directory h2 {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  font-variation-settings: "wdth" 95, "wght" 600;
+}
+
+.axis-directory > p {
+  max-width: 42rem;
+  margin: 0;
+  line-height: 1.6;
+}
+
+.axis-directory ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #a9a9a4;
+  list-style: none;
+}
+
+.axis-directory li {
+  display: grid;
+  gap: 0.25rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #a9a9a4;
+}
+
+.axis-directory li:nth-child(odd) {
+  padding-right: 1rem;
+}
+
+.axis-directory li:nth-child(even) {
+  padding-left: 1rem;
+  border-left: 1px solid #a9a9a4;
+}
+
+.axis-directory a {
+  width: fit-content;
+  color: inherit;
+  font-weight: 600;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+.axis-directory code {
+  font-size: 0.9em;
+}
+
+.axis-directory li span {
+  line-height: 1.45;
+}
+
+@media (max-width: 700px) {
+  .axis-directory {
+    padding: 1.25rem;
+  }
+
+  .axis-directory ul {
+    grid-template-columns: 1fr;
+  }
+
+  .axis-directory li:nth-child(odd),
+  .axis-directory li:nth-child(even) {
+    padding-right: 0;
+    padding-left: 0;
+    border-left: 0;
+  }
+}
+
+/* ==========================================================================
+   6. Reference-page filters
+   ========================================================================== */
+
 .filters {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   align-items: end;
   justify-content: left;
+  gap: 1rem;
   max-width: 72rem;
   margin: 0 auto 2rem;
   padding: 1rem;
-  background: #dddcd8;
   border: 1px solid #a9a9a4;
+  background: #dddcd8;
 }
 
 .filter-control {
@@ -164,4 +321,57 @@ h2 {
   color: inherit;
   font: inherit;
   cursor: pointer;
+}
+
+
+/* ==========================================================================
+   7. Specimen grid and cards
+   ========================================================================== */
+
+.specimen-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.specimen-card {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid #d5d5d1;
+  background: white;
+}
+
+.specimen-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: white;
+}
+
+.specimen-card p,
+.specimen-card figcaption {
+  margin: 0;
+  padding: 0.75rem;
+  border-top: 1px solid #d5d5d1;
+  font-family: ui-monospace, monospace;
+  font-size: 0.75rem;
+}
+
+
+/* ==========================================================================
+   8. Small-screen adjustments
+   ========================================================================== */
+
+@media (max-width: 700px) {
+  main {
+    padding: 1.25rem;
+  }
+
+  .site-nav {
+    padding: 1rem 1.25rem;
+  }
+
+  .specimen-grid {
+    grid-template-columns: 1fr;
+  }
 }

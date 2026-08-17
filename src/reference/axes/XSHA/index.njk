@@ -1,0 +1,31 @@
+---
+layout: base.njk
+title: XSHA – Horizontal Serif Width
+navigation:
+  section: reference
+  group: canonical-axes
+  id: xsha
+  label: XSHA – Horizontal serif width
+  order: 70
+permalink: /reference/axes/xsha/
+---
+
+<header class="site-header">
+  <p class="eyebrow">Reference / Canonical axis</p>
+  <h1>XSHA</h1>
+  <p>Horizontal serif-width transformation</p>
+</header>
+
+<div class="intro-content">
+  <section><h2>Current content source</h2><p>Amstelvar Avar2</p></section>
+  <section><h2>Expected behaviour</h2><p>XSHA controls the horizontal extent of horizontal serifs.</p></section>
+  <section><h2>Design axes</h2><p>XSHU, XSHL, XSHF</p></section>
+  <section>
+    <h2>Specimens</h2>
+    {% set axisId = "xsha" %}
+    {% include "axis-specimens.njk" %}
+  </section>
+  <section><h2>Dependencies and exceptions</h2><p>Axis relationships and design-specific exceptions will be documented here.</p></section>
+  <section><h2>Research notes</h2><p>Open questions, measurements, and source-specific observations will be collected here.</p></section>
+  <section><h2>Related axes</h2><p><a href="{{ '/reference/axes/ysha/' | url }}">YSHA</a>, <a href="{{ '/reference/axes/xsva/' | url }}">XSVA</a>, and <a href="{{ '/reference/axes/ysva/' | url }}">YSVA</a>.</p></section>
+</div>

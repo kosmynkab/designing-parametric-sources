@@ -1,0 +1,14 @@
+{% for group in axisSpecimens[axisId].groups %}
+  <h3>{{ group.label }}</h3>
+  <div class="specimen-grid">
+    {% for specimen in group.specimens %}
+      <figure class="specimen-card">
+        <img
+          src="{{ '/' + specimen.image | url }}"
+          alt="{{ specimen.style | capitalize }} {{ specimen.glyph }} at {{ specimen.axis }} {{ specimen.instance }}"
+        >
+        <figcaption>{{ specimen.glyph }} · {{ specimen.style }} · {{ specimen.axis }} {{ specimen.instance }}</figcaption>
+      </figure>
+    {% endfor %}
+  </div>
+{% endfor %}

@@ -1,0 +1,76 @@
+---
+layout: base.njk
+title: XOPQ – Thick Strokes
+
+navigation:
+  section: reference
+  group: canonical-axes
+  id: xopq
+  label: XOPQ – Thick strokes
+  order: 20
+permalink: /reference/axes/xopq/
+---
+
+<header class="site-header">
+  <p class="eyebrow">Reference / Canonical axis</p>
+  <h1>XOPQ</h1>
+  <p>
+    A thick-stroke transformation. XOPQ changes the thickness of thick-stroke
+    components while preserving other aspects of the design where possible.
+  </p>
+</header>
+
+<div class="intro-content axis-page">
+  <section>
+    <h2>Current content source</h2>
+    <p>Amstelvar Avar2</p>
+  </section>
+
+  <section>
+    <h2>Expected behaviour</h2>
+    <p>
+      Thick strokes become thinner or thicker while other aspects of the design
+      remain stable where possible.
+    </p>
+  </section>
+
+  <section>
+    <h2>Design axes</h2>
+    <ul>
+      <li><a href="/reference/design-axes/xouc/">XOUC</a> – Uppercase</li>
+      <li><a href="/reference/design-axes/xolc/">XOLC</a> – Lowercase</li>
+      <li><a href="/reference/design-axes/xofi/">XOFI</a> – Figures</li>
+      <li><a href="/reference/design-axes/xoet/">XOET</a> – Other forms</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Specimens</h2>
+    {% set axisId = "xopq" %}
+    {% include "axis-specimens.njk" %}
+  </section>
+
+  <section>
+    <h2>Dependencies and exceptions</h2>
+    <p>
+      In single-stem glyphs, an XTRA adjustment may be needed to preserve the
+      intended proportion as XOPQ changes.
+    </p>
+  </section>
+
+  <section>
+    <h2>Research notes</h2>
+    <ul>
+      <li>The italic V at XOPQ minimum may be too thick.</li>
+      <li>The italic E at XOPQ minimum may be too narrow.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Related axes</h2>
+    <ul>
+      <li><a href="/reference/axes/xtra/">XTRA</a> – Width</li>
+      <li><a href="/reference/axes/yopq/">YOPQ</a> – Thin strokes</li>
+    </ul>
+  </section>
+</div>

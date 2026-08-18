@@ -535,22 +535,24 @@ h2 {
   gap: 2rem;
 }
 
-.page-content {
-  min-width: 0;
-}
-
 .reference-tree {
-  position: sticky;
-  top: 5.5rem;
-  align-self: start;
-  width: 100%;
-  max-height: calc(100vh - 6.5rem);
+  position: fixed;
+  top: 4.5rem;
+  bottom: 0;
+  left: 0;
+  width: 13rem;
+  max-height: none;
   overflow-y: auto;
-  padding: 0 1.5rem 1rem 0;
+  padding: 2rem 0.75rem 1rem 1.5rem;
   border: 0;
   border-right: 1px solid #a9a9a4;
   background: transparent;
   scrollbar-width: none;
+}
+
+.page-content {
+  grid-column: 2;
+  min-width: 0;
 }
 
 .reference-tree::-webkit-scrollbar {
@@ -670,6 +672,10 @@ h2 {
     grid-template-columns: 1fr;
   }
 
+  .page-content {
+    grid-column: auto;
+  }
+  
   .reference-tree {
     position: static;
     max-height: none;

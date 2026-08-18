@@ -1,27 +1,65 @@
 ---
 layout: base.njk
-title: YTEQ – Vertical Equalisation
+title: YTEQ – Vertical Round Counter Control
 navigation:
   section: reference
   group: canonical-axes
   id: yteq
-  label: YTEQ – Vertical equalisation
+  label: YTEQ – Vertical round counter control
   order: 120
 permalink: /reference/axes/yteq/
 ---
 
-<header class="site-header">
-  <p class="eyebrow">Reference / Canonical axis</p>
-  <h1>YTEQ</h1>
-  <p>Vertical equalisation transformation</p>
-</header>
+{% set axisId = "yteq" %}
+{% set projectId = "amstelvar-a2" %}
+{% set specimenProject = "amstelvar-a2" %}
 
-<div class="intro-content">
-  <section><h2>Current content source</h2><p>Amstelvar Avar2</p></section>
-  <section><h2>Expected behaviour</h2><p>Documentation for this transformation is in preparation.</p></section>
-  <section><h2>Design axes</h2><p>YQUC, YQLC, YQFI</p></section>
-  <section><h2>Specimens</h2><p>Specimens and glyph-group observations will be added when the research page is available.</p></section>
-  <section><h2>Dependencies and exceptions</h2><p>Axis relationships and design-specific exceptions will be documented here.</p></section>
-  <section><h2>Research notes</h2><p>Open questions, measurements, and source-specific observations will be collected here.</p></section>
-  <section><h2>Related axes</h2><p><a href="{{ '/reference/axes/xteq/' | url }}">XTEQ</a> and <a href="{{ '/reference/axes/ytra/' | url }}">YTRA</a>.</p></section>
+{% include "canonical-axis-document.njk" %}
+{% include "project-axis-map.njk" %}
+
+<div class="intro-content axis-examples">
+  <section>
+    <h2>Behaviour in Amstelvar Avar2</h2>
+    <p>
+      Amstelvar Avar2 implements YTEQ through separate vertical counter-shaping
+      axes for uppercase, lowercase, and figures. The transformation changes
+      the vertical balance of a round counter by adjusting the vertical curve
+      handles, without intentionally changing the rest of the glyph.
+    </p>
+  </section>
+
+  <section>
+    <h2>Uppercase round construction — O</h2>
+    <p>
+      O is the primary control glyph. YTEQ makes its internal counter more
+      pointed or more squared in the vertical direction while the outside form
+      and overall height remain stable.
+    </p>
+
+{% set specimenAxis = "YQUC" %}
+{% set specimenGlyph = "O" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Lowercase round construction — o</h2>
+    <p>
+      The lowercase counter is controlled separately.
+    </p>
+
+{% set specimenAxis = "YQLC" %}
+{% set specimenGlyph = "o" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Figure construction — zero</h2>
+    <p>
+      Figures use their own counter-shaping axis.
+    </p>
+
+{% set specimenAxis = "YQFI" %}
+{% set specimenGlyph = "zero" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
 </div>

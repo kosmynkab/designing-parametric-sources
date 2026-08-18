@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: YTRA – Height
+
 navigation:
   section: reference
   group: canonical-axes
@@ -10,46 +11,107 @@ navigation:
 permalink: /reference/axes/ytra/
 ---
 
-<header class="site-header">
-  <p class="eyebrow">Reference / Canonical axis</p>
-  <h1>YTRA</h1>
-  <p>Height transformation</p>
-</header>
+{% set axisId = "ytra" %}
+{% set projectId = "amstelvar-a2" %}
+{% set specimenProject = "amstelvar-a2" %}
 
-<div class="intro-content">
+{% include "canonical-axis-document.njk" %}
+{% include "project-axis-map.njk" %}
+
+<div class="intro-content axis-examples">
   <section>
-    <h2>Current content source</h2>
-    <p>Amstelvar Avar2</p>
+    <h2>Behaviour in Amstelvar Avar2</h2>
+    <p>
+      Amstelvar Avar2 implements YTRA through separate design axes for
+      uppercase letters, lowercase x-height, ascenders, descenders, and
+      figures. The transformation changes vertical proportion while preserving
+      each glyph’s horizontal construction as far as possible.
+    </p>
   </section>
 
   <section>
-    <h2>Expected behaviour</h2>
-    <p>YTRA controls vertical proportions while preserving the overall construction of the glyph.</p>
+    <h2>Straight construction — H</h2>
+    <p>
+      H is a useful control: its height changes through vertical adjustments
+      while the vertical stems, crossbar, and horizontal proportions remain
+      stable.
+    </p>
+
+{% set specimenAxis = "YTUC" %}
+{% set specimenGlyph = "H" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Design axes</h2>
-    <p>YTUC, YTLC, YTFI</p>
+    <h2>Round construction — O</h2>
+    <p>
+      O tests how a height change is carried through a round outline. Its
+      internal and external curves may need additional equalisation to retain
+      their intended relationship.
+    </p>
+
+{% set specimenAxis = "YTUC" %}
+{% set specimenGlyph = "O" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Specimens</h2>
-    {% set axisId = "ytra" %}
-    {% include "axis-specimens.njk" %}
+    <h2>Diagonal construction — V</h2>
+    <p>
+      V tests the change in height against diagonal strokes. Adjustments may
+      follow the direction of the stroke so that the diagonal construction and
+      its meeting point remain coherent.
+    </p>
+
+{% set specimenAxis = "YTUC" %}
+{% set specimenGlyph = "V" %}
+{% set specimenStyle = "italic" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Dependencies and exceptions</h2>
-    <p>Axis relationships and design-specific exceptions will be documented here.</p>
+    <h2>Lowercase construction — p</h2>
+    <p>
+      The lowercase x-height is controlled separately from the uppercase
+      height. In p, the vertical change is concentrated in the stem and bowl,
+      while its basic structure remains stable.
+    </p>
+
+{% set specimenAxis = "YTLC" %}
+{% set specimenGlyph = "p" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Research notes</h2>
-    <p>Open questions, measurements, and source-specific observations will be collected here.</p>
+    <h2>Lowercase construction — p-descender</h2>
+    <p>
+      The lowercase descender is controlled separately from the x-height.
+    </p>
+
+{% set specimenAxis = "YTDE" %}
+{% set specimenGlyph = "p" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+    <section>
+    <h2>Lowercase construction — l-ascender</h2>
+    <p>
+      The lowercase ascender is controlled separately from the x-height.
+    </p>
+
+{% set specimenAxis = "YTAS" %}
+{% set specimenGlyph = "l" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Related axes</h2>
-    <p><a href="{{ '/reference/axes/yopq/' | url }}">YOPQ</a> and <a href="{{ '/reference/axes/ytos/' | url }}">YTOS</a>.</p>
+    <h2>Figure construction — zero</h2>
+    <p>
+      Figures have their own vertical transformation.
+    </p>
+
+{% set specimenAxis = "YTFI" %}
+{% set specimenGlyph = "zero" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
 </div>

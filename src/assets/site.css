@@ -2,9 +2,20 @@
    1. Global foundations
    ========================================================================== */
 
+  
+@font-face {
+  font-family: "Roboto Delta";
+  src: url("/assets/fonts/Roboto-Delta-blended-parametric-VF.ttf")
+    format("truetype");
+  font-weight: 100 1000;
+  font-stretch: 25% 151%;
+  font-style: normal;
+}
+
 :root {
   color-scheme: light;
-  font-family: "Roboto", system-ui, sans-serif;
+  font-family: "Roboto Delta", system-ui, sans-serif;
+  font-optical-sizing: auto;
   font-variation-settings: "wdth" 100, "wght" 400;
   color: #1a1a1a;
   background: #ececea;

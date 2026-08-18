@@ -18,17 +18,17 @@ Each canonical axis has a Markdown source and a page template.
 | --- | --- | --- | --- |
 | [-] | XOPQ | `src/_data/canonical-axes/xopq.md` | `src/reference/axes/XOPQ/index.njk` |
 | [-] | YOPQ | `src/_data/canonical-axes/yopq.md` | `src/reference/axes/YOPQ/index.njk` |
-| [ ] | XTRA | `src/_data/canonical-axes/xtra.md` | `src/reference/axes/XTRA/index.njk` |
-| [ ] | YTRA | `src/_data/canonical-axes/ytra.md` | `src/reference/axes/YTRA/index.njk` |
-| [ ] | XTSP | `src/_data/canonical-axes/xtsp.md` | `src/reference/axes/XTSP/index.njk` |
-| [ ] | XSHA | `src/_data/canonical-axes/xsha.md` | `src/reference/axes/XSHA/index.njk` |
-| [ ] | YSHA | `src/_data/canonical-axes/ysha.md` | `src/reference/axes/YSHA/index.njk` |
-| [ ] | XSVA | `src/_data/canonical-axes/xsva.md` | `src/reference/axes/XSVA/index.njk` |
-| [ ] | YSVA | `src/_data/canonical-axes/ysva.md` | `src/reference/axes/YSVA/index.njk` |
-| [ ] | XTEQ | `src/_data/canonical-axes/xteq.md` | `src/reference/axes/XTEQ/index.njk` |
-| [ ] | YTEQ | `src/_data/canonical-axes/yteq.md` | `src/reference/axes/YTEQ/index.njk` |
-| [ ] | YTOS | `src/_data/canonical-axes/ytos.md` | `src/reference/axes/YTOS/index.njk` |
-| [ ] | GRAD | `src/_data/canonical-axes/grad.md` | `src/reference/axes/GRAD/index.njk` |
+| [-] | XTRA | `src/_data/canonical-axes/xtra.md` | `src/reference/axes/XTRA/index.njk` |
+| [-] | YTRA | `src/_data/canonical-axes/ytra.md` | `src/reference/axes/YTRA/index.njk` |
+| [-] | XTSP | `src/_data/canonical-axes/xtsp.md` | `src/reference/axes/XTSP/index.njk` |
+| [-] | XSHA | `src/_data/canonical-axes/xsha.md` | `src/reference/axes/XSHA/index.njk` |
+| [-] | YSHA | `src/_data/canonical-axes/ysha.md` | `src/reference/axes/YSHA/index.njk` |
+| [-] | XSVA | `src/_data/canonical-axes/xsva.md` | `src/reference/axes/XSVA/index.njk` |
+| [-] | YSVA | `src/_data/canonical-axes/ysva.md` | `src/reference/axes/YSVA/index.njk` |
+| [-] | XTEQ | `src/_data/canonical-axes/xteq.md` | `src/reference/axes/XTEQ/index.njk` |
+| [-] | YTEQ | `src/_data/canonical-axes/yteq.md` | `src/reference/axes/YTEQ/index.njk` |
+| [-] | YTOS | `src/_data/canonical-axes/ytos.md` | `src/reference/axes/YTOS/index.njk` |
+| [-] | GRAD | `src/_data/canonical-axes/grad.md` | `src/reference/axes/GRAD/index.njk` |
 
 ## Amstelvar Avar2 design-axis pages
 

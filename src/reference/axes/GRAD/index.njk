@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: GRAD – Grade
+
 navigation:
   section: reference
   group: canonical-axes
@@ -10,22 +11,58 @@ navigation:
 permalink: /reference/axes/grad/
 ---
 
-<header class="site-header">
-  <p class="eyebrow">Reference / Canonical axis</p>
-  <h1>GRAD</h1>
-  <p>Grade transformation</p>
-</header>
+{% set axisId = "grad" %}
+{% set projectId = "amstelvar-a2" %}
+{% set specimenProject = "amstelvar-a2" %}
 
-<div class="intro-content">
-  <section><h2>Current content source</h2><p>Amstelvar Avar2</p></section>
-  <section><h2>Expected behaviour</h2><p>GRAD makes strokes lighter or heavier without changing the intended width, proportions, or positioning of the glyph.</p></section>
-  <section><h2>Design axes</h2><p>GRAD</p></section>
+{% include "canonical-axis-document.njk" %}
+{% include "project-axis-map.njk" %}
+
+<div class="intro-content axis-examples">
   <section>
-    <h2>Specimens</h2>
-    {% set axisId = "grad" %}
-    {% include "axis-specimens.njk" %}
+    <h2>Behaviour in Amstelvar Avar2</h2>
+    <p>
+      Amstelvar Avar2 uses GRAD to alter overall stroke darkness while keeping
+      advance width, spacing, proportion, and glyph placement as stable as
+      possible. The result changes the colour of text without functioning as a
+      conventional weight transformation.
+    </p>
   </section>
-  <section><h2>Dependencies and exceptions</h2><p>Axis relationships and design-specific exceptions will be documented here.</p></section>
-  <section><h2>Research notes</h2><p>Open questions, measurements, and source-specific observations will be collected here.</p></section>
-  <section><h2>Related axes</h2><p><a href="{{ '/reference/axes/xopq/' | url }}">XOPQ</a> and <a href="{{ '/reference/axes/yopq/' | url }}">YOPQ</a>.</p></section>
-</div>
+
+  <section>
+    <h2>Straight construction — H</h2>
+    <p>
+      The stems and crossbar become lighter or darker
+      while the glyph’s width and underlying skeleton remain stable.
+    </p>
+
+{% set specimenAxis = "GRAD" %}
+{% set specimenGlyph = "H" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Round construction — O</h2>
+    <p>
+      Grade change follows a curved outline without
+      materially changing its width, counter, or overall proportion.
+    </p>
+
+{% set specimenAxis = "GRAD" %}
+{% set specimenGlyph = "O" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Diagonal construction — V</h2>
+    <p>
+      Grade changes in diagonal strokes and at the point where the
+      diagonals meet. The aim is to preserve the intended angle and extent of
+      the form while changing its darkness.
+    </p>
+
+{% set specimenAxis = "GRAD" %}
+{% set specimenGlyph = "V" %}
+{% set specimenStyle = "italic" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>

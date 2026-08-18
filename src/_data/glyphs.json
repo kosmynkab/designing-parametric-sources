@@ -85,6 +85,13 @@
       "tags": ["straight", "round"],
       "review": "provisional"
     },
+    "C": {
+      "unicode": "U+0043",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["round"],
+      "review": "provisional"
+    },
     "E": {
       "unicode": "U+0045",
       "group": "uppercase",

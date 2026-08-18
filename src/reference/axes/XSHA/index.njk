@@ -10,22 +10,74 @@ navigation:
 permalink: /reference/axes/xsha/
 ---
 
-<header class="site-header">
-  <p class="eyebrow">Reference / Canonical axis</p>
-  <h1>XSHA</h1>
-  <p>Horizontal serif-width transformation</p>
-</header>
+{% set axisId = "xsha" %}
+{% set projectId = "amstelvar-a2" %}
+{% set specimenProject = "amstelvar-a2" %}
 
-<div class="intro-content">
-  <section><h2>Current content source</h2><p>Amstelvar Avar2</p></section>
-  <section><h2>Expected behaviour</h2><p>XSHA controls the horizontal extent of horizontal serifs.</p></section>
-  <section><h2>Design axes</h2><p>XSHU, XSHL, XSHF</p></section>
+{% include "canonical-axis-document.njk" %}
+{% include "project-axis-map.njk" %}
+
+<div class="intro-content axis-examples">
   <section>
-    <h2>Specimens</h2>
-    {% set axisId = "xsha" %}
-    {% include "axis-specimens.njk" %}
+    <h2>Behaviour in Amstelvar Avar2</h2>
+    <p>
+      Amstelvar Avar2 implements XSHA through separate serif-width axes for
+      uppercase, lowercase, and figures. The transformation expands or
+      contracts horizontal serif projections while preserving their attachment
+      to the stem and their role in the overall construction.
+    </p>
   </section>
-  <section><h2>Dependencies and exceptions</h2><p>Axis relationships and design-specific exceptions will be documented here.</p></section>
-  <section><h2>Research notes</h2><p>Open questions, measurements, and source-specific observations will be collected here.</p></section>
-  <section><h2>Related axes</h2><p><a href="{{ '/reference/axes/ysha/' | url }}">YSHA</a>, <a href="{{ '/reference/axes/xsva/' | url }}">XSVA</a>, and <a href="{{ '/reference/axes/ysva/' | url }}">YSVA</a>.</p></section>
+
+  <section>
+    <h2>Straight construction — H</h2>
+    <p>
+      H is a useful control: the horizontal serifs change in width while the
+      stems, crossbar, and main proportions remain stable.
+    </p>
+
+{% set specimenAxis = "XSHU" %}
+{% set specimenGlyph = "H" %}
+{% set specimenStyle = "italic" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Diagonal construction — V</h2>
+    <p>
+      V tests serif-width change where the serifs meet diagonal strokes.
+      Adjustments must preserve the diagonal construction and the intended
+      relationship between serif and stroke.
+    </p>
+
+{% set specimenAxis = "XSHU" %}
+{% set specimenGlyph = "V" %}
+{% set specimenStyle = "italic" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Lowercase construction — n</h2>
+    <p>
+      In n, the horizontal serifs are adjusted separately from uppercase
+      forms. The serif transformation should retain continuity with the stem
+      and arch.
+    </p>
+
+{% set specimenAxis = "XSHL" %}
+{% set specimenGlyph = "n" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Figure construction — one</h2>
+    <p>
+      Figures have their own serif-width control. One tests how the serif
+      projection can change while retaining the figure’s intended structure
+      and spacing.
+    </p>
+
+{% set specimenAxis = "XSHF" %}
+{% set specimenGlyph = "one" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
 </div>

@@ -1,6 +1,7 @@
 ---
 layout: base.njk
 title: XTRA – Width
+
 navigation:
   section: reference
   group: canonical-axes
@@ -10,46 +11,54 @@ navigation:
 permalink: /reference/axes/xtra/
 ---
 
-<header class="site-header">
-  <p class="eyebrow">Reference / Canonical axis</p>
-  <h1>XTRA</h1>
-  <p>Width transformation</p>
-</header>
+{% set axisId = "xtra" %}
+{% set projectId = "amstelvar-a2" %}
+{% set specimenProject = "amstelvar-a2" %}
 
-<div class="intro-content">
+{% include "canonical-axis-document.njk" %}
+{% include "project-axis-map.njk" %}
+
+<div class="intro-content axis-examples">
   <section>
-    <h2>Current content source</h2>
-    <p>Amstelvar Avar2</p>
+    <h2>Behaviour in Amstelvar Avar2</h2>
+    <p>
+      Amstelvar Avar2 implements XTRA through several construction-specific
+      design axes – they are divided by category and by shape. Categories are:
+      uppercase, lowercase, accents, figures and etcetera (other).
+      Note that it is ok for the design to look unusual at the extremes.
+    </p>
   </section>
 
   <section>
-    <h2>Expected behaviour</h2>
-    <p>XTRA controls glyph width while preserving stroke thickness and other intended proportions.</p>
+    <h2>Straight construction — H</h2>
+    <p>
+      H – the counterspace is narrowed to roughly 1/5 of the original proportion.
+    </p>
+
+{% set specimenAxis = "XTUC" %}
+{% set specimenGlyph = "H" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Design axes</h2>
-    <p>XTUC, XTUR, XTUD, XTUA, XTLC, XTLR, XTLD, XTLA, XTFI, XTET</p>
+    <h2>Round construction — o</h2>
+    <p>
+      o – the inside counter is not reformed to look circular in the extremes.
+    </p>
+
+{% set specimenAxis = "XTLR" %}
+{% set specimenGlyph = "o" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
 
   <section>
-    <h2>Specimens</h2>
-    {% set axisId = "xtra" %}
-    {% include "axis-specimens.njk" %}
-  </section>
+    <h2>Diagonal construction — V</h2>
+    <p>
+      V – points in the middle of the stroke have diagonal delta adjustments (x+y transformation).
+    </p>
 
-  <section>
-    <h2>Dependencies and exceptions</h2>
-    <p>Axis relationships and design-specific exceptions will be documented here.</p>
+{% set specimenAxis = "XTUD" %}
+{% set specimenGlyph = "V" %}
+{% set specimenStyle = "italic" %}
+{% include "project-axis-specimen-pair.njk" %}
   </section>
-
-  <section>
-    <h2>Research notes</h2>
-    <p>Open questions, measurements, and source-specific observations will be collected here.</p>
-  </section>
-
-  <section>
-    <h2>Related axes</h2>
-    <p><a href="{{ '/reference/axes/xopq/' | url }}">XOPQ</a> and <a href="{{ '/reference/axes/xtsp/' | url }}">XTSP</a>.</p>
-  </section>
-</div>

@@ -46,7 +46,7 @@
       <ul class="site-tree__list">
         {% for item in collections.siteNavigation %}
           {% if item.data.navigation.section == "explanation"
-            and item.data.navigation.id != "explanation" %}
+          and item.data.navigation.id != "explanation" %}
             <li>
               <a
                 href="{{ item.url | url }}"
@@ -67,15 +67,18 @@
         <summary>Canonical axes</summary>
 
         <ul class="reference-tree__list">
-          {% for axis in referenceTree.canonicalAxes %}
-            <li>
-              <a
-                href="{{ axis.url | url }}"
-                {% if page.url == axis.url %}aria-current="page"{% endif %}
-              >
-                {{ axis.tag }}
-              </a>
-            </li>
+          {% for item in collections.siteNavigation %}
+            {% if item.data.navigation.section == "reference"
+            and item.data.navigation.group == "canonical-axes" %}
+              <li>
+                <a 
+                  href="{{ item.url | url }}"
+                  {% if page.url == item.url %}aria-current="page"{% endif %}
+                >
+                  {{ item.data.navigation.id | upper }}
+                </a>
+              </li>
+            {% endif %}
           {% endfor %}
         </ul>
       </details>

@@ -10,22 +10,72 @@ navigation:
 permalink: /reference/axes/ysva/
 ---
 
-<header class="site-header">
-  <p class="eyebrow">Reference / Canonical axis</p>
-  <h1>YSVA</h1>
-  <p>Vertical serif-height transformation</p>
-</header>
+{% set axisId = "ysva" %}
+{% set projectId = "amstelvar-a2" %}
+{% set specimenProject = "amstelvar-a2" %}
 
-<div class="intro-content">
-  <section><h2>Current content source</h2><p>Amstelvar Avar2</p></section>
-  <section><h2>Expected behaviour</h2><p>YSVA controls the vertical extent of vertical serifs.</p></section>
-  <section><h2>Design axes</h2><p>YSVU, YSVL, YSVF</p></section>
+{% include "canonical-axis-document.njk" %}
+{% include "project-axis-map.njk" %}
+
+<div class="intro-content axis-examples">
   <section>
-    <h2>Specimens</h2>
-    {% set axisId = "ysva" %}
-    {% include "axis-specimens.njk" %}
+    <h2>Behaviour in Amstelvar Avar2</h2>
+    <p>
+      Amstelvar Avar2 implements YSVA through separate axes for uppercase,
+      lowercase, and figures. The transformation changes the vertical extent
+      of vertical serifs while preserving their attachment, proportion, and
+      relationship to the vertical construction they complete.
+    </p>
   </section>
-  <section><h2>Dependencies and exceptions</h2><p>Axis relationships and design-specific exceptions will be documented here.</p></section>
-  <section><h2>Research notes</h2><p>Open questions, measurements, and source-specific observations will be collected here.</p></section>
-  <section><h2>Related axes</h2><p><a href="{{ '/reference/axes/xsha/' | url }}">XSHA</a>, <a href="{{ '/reference/axes/ysha/' | url }}">YSHA</a>, and <a href="{{ '/reference/axes/xsva/' | url }}">XSVA</a>.</p></section>
+
+  <section>
+    <h2>Straight construction — T</h2>
+    <p>
+      T is a useful control: the vertical serif becomes shallower or deeper
+      while its position on the vertical stem remains stable.
+    </p>
+
+{% set specimenAxis = "YSVU" %}
+{% set specimenGlyph = "T" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Round to serif construction — C</h2>
+    <p>
+      C tests behaves with a round construction glyph. 
+      The serif must retain a coherent relationship with the stem and
+      the rest of the glyph.
+    </p>
+
+{% set specimenAxis = "YSVU" %}
+{% set specimenGlyph = "C" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Lowercase construction — r</h2>
+    <p>
+      In r, the vertical serif changes in height independently of uppercase
+      forms. The adjustment should maintain continuity between the serif, the
+      stem, and the shoulder.
+    </p>
+
+{% set specimenAxis = "YSVL" %}
+{% set specimenGlyph = "r" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Figure construction — seven</h2>
+    <p>
+      Seven tests the vertical serif transformation in figures. The serif’s
+      depth changes while the figure’s overall construction and spacing remain
+      stable.
+    </p>
+
+{% set specimenAxis = "YSVF" %}
+{% set specimenGlyph = "seven" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
 </div>

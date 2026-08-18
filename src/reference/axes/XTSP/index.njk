@@ -1,31 +1,93 @@
 ---
 layout: base.njk
-title: XTSP – Sidebearings
+title: XTSP – Side spacing
+
 navigation:
   section: reference
   group: canonical-axes
   id: xtsp
-  label: XTSP – Sidebearings
+  label: XTSP – Side spacing
   order: 60
 permalink: /reference/axes/xtsp/
 ---
 
-<header class="site-header">
-  <p class="eyebrow">Reference / Canonical axis</p>
-  <h1>XTSP</h1>
-  <p>Sidebearing transformation</p>
-</header>
+{% set axisId = "xtsp" %}
+{% set projectId = "amstelvar-a2" %}
+{% set specimenProject = "amstelvar-a2" %}
 
-<div class="intro-content">
-  <section><h2>Current content source</h2><p>Amstelvar Avar2</p></section>
-  <section><h2>Expected behaviour</h2><p>XTSP controls sidebearings, making them tighter or looser while preserving the glyph drawing.</p></section>
-  <section><h2>Design axes</h2><p>XUCS, XUCD, XUCR, XLCS, XLCD, XLCR, XFIR, XETS</p></section>
+{% include "canonical-axis-document.njk" %}
+{% include "project-axis-map.njk" %}
+
+<div class="intro-content axis-examples">
   <section>
-    <h2>Specimens</h2>
-    {% set axisId = "xtsp" %}
-    {% include "axis-specimens.njk" %}
+    <h2>Behaviour in Amstelvar Avar2</h2>
+    <p>
+      Amstelvar Avar2 implements XTSP through construction-specific sidebearing
+      axes. The drawings remain substantially unchanged; the transformation
+      adjusts the space at either side so that each glyph retains an intended
+      relationship with neighbouring forms.
+    </p>
   </section>
-  <section><h2>Dependencies and exceptions</h2><p>Axis relationships and design-specific exceptions will be documented here.</p></section>
-  <section><h2>Research notes</h2><p>Open questions, measurements, and source-specific observations will be collected here.</p></section>
-  <section><h2>Related axes</h2><p><a href="{{ '/reference/axes/xtra/' | url }}">XTRA</a>.</p></section>
+
+  <section>
+    <h2>Straight construction — H</h2>
+    <p>
+      H is a useful control: its sidebearings become tighter or looser while
+      the stems and crossbar stay in place.
+    </p>
+
+{% set specimenAxis = "XUCS" %}
+{% set specimenGlyph = "H" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Round construction — O</h2>
+    <p>
+      O tests spacing around a curved outside contour. Its sidebearings are
+      controlled independently from those of straight-sided uppercase forms.
+    </p>
+
+{% set specimenAxis = "XUCR" %}
+{% set specimenGlyph = "O" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Diagonal construction — V</h2>
+    <p>
+      V tests how sidebearings relate to diagonals and their outward-sloping
+      contours. The spacing must account for the shape’s visual extent, not
+      only its advance width.
+    </p>
+
+{% set specimenAxis = "XUCD" %}
+{% set specimenGlyph = "V" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Lowercase construction — n</h2>
+    <p>
+      Lowercase straight-sided forms use their own sidebearing control. In n,
+      the transformation changes the surrounding space without altering the
+      stem-and-arch construction.
+    </p>
+
+{% set specimenAxis = "XLCS" %}
+{% set specimenGlyph = "n" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Figure construction — zero</h2>
+    <p>
+      Figures are spaced separately from letters. Zero tests the relationship
+      between a round figure, its sidebearings, and neighbouring numerals.
+    </p>
+
+{% set specimenAxis = "XFIR" %}
+{% set specimenGlyph = "zero" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
 </div>

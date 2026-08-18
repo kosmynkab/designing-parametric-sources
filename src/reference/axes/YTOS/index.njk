@@ -1,27 +1,108 @@
 ---
 layout: base.njk
-title: YTOS
+title: YTOS – Vertical Overshoot Control
 navigation:
   section: reference
   group: canonical-axes
   id: ytos
-  label: YTOS
+  label: YTOS – Vertical overshoot control
   order: 130
 permalink: /reference/axes/ytos/
 ---
 
-<header class="site-header">
-  <p class="eyebrow">Reference / Canonical axis</p>
-  <h1>YTOS</h1>
-  <p>Vertical transformation</p>
-</header>
+{% set axisId = "ytos" %}
+{% set projectId = "amstelvar-a2" %}
+{% set specimenProject = "amstelvar-a2" %}
 
-<div class="intro-content">
-  <section><h2>Current content source</h2><p>Amstelvar Avar2</p></section>
-  <section><h2>Expected behaviour</h2><p>Documentation for this transformation is in preparation.</p></section>
-  <section><h2>Design axes</h2><p>Design-axis relationships will be added with the research page.</p></section>
-  <section><h2>Specimens</h2><p>Specimens and glyph-group observations will be added when the research page is available.</p></section>
-  <section><h2>Dependencies and exceptions</h2><p>Axis relationships and design-specific exceptions will be documented here.</p></section>
-  <section><h2>Research notes</h2><p>Open questions, measurements, and source-specific observations will be collected here.</p></section>
-  <section><h2>Related axes</h2><p><a href="{{ '/reference/axes/ytra/' | url }}">YTRA</a>.</p></section>
+{% include "canonical-axis-document.njk" %}
+{% include "project-axis-map.njk" %}
+
+<div class="intro-content axis-examples">
+  <section>
+    <h2>Behaviour in Amstelvar Avar2</h2>
+    <p>
+      Amstelvar Avar2 uses YTOS to control vertical overshoot. The
+      transformation changes how far round and pointed forms extend
+      beyond their alignment zones while preserving their relationship to the
+      baseline, x-height, cap height, and other vertical measures.
+    </p>
+  </section>
+
+  <section>
+    <h2>Uppercase round construction — O</h2>
+    <p>
+      O is the primary round control. YTOS changes how far its top and bottom
+      extend beyond the cap-height and baseline alignment zones.
+    </p>
+
+{% set specimenAxis = "YTOS" %}
+{% set specimenGlyph = "O" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Uppercase pointed construction — V</h2>
+    <p>
+      V tests overshoot at a pointed vertex. The transformation changes the
+      point’s vertical extension while retaining the intended diagonal
+      construction.
+    </p>
+
+{% set specimenAxis = "YTOS" %}
+{% set specimenGlyph = "V" %}
+{% set specimenStyle = "italic" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Lowercase round construction — o</h2>
+    <p>
+      In o, YTOS controls the overshoot beyond the x-height and baseline. The
+      round outline changes vertically while its intended counter and width
+      remain stable.
+    </p>
+
+{% set specimenAxis = "YTOS" %}
+{% set specimenGlyph = "o" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Lowercase pointed construction — v</h2>
+    <p>
+      v tests overshoot at a lowercase pointed form. The vertex may extend
+      beyond its alignment zone without changing the intended angle or overall
+      construction of the diagonals.
+    </p>
+
+{% set specimenAxis = "YTOS" %}
+{% set specimenGlyph = "v" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Round figure — zero</h2>
+    <p>
+      Zero tests overshoot in figures. Its round top and bottom extend beyond
+      the figure-height alignment zones while its spacing and counter remain
+      coordinated.
+    </p>
+
+{% set specimenAxis = "YTOS" %}
+{% set specimenGlyph = "zero" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Pointed figure — four</h2>
+    <p>
+      Four tests how overshoot is handled in a figure with pointed or diagonal
+      structure. The adjustment keeps the form aligned optically with the
+      other figures.
+    </p>
+
+{% set specimenAxis = "YTOS" %}
+{% set specimenGlyph = "four" %}
+{% include "project-axis-specimen-pair.njk" %}
+  </section>
 </div>

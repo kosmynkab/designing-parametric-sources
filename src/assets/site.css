@@ -570,13 +570,6 @@ h2 {
   display: none;
 }
 
-.reference-tree > summary {
-  padding: 0 0 1rem;
-  font-size: 0.9rem;
-  font-weight: 600;
-  cursor: pointer;
-}
-
 .reference-tree nav {
   padding: 0;
 }

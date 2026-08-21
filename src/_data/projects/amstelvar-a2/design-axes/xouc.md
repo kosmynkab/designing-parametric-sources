@@ -2,7 +2,7 @@
 id: xouc
 tag: XOUC
 project: amstelvar-a2
-canonicalAxis: xopq
+parentAxis: xopq
 scope: Uppercase
 summary: Controls the weight of thick strokes of uppercase glyphs.
 ---
@@ -35,5 +35,5 @@ fuller uppercase evidence set, controls, and research notes for XOUC.
 
 ### Relationship to XOPQ
 
-XOUC is Amstelvar Avar2’s uppercase implementation of the canonical
+XOUC is Amstelvar Avar2’s uppercase implementation of the parent
 [XOPQ](/reference/axes/xopq/) thick-stroke transformation.

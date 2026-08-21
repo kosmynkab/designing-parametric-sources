@@ -22,9 +22,9 @@ navigation:
 <section class="filters" aria-label="Filter specimens">
   
   <div class="filter-control">
-    <label for="canonical-axis-filter">Parent axis</label>
+    <label for="parent-axis-filter">Parent axis</label>
 
-    <select id="canonical-axis-filter">
+    <select id="parent-axis-filter">
       <option value="">All parent axes</option>
     </select>
     
@@ -60,7 +60,7 @@ navigation:
   {% for specimen in specimens.specimens %}
     <article
       class="specimen-card"
-      data-canonical-axis="{{ specimen.canonical_axis or '' }}"
+      data-parent-axis="{{ specimen.parent_axis or '' }}"
       data-axis="{{ specimen.axis }}"
       data-instance="{{ specimen.instance or '' }}"
       data-style="{{ specimen.style }}"

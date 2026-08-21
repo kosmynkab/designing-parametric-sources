@@ -1,8 +1,8 @@
-import canonicalAxes from "./canonicalAxes.js";
+import parentAxes from "./parentAxes.js";
 import projectAxisMappings from "./projectAxisMappings.js";
 import projectDesignAxes from "./projectDesignAxes.js";
 
-function canonicalAxisUrl(axis) {
+function parentAxisUrl(axis) {
   return `/reference/axes/${axis.id}/`;
 }
 
@@ -14,9 +14,9 @@ export default function referenceTree() {
   const designAxes = projectDesignAxes();
 
   return {
-    canonicalAxes: canonicalAxes.all.map((axis) => ({
+    parentAxes: parentAxes.all.map((axis) => ({
       ...axis,
-      url: canonicalAxisUrl(axis)
+      url: parentAxisUrl(axis)
     })),
 
     projects: Object.values(projectAxisMappings.byId)

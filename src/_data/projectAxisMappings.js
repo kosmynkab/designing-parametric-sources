@@ -6,7 +6,7 @@ const projectNames = {
 
 const source = JSON.parse(
   fs.readFileSync(
-    new URL("./canonical-axes.json", import.meta.url),
+    new URL("./parent-axes.json", import.meta.url),
     "utf8"
   )
 );
@@ -17,7 +17,7 @@ const byId = Object.fromEntries(
     {
       id: projectId,
       name: projectNames[projectId] || projectId,
-      canonicalAxes: project.canonical_axes
+      parentAxes: project.parent_axes
     }
   ])
 );

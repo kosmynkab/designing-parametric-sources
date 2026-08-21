@@ -26,7 +26,7 @@ const specimens = JSON.parse(
   fs.readFileSync(new URL("./specimens.json", import.meta.url), "utf8")
 ).specimens;
 
-function selectedSpecimens(researchFile, canonicalAxis) {
+function selectedSpecimens(researchFile, parentAxis) {
   const markdown = fs.readFileSync(
     new URL(`../../${researchFile}`, import.meta.url),
     "utf8"
@@ -42,7 +42,7 @@ function selectedSpecimens(researchFile, canonicalAxis) {
     const [, style, glyph, instance] = reference;
     const specimen = specimens.find(
       (item) =>
-        item.canonical_axis === canonicalAxis &&
+        item.parent_axis === parentAxis &&
         item.style === style.toLowerCase() &&
         item.glyph === glyph &&
         item.instance === instance
@@ -68,8 +68,8 @@ function selectedSpecimens(researchFile, canonicalAxis) {
 }
 
 export default Object.fromEntries(
-  Object.entries(researchFiles).map(([id, [file, canonicalAxis]]) => [
+  Object.entries(researchFiles).map(([id, [file, parentAxis]]) => [
     id,
-    selectedSpecimens(file, canonicalAxis)
+    selectedSpecimens(file, parentAxis)
   ])
 );

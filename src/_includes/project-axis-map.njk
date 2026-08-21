@@ -1,6 +1,6 @@
-{% set axis = canonicalAxes.byId[axisId] %}
+{% set axis = parentAxes.byId[axisId] %}
 {% set project = projectAxisMappings.byId[projectId] %}
-{% set designAxes = project.canonicalAxes[axis.tag] %}
+{% set designAxes = project.parentAxes[axis.tag] %}
 
 {% if designAxes and designAxes.length %}
   <div class="intro-content project-axis-map-wrapper">

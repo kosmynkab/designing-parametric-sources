@@ -1,5 +1,5 @@
 const cards = [...document.querySelectorAll(".specimen-card")];
-const canonicalAxisFilter = document.querySelector("#canonical-axis-filter");
+const parentAxisFilter = document.querySelector("#parent-axis-filter");
 const glyphGroupFilter = document.querySelector("#glyph-group-filter");
 const styleFilter = document.querySelector("#style-filter");
 const axisFilter = document.querySelector("#axis-filter");
@@ -32,17 +32,17 @@ for (const card of cards) {
   specimenGrid.append(card);
 }
 
-const canonicalAxes = [...new Set(
-  cards.map(card => card.dataset.canonicalAxis)
+const parentAxes = [...new Set(
+  cards.map(card => card.dataset.parentAxis)
 )]
   .filter(Boolean)
   .sort();
 
-for (const canonicalAxis of canonicalAxes) {
+for (const parentAxis of parentAxes) {
   const option = document.createElement("option");
-  option.value = canonicalAxis;
-  option.textContent = canonicalAxis;
-  canonicalAxisFilter.append(option);
+  option.value = parentAxis;
+  option.textContent = parentAxis;
+  parentAxisFilter.append(option);
 }
 
 const glyphGroups = [...new Set(
@@ -72,13 +72,13 @@ for (const style of styles) {
 }
 
 function populateAxisFilter() {
-  const selectedCanonicalAxis = canonicalAxisFilter.value;
+  const selectedParentAxis = parentAxisFilter.value;
 
   const axes = [...new Set(
     cards
       .filter(card => (
-        !selectedCanonicalAxis ||
-        card.dataset.canonicalAxis === selectedCanonicalAxis
+        !selectedParentAxis ||
+        card.dataset.parentAxis === selectedParentAxis
       ))
       .map(card => card.dataset.axis)
   )]
@@ -103,15 +103,15 @@ function populateAxisFilter() {
 populateAxisFilter();
 
 function updateCards() {
-  const selectedCanonicalAxis = canonicalAxisFilter.value;
+  const selectedParentAxis = parentAxisFilter.value;
   const selectedGlyphGroup = glyphGroupFilter.value;
   const selectedStyle = styleFilter.value;
   const selectedAxis = axisFilter.value;
 
   for (const card of cards) {
-    const matchesCanonicalAxis = (
-      !selectedCanonicalAxis ||
-      card.dataset.canonicalAxis === selectedCanonicalAxis
+    const matchesParentAxis = (
+      !selectedParentAxis ||
+      card.dataset.parentAxis === selectedParentAxis
     );
 
     const matchesGlyphGroup = (
@@ -129,11 +129,11 @@ function updateCards() {
       card.dataset.axis === selectedAxis
     );
 
-    card.hidden = !(matchesCanonicalAxis && matchesGlyphGroup && matchesStyle && matchesAxis);
+    card.hidden = !(matchesParentAxis && matchesGlyphGroup && matchesStyle && matchesAxis);
   }
 }
 
-canonicalAxisFilter.addEventListener("change", () => {
+parentAxisFilter.addEventListener("change", () => {
   populateAxisFilter();
   updateCards();
 });

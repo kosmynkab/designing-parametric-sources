@@ -64,12 +64,12 @@
       <summary>Reference</summary>
 
       <details class="reference-tree__section" open>
-        <summary>Canonical axes</summary>
+        <summary>Parent axes</summary>
 
         <ul class="reference-tree__list">
           {% for item in collections.siteNavigation %}
             {% if item.data.navigation.section == "reference"
-            and item.data.navigation.group == "canonical-axes" %}
+            and item.data.navigation.group == "parent-axes" %}
               <li>
                 <a 
                   href="{{ item.url | url }}"

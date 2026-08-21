@@ -4,10 +4,10 @@ import { fileURLToPath } from "node:url";
 import { parseMarkdownDocument } from "../_includes/lib/markdown-document.js";
 
 const dataDirectory = path.dirname(fileURLToPath(import.meta.url));
-const canonicalAxesDirectory = path.join(dataDirectory, "canonical-axes");
+const parentAxesDirectory = path.join(dataDirectory, "parent-axes");
 
-function readCanonicalAxis(fileName) {
-  const filePath = path.join(canonicalAxesDirectory, fileName);
+function readParentAxis(fileName) {
+  const filePath = path.join(parentAxesDirectory, fileName);
   const source = fs.readFileSync(filePath, "utf8");
   const axis = parseMarkdownDocument(source, filePath);
   const fileId = path.basename(fileName, ".md");
@@ -31,10 +31,10 @@ function readCanonicalAxis(fileName) {
 }
 
 const all = fs
-  .readdirSync(canonicalAxesDirectory)
+  .readdirSync(parentAxesDirectory)
   .filter((fileName) => fileName.endsWith(".md"))
   .sort()
-  .map(readCanonicalAxis)
+  .map(readParentAxis)
   .sort((first, second) => first.tag.localeCompare(second.tag));
 
 const byId = Object.fromEntries(

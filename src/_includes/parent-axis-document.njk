@@ -1,7 +1,7 @@
-{% set axis = canonicalAxes.byId[axisId] %}
+{% set axis = parentAxes.byId[axisId] %}
 
 <header class="site-header axis-header">
-  <p class="eyebrow">Reference / Canonical axis</p>
+  <p class="eyebrow">Reference / Parent axis</p>
   <h1>{{ axis.tag }}</h1>
   <p>{{ axis.summary }}</p>
 </header>

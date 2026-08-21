@@ -2,7 +2,7 @@
   "schema_version": "0.1",
   "projects": {
     "amstelvar-a2": {
-      "canonical_axes": {
+      "parent_axes": {
         "GRAD": ["GRAD"],
 
         "XOPQ": ["XOUC", "XOLC", "XOFI", "XOET", "XOUA", "XOLA"],

@@ -17,7 +17,7 @@ outputFolder = os.path.join(baseFolder, "src", "imgs")
 dataFolder = os.path.join(baseFolder, "src", "_data")
 glyphsPath = os.path.join(dataFolder, "glyphs.json")
 specimensPath = os.path.join(dataFolder, "specimens.json")
-canonicalAxesPath = os.path.join(dataFolder, "canonical-axes.json")
+parentAxesPath = os.path.join(dataFolder, "parent-axes.json")
 
 scriptFolder = os.path.dirname(os.path.abspath(__file__))
 localSettingsPath = os.path.join(scriptFolder, "local-settings.json")
@@ -42,8 +42,8 @@ includeGRAD = True
 with open(glyphsPath, "r", encoding="utf-8") as f:
     glyphs = json.load(f)["glyphs"]
 
-with open(canonicalAxesPath, "r", encoding="utf-8") as file:
-    canonicalAxes = json.load(file)
+with open(parentAxesPath, "r", encoding="utf-8") as file:
+    parentAxes = json.load(file)
 
 glyphNames = list(glyphs)
 
@@ -86,16 +86,16 @@ def source_label(sourceName, availableSourceNames):
             return f"{axisName}max"
     return sourceName
 
-def canonical_axis_lookup(canonicalAxes, projectId):
-    canonicalAxesByProject = (
-        canonicalAxes["projects"]
+def parent_axis_lookup(parentAxes, projectId):
+    parentAxesByProject = (
+        parentAxes["projects"]
         .get(projectId, {})
-        .get("canonical_axes", {})
+        .get("parent_axes", {})
     )
 
     return {
-        designAxis: canonicalAxis
-        for canonicalAxis, designAxes in canonicalAxesByProject.items()
+        designAxis: parentAxis
+        for parentAxis, designAxes in parentAxesByProject.items()
         for designAxis in designAxes
     }
 
@@ -105,7 +105,7 @@ def file_name(familyName, glyphName, sourceName, availableSourceNames):
         f"{source_label(sourceName, availableSourceNames)}.png"
     )
 
-def specimen_record(glyphName, familyName, styleName, sourceName, availableSourceNames, pngPath, glyphs, measurements, canonicalAxisLookup):
+def specimen_record(glyphName, familyName, styleName, sourceName, availableSourceNames, pngPath, glyphs, measurements, parentAxisLookup):
     sourceTag, _ = split_source_name(sourceName)
     sourceLabel = source_label(sourceName, availableSourceNames)
     glyphMetadata = glyphs.get(glyphName, {})
@@ -118,7 +118,7 @@ def specimen_record(glyphName, familyName, styleName, sourceName, availableSourc
         "project": projectId,
         "glyph": glyphName,
         "axis": sourceTag,
-        "canonical_axis": canonicalAxisLookup.get(sourceTag),
+        "parent_axis": parentAxisLookup.get(sourceTag),
         "axis_group": axisGroup,
         "axis_description": axisMetadata.get("description"),
         "style": styleName.lower(),
@@ -135,7 +135,7 @@ def specimen_record(glyphName, familyName, styleName, sourceName, availableSourc
 
     return record
 
-def export_glyph(glyphName, designspacePath, familyName, styleName, glyphs, specimens, measurements, canonicalAxisLookup):
+def export_glyph(glyphName, designspacePath, familyName, styleName, glyphs, specimens, measurements, parentAxisLookup):
     proofer = GlyphMemeProofer(glyphName, designspacePath)
     
     if proofer.glyphMeasurements is None:
@@ -201,7 +201,7 @@ def export_glyph(glyphName, designspacePath, familyName, styleName, glyphs, spec
                 pngPath,
                 glyphs,
                 measurements,
-                canonicalAxisLookup,
+                parentAxisLookup,
             )
         )
 
@@ -224,8 +224,8 @@ for subFamily in subFamilies:
         measurements = json.load(file)["font"]
 
     projectId = project_id(controller.familyName)
-    canonicalAxisLookup = canonical_axis_lookup(
-        canonicalAxes,
+    parentAxisLookup = parent_axis_lookup(
+        parentAxes,
         projectId,
     )
 
@@ -238,7 +238,7 @@ for subFamily in subFamilies:
             glyphs,
             specimens,
             measurements,
-            canonicalAxisLookup,
+            parentAxisLookup,
         )
 
 with open(specimensPath, "w", encoding="utf-8") as f:

@@ -152,9 +152,6 @@ Amstelvar Avar2 design-axis identifiers are project data, not universal terminol
 #### Identifier
 
 
-#### Parent canonical axis
-
-
 #### Glyph or construction scope
 
 
@@ -190,7 +187,7 @@ The complete list should be drawn from the project’s source mapping.
 #### Keep common type-design vocabulary in ordinary prose unless the archive gives it a specialised meaning.
 
 
-#### Preserve the distinction between canonical axes, project-specific design axes, and technical variable-font implementation.
+#### Preserve the distinction between parent axes, project-specific design axes, and technical variable-font implementation.
 
 
 #### Use British spelling in reader-facing definitions.

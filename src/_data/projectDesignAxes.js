@@ -21,7 +21,7 @@ function readDesignAxis(projectId, fileName) {
 
   const fileId = path.basename(fileName, ".md");
 
-  for (const field of ["id", "tag", "project", "canonicalAxis", "scope", "summary"]) {
+  for (const field of ["id", "tag", "project", "parentAxis", "scope", "summary"]) {
     if (!axis[field]) {
       throw new Error(`Missing "${field}" in ${filePath}`);
     }

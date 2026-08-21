@@ -6,26 +6,26 @@ scriptFolder = os.path.dirname(os.path.abspath(__file__))
 repositoryFolder = os.path.dirname(scriptFolder)
 dataFolder = os.path.join(repositoryFolder, "src", "_data")
 
-canonicalAxesPath = os.path.join(dataFolder, "canonical-axes.json")
+parentAxesPath = os.path.join(dataFolder, "parent-axes.json")
 specimensPath = os.path.join(dataFolder, "specimens.json")
 
 
-def canonical_axis_lookup(canonicalAxes, projectId):
-    canonicalAxesByProject = (
-        canonicalAxes["projects"]
+def parent_axis_lookup(parentAxes, projectId):
+    parentAxesByProject = (
+        parentAxes["projects"]
         .get(projectId, {})
-        .get("canonical_axes", {})
+        .get("parent_axes", {})
     )
 
     return {
-        designAxis: canonicalAxis
-        for canonicalAxis, designAxes in canonicalAxesByProject.items()
+        designAxis: parentAxis
+        for parentAxis, designAxes in parentAxesByProject.items()
         for designAxis in designAxes
     }
 
 
-with open(canonicalAxesPath, "r", encoding="utf-8") as file:
-    canonicalAxes = json.load(file)
+with open(parentAxesPath, "r", encoding="utf-8") as file:
+    parentAxes = json.load(file)
 
 with open(specimensPath, "r", encoding="utf-8") as file:
     specimenData = json.load(file)
@@ -34,12 +34,12 @@ updatedCount = 0
 
 for specimen in specimenData["specimens"]:
     projectId = specimen["project"]
-    lookup = canonical_axis_lookup(canonicalAxes, projectId)
+    lookup = parent_axis_lookup(parentAxes, projectId)
 
-    canonicalAxis = lookup.get(specimen["axis"])
-    specimen["canonical_axis"] = canonicalAxis
+    parentAxis = lookup.get(specimen["axis"])
+    specimen["parent_axis"] = parentAxis
 
-    if canonicalAxis is not None:
+    if parentAxis is not None:
         updatedCount += 1
 
 with open(specimensPath, "w", encoding="utf-8") as file:

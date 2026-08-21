@@ -2,7 +2,7 @@
 id: youc
 tag: YOUC
 project: amstelvar-a2
-canonicalAxis: yopq
+parentAxis: yopq
 scope: Uppercase
 summary: Controls the weight of thin strokes of uppercase glyphs.
 ---
@@ -34,5 +34,5 @@ fuller uppercase evidence set, controls, and research notes for YOUC.
 
 ### Relationship to YOPQ
 
-YOUC is Amstelvar Avar2’s uppercase implementation of the canonical
+YOUC is Amstelvar Avar2’s uppercase implementation of the parent
 [YOPQ](/reference/axes/yopq/) thin-stroke transformation.

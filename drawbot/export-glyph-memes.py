@@ -34,7 +34,7 @@ if toolsFolder not in sys.path:
 from controller import AmstelvarA2Controller
 from xTools4.modules.glyphMemeProofer import GlyphMemeProofer
 from xTools4.modules.sys import timer
-
+from glyphNameFormatter.reader import u2c
 
 subFamilies = ["Roman", "Italic"]
 includeGRAD = True
@@ -142,14 +142,6 @@ def export_glyph(glyphName, designspacePath, familyName, styleName, glyphs, spec
         print(f"skipped /{glyphName}: no parametric measurements")
         return
         
-    exportScale = 2.0
-
-    proofer.canvasWidth *= exportScale
-    proofer.canvasHeight *= exportScale
-    proofer.panelWidth *= exportScale
-    proofer.glyphScale *= exportScale
-    proofer.captionSize *= exportScale
-    proofer.pointLabelsSize *= exportScale
     proofer.anchorsDraw = True
 
     glyphsBySource = dict(proofer.parametricGlyphs)
@@ -196,7 +188,7 @@ def export_glyph(glyphName, designspacePath, familyName, styleName, glyphs, spec
 
         DB.newDrawing()
         proofer.drawGlyph(glyph, sourceName)
-        DB.saveImage(pngPath)
+        DB.saveImage(pngPath, imageResolution=144)
         DB.endDrawing()
 
         specimens.append(

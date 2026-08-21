@@ -1,138 +1,196 @@
-# Parametric Fonts and Source Design – Working Vocabulary
+# Glossary
 
 This is a working list for the archive’s future dictionary and reference material. It assumes an advanced type-design reader, so it does not attempt to define general typographic concepts unless their use in parametric source design needs clarification.
 
 The planned first step is a simple Explanation landing page. The dictionary can become one of its sub-pages once the core definitions have been written and reviewed.
 
-## 1. Core dictionary
+## Terms
 
-### Parametric-source concepts
+#### Designspace
+Complete range of possible manifestations of the typeface defined by the combined transformations from the source files. It exists in a form of an encoded file.
+> see Making a Parametric Designspace (incomplete)
 
-- Parametric design
-- Parametric font
-- Parametric typeface
-- Parametric axis
-- Parametric source
-- Parametric source system
-- Canonical axis
-- Canonical transformation
-- Design axis
-- Project-specific design axis
-- Design-axis mapping
-- Axis decomposition
-- Axis variation
-- Axis interaction
-- Compensation
-- Semantic space
-- Design space
-- Style range
-- Blend
-- Blended state
-- Neutral state
-- Source extreme
-- Instance
-- Master
-- Delta
+#### Default
+The origin from which the Δ transformations are calculated. That is the same for every variable font due to the way the technology works.
 
-### Research and archive concepts
+#### Variable font
+An exported font file that combines the sourcefiles and the information held in the .designspace file to give users a powerful typographic tool.
 
-- Evidence
-- Specimen
-- Proofing specimen
-- Evidence catalogue
-- Research block
-- Construction case
-- Control construction
-- Supporting construction
-- Outlier
-- Observation
-- Intentional comparison
-- Exception
-- Open question
-- Reproducible evidence
-- Source data
+#### Parametric design
+An approach to designing a typeface that is a collection of parametric source .ufo files. Together with a designspace they allow to build a variable .ttf file. Through blending the parametric axes can be combined in a controlled way to produce user-facing axes (blended axes) that can be easily understood by end users.
 
-## 2. Contextual design terms
+The precise control of the transformations allows the font to have a wide range of styles. This in turn produces better typographic experience for the readers.
+>see Parametric Design (incomplete)
 
-Add a definition only when the term has a specific role in the parametric-source system or in the archive’s research method.
+#### Parametric blending
+A process of combining parametric axes into user-facing axes. 
 
-- Counter adjustment
-- White channel
-- Ascending/descender length
-- Vertical metrics
-- Line metrics
-- Optical sizing automation
-- Dark-mode compensation
-- Justification
-- Multi-script support
-- Script coverage
-- CJK
-- Style range limitation
+#### Parametric font
+A variable font that is based on a parametric design approach.
 
-## 3. Technical reference vocabulary
+#### Parametric axis
+A combination of two extreme .ufo source files plus the default - the axis is a record of Δ transformations from the default to the sources. The combination produces a scale of the transformations ranging from the minimum through the default to the maximum. We identify two kinds - parent axes and design (child) axes.
 
-These terms belong in a technical reference or appendix rather than the core conceptual dictionary.
+#### Parent axis
+The subgroup combining project specific design transformations into a logical group. For example the Δy transparceny transformation is responsible for the vertical dimension of the character. It is referred to as YTRA – Y-transparency. For the design this has to be separated – there are different transformations for Uppercase letters and lowercase x-height, ascender, descender, figures etc. The axis values of those transformations are different so we separate them into design (child) axes for better control.
 
-- Variable font
-- Variable-font technology
-- `AVAR2` / Axis Variations v2
-- `fvar`
-- `STAT`
-- `hhea`
-- `OS/2`
-- `GSUB`
-- Designspace
-- Hinting
-- Optical sizing
-- File-size optimisation
-- Font compression
-- Interpolation efficiency
-- Rendering size
+Different projects can have different separation of the parent axes into specific design axes.
+> see Parent Axes (complete draft)
 
-> Keep **design space** (the conceptual or interpolation space) distinct from **Designspace** (the source-format/document term).
+#### Design (child) axis
+An isolated transformation that is relevant to the project. For example XTUC – X-transparency of uppercase letters. That is a descendant of the XTRA Parent Axis group.
+> see Design Axes (complete draft)
 
-## 4. Canonical-axis register
+#### Parametric source
+An extreme design for a given parametric transformation. For example the XUCD715 is the max source for the uppercase diagonal shape sidebearing transformation. Only the affected glyphs should be different from the default.
 
-Canonical axes should form a structured reference rather than ordinary glossary entries. Each record can later include its transformation statement, relevant project-specific design axes, selected evidence, and exceptions.
+#### Key moment
+A specific combination of user-facing axes points. Three axes (width, weight, optical size) with min, max and default value result in 27 combinations. 
 
-- `XOPQ`
-- `YOPQ`
-- `XTRA`
-- `YTRA`
-- `XTSP`
-- `XSHA`
-- `YSHA`
-- `XSVA`
-- `YSVA`
-- `GRAD`
-- `XTEQ`
-- `YTEQ`
-- `YTOS`
+#### Tuning sources
+A set of .ufo files that are generated by the controller that test the key moment design result of the designspace and calculate necessary delta transformations to achieve a matching result to the reference font in that same position. 
 
-Terms such as weight axis, width axis, optical-size axis, and grade axis may be useful points of comparison, but should not be assumed to be equivalent to the archive’s canonical axes.
+#### Reference font
+A set of source files and font files that allows for tuning the font at key moments.
+
+#### xTools4
+Set of tools that provide extensive support in the process of designing parametric sources. They are necessary to operate on the system of sources, compute and produce tuning, and do other proofing and design changes in a surgical and systematic way.
+
+More information can be found on the [xTools4 documentation website](https://gferreira.github.io/xTools4/).
+
+#### `AVAR2` / Axis Variations v2
+
+
+#### `fvar`
+
+
+#### `STAT`
+
+
+#### `hhea`
+
+
+#### `OS/2`
+
+
+#### `GSUB`
+
+
+#### Designspace
+
+
+#### Hinting
+
+
+#### Optical sizing
+
+
+#### File-size optimisation
+
+
+#### Font compression
+
+
+#### Interpolation efficiency
+
+
+#### Rendering size
+
+
+## Axis register
+
+### Parent axes
+
+#### `XOPQ`
+
+
+#### `YOPQ`
+
+
+#### `XTRA`
+
+
+#### `YTRA`
+
+
+#### `XTSP`
+
+
+#### `XSHA`
+
+
+#### `YSHA`
+
+
+#### `XSVA`
+
+
+#### `YSVA`
+
+
+#### `GRAD`
+
+
+#### `XTEQ`
+
+
+#### `YTEQ`
+
+
+#### `YTOS`
+
+
+### User-facing Axes
+
 
 ## 5. Amstelvar Avar2 design-axis register
 
 Amstelvar Avar2 design-axis identifiers are project data, not universal terminology. Each entry should record:
 
-- Identifier
-- Parent canonical axis
-- Glyph or construction scope
-- Source or data location
-- Relationships to other Amstelvar design axes
+
+
+#### Identifier
+
+
+#### Parent canonical axis
+
+
+#### Glyph or construction scope
+
+
+#### Source or data location
+
+
+#### Relationships to other Amstelvar design axes
 
 Known examples:
 
-- `XOUC`
-- `XOLC`
-- `XOFI`
-- `XOET`
+
+
+#### `XOUC`
+
+
+#### `XOLC`
+
+
+#### `XOFI`
+
+
+#### `XOET`
 
 The complete list should be drawn from the project’s source mapping.
 
 ## Editorial notes
 
-- Define generic concepts first, then use Amstelvar Avar2 as an example.
-- Keep common type-design vocabulary in ordinary prose unless the archive gives it a specialised meaning.
-- Preserve the distinction between canonical axes, project-specific design axes, and technical variable-font implementation.
-- Use British spelling in reader-facing definitions.
+
+
+#### Define generic concepts first, then use Amstelvar Avar2 as an example.
+
+
+#### Keep common type-design vocabulary in ordinary prose unless the archive gives it a specialised meaning.
+
+
+#### Preserve the distinction between canonical axes, project-specific design axes, and technical variable-font implementation.
+
+
+#### Use British spelling in reader-facing definitions.

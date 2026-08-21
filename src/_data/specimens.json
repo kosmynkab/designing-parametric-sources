@@ -2399,7 +2399,7 @@
       "glyph": "A",
       "axis": "XUCD",
       "canonical_axis": "XTSP",
-      "axis_group": "XUCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing uppercase diagonals",
       "style": "roman",
       "source": "XUCD141",
@@ -2417,7 +2417,7 @@
       "glyph": "A",
       "axis": "XUCD",
       "canonical_axis": "XTSP",
-      "axis_group": "XUCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing uppercase diagonals",
       "style": "roman",
       "source": "XUCD22",
@@ -3037,6 +3037,448 @@
       "group": "uppercase",
       "tags": [
         "straight",
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xoucmin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XOUC",
+      "canonical_axis": "XOPQ",
+      "axis_group": "XOPQ",
+      "axis_description": "X stem uppercase",
+      "style": "roman",
+      "source": "XOUC4",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XOUCmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xoucmax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XOUC",
+      "canonical_axis": "XOPQ",
+      "axis_group": "XOPQ",
+      "axis_description": "X stem uppercase",
+      "style": "roman",
+      "source": "XOUC310",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XOUCmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xqucmax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XQUC",
+      "canonical_axis": "XTEQ",
+      "axis_group": "XTRA",
+      "axis_description": "X internal curvature uppercase",
+      "style": "roman",
+      "source": "XQUC220",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XQUCmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xqucmin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XQUC",
+      "canonical_axis": "XTEQ",
+      "axis_group": "XTRA",
+      "axis_description": "X internal curvature uppercase",
+      "style": "roman",
+      "source": "XQUC22",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XQUCmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xsvumin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XSVU",
+      "canonical_axis": "XSVA",
+      "axis_group": "XSVA",
+      "axis_description": "X vertical serif uppercase",
+      "style": "roman",
+      "source": "XSVU0",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XSVUmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xsvumax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XSVU",
+      "canonical_axis": "XSVA",
+      "axis_group": "XSVA",
+      "axis_description": "X vertical serif uppercase",
+      "style": "roman",
+      "source": "XSVU130",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XSVUmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xturmax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XTUR",
+      "canonical_axis": "XTRA",
+      "axis_group": "XTRA",
+      "axis_description": "X transparent uppercase rounds",
+      "style": "roman",
+      "source": "XTUR907",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XTURmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xturmin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XTUR",
+      "canonical_axis": "XTRA",
+      "axis_group": "XTRA",
+      "axis_description": "X transparent uppercase rounds",
+      "style": "roman",
+      "source": "XTUR58",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XTURmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xucrmin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XUCR",
+      "canonical_axis": "XTSP",
+      "axis_group": "XTSA",
+      "axis_description": "X sidebearing uppercase rounds",
+      "style": "roman",
+      "source": "XUCR0",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XUCRmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xucrmax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XUCR",
+      "canonical_axis": "XTSP",
+      "axis_group": "XTSA",
+      "axis_description": "X sidebearing uppercase rounds",
+      "style": "roman",
+      "source": "XUCR100",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XUCRmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xucsmax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XUCS",
+      "canonical_axis": "XTSP",
+      "axis_group": "XTSA",
+      "axis_description": "X sidebearing uppercase straights",
+      "style": "roman",
+      "source": "XUCS205",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XUCSmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xucsmin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XUCS",
+      "canonical_axis": "XTSP",
+      "axis_group": "XTSA",
+      "axis_description": "X sidebearing uppercase straights",
+      "style": "roman",
+      "source": "XUCS32",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XUCSmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xvaumin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XVAU",
+      "canonical_axis": "XVAA",
+      "axis_group": "XVAA",
+      "axis_description": "Uppercase vertical serif angle",
+      "style": "roman",
+      "source": "XVAU0",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XVAUmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xvaumax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XVAU",
+      "canonical_axis": "XVAA",
+      "axis_group": "XVAA",
+      "axis_description": "Uppercase vertical serif angle",
+      "style": "roman",
+      "source": "XVAU68",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_XVAUmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-youcmax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YOUC",
+      "canonical_axis": "YOPQ",
+      "axis_group": "YOPQ",
+      "axis_description": "Y stem uppercase",
+      "style": "roman",
+      "source": "YOUC208",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_YOUCmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-youcmin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YOUC",
+      "canonical_axis": "YOPQ",
+      "axis_group": "YOPQ",
+      "axis_description": "Y stem uppercase",
+      "style": "roman",
+      "source": "YOUC4",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_YOUCmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-yqucmin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YQUC",
+      "canonical_axis": "YTEQ",
+      "axis_group": "YTEQ",
+      "axis_description": "Y internal curvature uppercase",
+      "style": "roman",
+      "source": "YQUC92",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_YQUCmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-yqucmax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YQUC",
+      "canonical_axis": "YTEQ",
+      "axis_group": "YTEQ",
+      "axis_description": "Y internal curvature uppercase",
+      "style": "roman",
+      "source": "YQUC307",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_YQUCmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-ysvumin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YSVU",
+      "canonical_axis": "YSVA",
+      "axis_group": "YSVA",
+      "axis_description": "Y vertical serif uppercase",
+      "style": "roman",
+      "source": "YSVU0",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_YSVUmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-ysvumax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YSVU",
+      "canonical_axis": "YSVA",
+      "axis_group": "YSVA",
+      "axis_description": "Y vertical serif uppercase",
+      "style": "roman",
+      "source": "YSVU225",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_YSVUmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-ytosmax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YTOS",
+      "canonical_axis": "YTOS",
+      "axis_group": "YTOS",
+      "axis_description": "Lowercase overshoot",
+      "style": "roman",
+      "source": "YTOS30",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_YTOSmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-ytosmin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YTOS",
+      "canonical_axis": "YTOS",
+      "axis_group": "YTOS",
+      "axis_description": "Lowercase overshoot",
+      "style": "roman",
+      "source": "YTOS0",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_YTOSmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-ytucmax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YTUC",
+      "canonical_axis": "YTRA",
+      "axis_group": "YTRA",
+      "axis_description": "Y transparent uppercase",
+      "style": "roman",
+      "source": "YTUC875",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_YTUCmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-ytucmin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YTUC",
+      "canonical_axis": "YTRA",
+      "axis_group": "YTRA",
+      "axis_description": "Y transparent uppercase",
+      "style": "roman",
+      "source": "YTUC541",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_YTUCmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-gradmin-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "GRAD",
+      "canonical_axis": "GRAD",
+      "axis_group": "GRAD",
+      "axis_description": null,
+      "style": "roman",
+      "source": "GRAD-300",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_GRADmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-gradmax-C-roman",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "GRAD",
+      "canonical_axis": "GRAD",
+      "axis_group": "GRAD",
+      "axis_description": null,
+      "style": "roman",
+      "source": "GRAD500",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Roman_C_GRADmax.png",
+      "group": "uppercase",
+      "tags": [
         "round"
       ],
       "instance": "max"
@@ -4187,7 +4629,7 @@
       "glyph": "K",
       "axis": "XUCD",
       "canonical_axis": "XTSP",
-      "axis_group": "XUCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing uppercase diagonals",
       "style": "roman",
       "source": "XUCD141",
@@ -4206,7 +4648,7 @@
       "glyph": "K",
       "axis": "XUCD",
       "canonical_axis": "XTSP",
-      "axis_group": "XUCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing uppercase diagonals",
       "style": "roman",
       "source": "XUCD22",
@@ -5283,7 +5725,7 @@
       "glyph": "O",
       "axis": "XUCR",
       "canonical_axis": "XTSP",
-      "axis_group": "XUCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing uppercase rounds",
       "style": "roman",
       "source": "XUCR0",
@@ -5301,7 +5743,7 @@
       "glyph": "O",
       "axis": "XUCR",
       "canonical_axis": "XTSP",
-      "axis_group": "XUCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing uppercase rounds",
       "style": "roman",
       "source": "XUCR100",
@@ -6825,7 +7267,7 @@
       "glyph": "V",
       "axis": "XUCD",
       "canonical_axis": "XTSP",
-      "axis_group": "XUCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing uppercase diagonals",
       "style": "roman",
       "source": "XUCD141",
@@ -6844,7 +7286,7 @@
       "glyph": "V",
       "axis": "XUCD",
       "canonical_axis": "XTSP",
-      "axis_group": "XUCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing uppercase diagonals",
       "style": "roman",
       "source": "XUCD22",
@@ -7673,7 +8115,7 @@
       "glyph": "o",
       "axis": "XLCR",
       "canonical_axis": "XTSP",
-      "axis_group": "XLCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing lowercase rounds",
       "style": "roman",
       "source": "XLCR98",
@@ -7691,7 +8133,7 @@
       "glyph": "o",
       "axis": "XLCR",
       "canonical_axis": "XTSP",
-      "axis_group": "XLCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing lowercase rounds",
       "style": "roman",
       "source": "XLCR-13",
@@ -7997,7 +8439,7 @@
       "glyph": "p",
       "axis": "XLCR",
       "canonical_axis": "XTSP",
-      "axis_group": "XLCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing lowercase rounds",
       "style": "roman",
       "source": "XLCR98",
@@ -8018,7 +8460,7 @@
       "glyph": "p",
       "axis": "XLCR",
       "canonical_axis": "XTSP",
-      "axis_group": "XLCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing lowercase rounds",
       "style": "roman",
       "source": "XLCR-13",
@@ -8885,7 +9327,7 @@
       "glyph": "v",
       "axis": "XLCD",
       "canonical_axis": "XTSP",
-      "axis_group": "XLCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing lowercase diagonals",
       "style": "roman",
       "source": "XLCD122",
@@ -8904,7 +9346,7 @@
       "glyph": "v",
       "axis": "XLCD",
       "canonical_axis": "XTSP",
-      "axis_group": "XLCS",
+      "axis_group": "XTSA",
       "axis_description": "X sidebearing lowercase diagonals",
       "style": "roman",
       "source": "XLCD-8",
@@ -9303,7 +9745,7 @@
       "glyph": "acutecomb",
       "axis": "XOLA",
       "canonical_axis": "XOPQ",
-      "axis_group": "XOAC",
+      "axis_group": "XOPQ",
       "axis_description": "Lowercase accents main weight",
       "style": "roman",
       "source": "XOLA4",
@@ -9320,7 +9762,7 @@
       "glyph": "acutecomb",
       "axis": "XOLA",
       "canonical_axis": "XOPQ",
-      "axis_group": "XOAC",
+      "axis_group": "XOPQ",
       "axis_description": "Lowercase accents main weight",
       "style": "roman",
       "source": "XOLA142",
@@ -9337,7 +9779,7 @@
       "glyph": "acutecomb",
       "axis": "XTLA",
       "canonical_axis": "XTRA",
-      "axis_group": "XTLA",
+      "axis_group": "XTRA",
       "axis_description": "Lowercase accent width",
       "style": "roman",
       "source": "XTLA158",
@@ -9354,7 +9796,7 @@
       "glyph": "acutecomb",
       "axis": "XTLA",
       "canonical_axis": "XTRA",
-      "axis_group": "XTLA",
+      "axis_group": "XTRA",
       "axis_description": "Lowercase accent width",
       "style": "roman",
       "source": "XTLA470",
@@ -9371,7 +9813,7 @@
       "glyph": "acutecomb",
       "axis": "YOLA",
       "canonical_axis": "YOPQ",
-      "axis_group": "YOAC",
+      "axis_group": "YOPQ",
       "axis_description": "Lowercase accents secondary weight",
       "style": "roman",
       "source": "YOLA6",
@@ -9388,7 +9830,7 @@
       "glyph": "acutecomb",
       "axis": "YOLA",
       "canonical_axis": "YOPQ",
-      "axis_group": "YOAC",
+      "axis_group": "YOPQ",
       "axis_description": "Lowercase accents secondary weight",
       "style": "roman",
       "source": "YOLA97",
@@ -9439,7 +9881,7 @@
       "glyph": "acutecomb.case",
       "axis": "XOUA",
       "canonical_axis": "XOPQ",
-      "axis_group": "XOAC",
+      "axis_group": "XOPQ",
       "axis_description": "Uppercase accents main weight",
       "style": "roman",
       "source": "XOUA154",
@@ -9458,7 +9900,7 @@
       "glyph": "acutecomb.case",
       "axis": "XOUA",
       "canonical_axis": "XOPQ",
-      "axis_group": "XOAC",
+      "axis_group": "XOPQ",
       "axis_description": "Uppercase accents main weight",
       "style": "roman",
       "source": "XOUA4",
@@ -9477,7 +9919,7 @@
       "glyph": "acutecomb.case",
       "axis": "XTUA",
       "canonical_axis": "XTRA",
-      "axis_group": "XTUA",
+      "axis_group": "XTRA",
       "axis_description": "Uppercase accent width",
       "style": "roman",
       "source": "XTUA401",
@@ -9496,7 +9938,7 @@
       "glyph": "acutecomb.case",
       "axis": "XTUA",
       "canonical_axis": "XTRA",
-      "axis_group": "XTUA",
+      "axis_group": "XTRA",
       "axis_description": "Uppercase accent width",
       "style": "roman",
       "source": "XTUA190",
@@ -9515,7 +9957,7 @@
       "glyph": "acutecomb.case",
       "axis": "YOUA",
       "canonical_axis": "YOPQ",
-      "axis_group": "YOAC",
+      "axis_group": "YOPQ",
       "axis_description": "Uppercase accents secondary weight",
       "style": "roman",
       "source": "YOUA2",
@@ -9534,7 +9976,7 @@
       "glyph": "acutecomb.case",
       "axis": "YOUA",
       "canonical_axis": "YOPQ",
-      "axis_group": "YOAC",
+      "axis_group": "YOPQ",
       "axis_description": "Uppercase accents secondary weight",
       "style": "roman",
       "source": "YOUA96",
@@ -11961,6 +12403,312 @@
       "group": "uppercase",
       "tags": [
         "straight",
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xoucmin-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XOUC",
+      "canonical_axis": "XOPQ",
+      "axis_group": "XOPQ",
+      "axis_description": "X stem uppercase",
+      "style": "italic",
+      "source": "XOUC9",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_XOUCmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xoucmax-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XOUC",
+      "canonical_axis": "XOPQ",
+      "axis_group": "XOPQ",
+      "axis_description": "X stem uppercase",
+      "style": "italic",
+      "source": "XOUC310",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_XOUCmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xsvumin-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XSVU",
+      "canonical_axis": "XSVA",
+      "axis_group": "XSVA",
+      "axis_description": "X vertical serif uppercase",
+      "style": "italic",
+      "source": "XSVU0",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_XSVUmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xsvumax-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XSVU",
+      "canonical_axis": "XSVA",
+      "axis_group": "XSVA",
+      "axis_description": "X vertical serif uppercase",
+      "style": "italic",
+      "source": "XSVU125",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_XSVUmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xturmin-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XTUR",
+      "canonical_axis": "XTRA",
+      "axis_group": "XTRA",
+      "axis_description": "X transparent uppercase rounds",
+      "style": "italic",
+      "source": "XTUR60",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_XTURmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xturmax-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XTUR",
+      "canonical_axis": "XTRA",
+      "axis_group": "XTRA",
+      "axis_description": "X transparent uppercase rounds",
+      "style": "italic",
+      "source": "XTUR902",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_XTURmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xucrmin-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XUCR",
+      "canonical_axis": "XTSP",
+      "axis_group": "XUCR",
+      "axis_description": "X sidebearing uppercase O",
+      "style": "italic",
+      "source": "XUCR0",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_XUCRmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xucrmax-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XUCR",
+      "canonical_axis": "XTSP",
+      "axis_group": "XUCR",
+      "axis_description": "X sidebearing uppercase O",
+      "style": "italic",
+      "source": "XUCR64",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_XUCRmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-xucsmin-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XUCS",
+      "canonical_axis": "XTSP",
+      "axis_group": "XUCS",
+      "axis_description": "X sidebearing uppercase H",
+      "style": "italic",
+      "source": "XUCS23",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_XUCSmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-xucsmax-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "XUCS",
+      "canonical_axis": "XTSP",
+      "axis_group": "XUCS",
+      "axis_description": "X sidebearing uppercase H",
+      "style": "italic",
+      "source": "XUCS196",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_XUCSmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-youcmin-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YOUC",
+      "canonical_axis": "YOPQ",
+      "axis_group": "YOPQ",
+      "axis_description": "Y stem uppercase",
+      "style": "italic",
+      "source": "YOUC4",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_YOUCmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-youcmax-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YOUC",
+      "canonical_axis": "YOPQ",
+      "axis_group": "YOPQ",
+      "axis_description": "Y stem uppercase",
+      "style": "italic",
+      "source": "YOUC219",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_YOUCmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-ysvumax-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YSVU",
+      "canonical_axis": "YSVA",
+      "axis_group": "YSVA",
+      "axis_description": "Y vertical serif uppercase",
+      "style": "italic",
+      "source": "YSVU216",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_YSVUmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-ysvumin-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YSVU",
+      "canonical_axis": "YSVA",
+      "axis_group": "YSVA",
+      "axis_description": "Y vertical serif uppercase",
+      "style": "italic",
+      "source": "YSVU0",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_YSVUmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-ytosmax-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YTOS",
+      "canonical_axis": "YTOS",
+      "axis_group": "YTOS",
+      "axis_description": "General y overshoot",
+      "style": "italic",
+      "source": "YTOS25",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_YTOSmax.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "max"
+    },
+    {
+      "id": "amstelvar-a2-ytosmin-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "YTOS",
+      "canonical_axis": "YTOS",
+      "axis_group": "YTOS",
+      "axis_description": "General y overshoot",
+      "style": "italic",
+      "source": "YTOS-4",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_YTOSmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-gradmin-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "GRAD",
+      "canonical_axis": "GRAD",
+      "axis_group": "GRAD",
+      "axis_description": null,
+      "style": "italic",
+      "source": "GRAD-300",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_GRADmin.png",
+      "group": "uppercase",
+      "tags": [
+        "round"
+      ],
+      "instance": "min"
+    },
+    {
+      "id": "amstelvar-a2-gradmax-C-italic",
+      "project": "amstelvar-a2",
+      "glyph": "C",
+      "axis": "GRAD",
+      "canonical_axis": "GRAD",
+      "axis_group": "GRAD",
+      "axis_description": null,
+      "style": "italic",
+      "source": "GRAD500",
+      "image": "imgs/amstelvar-a2/uc/AmstelvarA2-Italic_C_GRADmax.png",
+      "group": "uppercase",
+      "tags": [
         "round"
       ],
       "instance": "max"

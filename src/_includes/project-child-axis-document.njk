@@ -1,0 +1,12 @@
+{% set project = projectAxisMappings.byId[projectId] %}
+{% set childAxis = projectChildAxes.byProjectAndTag[projectId][childAxisId] %}
+
+<header class="site-header axis-header">
+  <p class="eyebrow">Reference / {{ project.name }} / Child axis</p>
+  <h1>{{ childAxis.tag }}</h1>
+  <p>{{ childAxis.summary }}</p>
+</header>
+
+<div class="intro-content axis-page">
+  {{ childAxis.html | safe }}
+</div>

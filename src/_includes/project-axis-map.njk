@@ -1,17 +1,17 @@
 {% set axis = parentAxes.byId[axisId] %}
 {% set project = projectAxisMappings.byId[projectId] %}
-{% set designAxes = project.parentAxes[axis.tag] %}
+{% set childAxes = project.parentAxes[axis.tag] %}
 
-{% if designAxes and designAxes.length %}
+{% if childAxes and childAxes.length %}
   <div class="intro-content project-axis-map-wrapper">
     <section class="project-axis-map">
       <p class="eyebrow">Project implementation</p>
       <h2>{{ project.name }}</h2>
 
       <div class="axis-button-list">
-        {% for designAxis in designAxes %}
-          <a class="axis-button" href="{{ ('/reference/design-axes/' ~ designAxis | lower ~ '/') | url }}">
-            <code>{{ designAxis }}</code>
+        {% for childAxis in childAxes %}
+          <a class="axis-button" href="{{ ('/reference/child-axes/' ~ childAxis | lower ~ '/') | url }}">
+            <code>{{ childAxis }}</code>
           </a>
         {% endfor %}
       </div>

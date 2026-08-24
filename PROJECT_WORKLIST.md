@@ -30,13 +30,13 @@ Each parent axis has a Markdown source and a page template.
 | [-] | YTOS | `src/_data/parent-axes/ytos.md` | `src/reference/axes/YTOS/index.njk` |
 | [-] | GRAD | `src/_data/parent-axes/grad.md` | `src/reference/axes/GRAD/index.njk` |
 
-## Amstelvar Avar2 design-axis pages
+## Amstelvar Avar2 child-axis pages
 
-For every design-axis tag below, create these two files:
+For every child-axis tag below, create these two files:
 
 ```text
-src/_data/projects/amstelvar-a2/design-axes/<tag-lowercase>.md
-src/reference/design-axes/<TAG-UPPERCASE>/index.njk
+src/_data/projects/amstelvar-a2/child-axes/<tag-lowercase>.md
+src/reference/project-implementation/<TAG-UPPERCASE>/index.njk
 ```
 
 ### XOPQ — thick strokes
@@ -94,7 +94,7 @@ src/reference/design-axes/<TAG-UPPERCASE>/index.njk
 ## Reusable page tools
 
 - Parent-page renderer: `src/_includes/parent-axis-document.njk`
-- Project design-axis renderer: `src/_includes/project-design-axis-document.njk`
+- Project child-axis renderer: `src/_includes/project-child-axis-document.njk`
 - Automatic min/max specimen pair: `src/_includes/project-axis-specimen-pair.njk`
 
 ### Specimen-pair callout

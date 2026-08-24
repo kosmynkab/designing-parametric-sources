@@ -86,7 +86,7 @@ function populateAxisFilter() {
     .sort();
 
   axisFilter.replaceChildren(
-    new Option("All design axes", "")
+    new Option("All child axes", "")
   );
 
   for (const axis of axes) {

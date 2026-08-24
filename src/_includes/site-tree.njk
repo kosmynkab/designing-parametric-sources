@@ -63,6 +63,9 @@
     <details class="site-tree__section" open>
       <summary>Reference</summary>
 
+      <a class="reference-tree__specimens" href="{{ '/reference/glossary/' | url }}">
+        Glossary
+      </a>
       <details class="reference-tree__section" open>
         <summary>Parent axes</summary>
 
@@ -84,20 +87,20 @@
       </details>
 
       <details class="reference-tree__section" open>
-        <summary>Design axes</summary>
+        <summary>Child axes</summary>
 
         {% for project in referenceTree.projects %}
           <div class="reference-tree__project">
             <span>{{ project.name }}</span>
 
             <ul>
-              {% for designAxis in project.designAxes %}
+              {% for childAxis in project.childAxes %}
                 <li>
                   <a
-                    href="{{ designAxis.url | url }}"
-                    {% if page.url == designAxis.url %}aria-current="page"{% endif %}
+                    href="{{ childAxis.url | url }}"
+                    {% if page.url == childAxis.url %}aria-current="page"{% endif %}
                   >
-                    {{ designAxis.tag }}
+                    {{ childAxis.tag }}
                   </a>
                 </li>
               {% endfor %}

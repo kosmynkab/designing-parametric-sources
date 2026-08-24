@@ -18,9 +18,9 @@ def parent_axis_lookup(parentAxes, projectId):
     )
 
     return {
-        designAxis: parentAxis
-        for parentAxis, designAxes in parentAxesByProject.items()
-        for designAxis in designAxes
+        childAxis: parentAxis
+        for parentAxis, childAxes in parentAxesByProject.items()
+        for childAxis in childAxes
     }
 
 

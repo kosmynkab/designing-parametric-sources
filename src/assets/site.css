@@ -175,6 +175,46 @@ h2 {
   text-underline-offset: 0.15em;
 }
 
+/* Glossary */
+
+.glossary {
+  display: block;
+}
+
+.glossary > h2 {
+  margin: 3rem 0 1.25rem;
+  padding-top: 1.35rem;
+  border-top: 1px solid #a9a9a4;
+}
+
+.glossary > h2:first-child {
+  margin-top: 0;
+}
+
+.glossary > h3 {
+  margin: 1.75rem 0 0.5rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.2;
+  font-variation-settings: "wdth" 95, "wght" 600;
+}
+
+.glossary > h3 code {
+  font-size: 0.95em;
+}
+
+.glossary > h3 + p {
+  margin-top: 0;
+}
+
+.glossary blockquote {
+  margin: 0.8rem 0 0;
+  padding-left: 1rem;
+  border-left: 2px solid #a9a9a4;
+  color: #555;
+}
+
 /* Highlighted notes and examples */
 
 .note {

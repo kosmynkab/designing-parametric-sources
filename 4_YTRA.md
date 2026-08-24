@@ -3,7 +3,7 @@ YTRA
 
 Expected behavior: character gets shorter/taller, while strokes and details “stay the same”.
 
-This axis has to be divided into several design axes:
+This axis has to be divided into several child axes:
 - YTUC – uppercase letters
 - YTLC – lowercase letters x-height
 - YTAS – ascender length 

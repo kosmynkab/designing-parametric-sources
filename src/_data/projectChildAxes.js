@@ -6,11 +6,11 @@ import { parseMarkdownDocument } from "../_includes/lib/markdown-document.js";
 const dataDirectory = path.dirname(fileURLToPath(import.meta.url));
 const projectsDirectory = path.join(dataDirectory, "projects");
 
-function readDesignAxis(projectId, fileName) {
+function readChildAxis(projectId, fileName) {
   const filePath = path.join(
     projectsDirectory,
     projectId,
-    "design-axes",
+    "child-axes",
     fileName
   );
 
@@ -42,25 +42,25 @@ function readDesignAxis(projectId, fileName) {
   return axis;
 }
 
-export default function projectDesignAxes() {
+export default function projectChildAxes() {
   const all = fs
     .readdirSync(projectsDirectory, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
     .flatMap((project) => {
-      const designAxesDirectory = path.join(
+      const childAxesDirectory = path.join(
         projectsDirectory,
         project.name,
-        "design-axes"
+        "child-axes"
       );
 
-      if (!fs.existsSync(designAxesDirectory)) {
+      if (!fs.existsSync(childAxesDirectory)) {
         return [];
       }
 
       return fs
-        .readdirSync(designAxesDirectory)
+        .readdirSync(childAxesDirectory)
         .filter((fileName) => fileName.endsWith(".md"))
-        .map((fileName) => readDesignAxis(project.name, fileName));
+        .map((fileName) => readChildAxis(project.name, fileName));
     });
 
   const byProjectAndTag = {};

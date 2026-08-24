@@ -1,20 +1,20 @@
 ---
 layout: base.njk
-title: Parent Axes and Design Axes
+title: Parametric Axes
 
 navigation:
   section: explanation
-  id: parent-axes
-  label: Parent axes and design axes
-  order: 10
+  id: parametric-axes
+  label: Parametric Axes
+  order: 20
 ---
 
 <header class="site-header">
   <p class="eyebrow">Explanation</p>
-  <h1>Parent axes and design axes</h1>
+  <h1>Parametric Axes</h1>
   <p>
-    Parent axes describe broad typographic transformations. Design axes
-    divide those transformations into the specific controls a typeface needs.
+    Parametric axes describe the dimensions along which a typeface can be
+    transformed.
   </p>
 </header>
 
@@ -24,7 +24,7 @@ navigation:
 
   <p>
     Each parent axis describes a broad typographic transformation. Select an
-    axis to inspect its project-specific design axes, parametric sources, and
+    axis to inspect its project-specific child axes, parametric sources, and
     specimens.
   </p>
 
@@ -55,6 +55,11 @@ navigation:
     </li>
 
     <li>
+      <a href="/reference/axes/ytos/"><code>YTOS</code></a>
+      <span>Changes the overshoot of a character.</span>
+    </li>
+
+    <li>
       <a href="/reference/axes/xsha/"><code>XSHA</code></a>
       <span>Changes the horizontal extent of horizontal serifs.</span>
     </li>
@@ -78,6 +83,12 @@ navigation:
       <a href="/reference/axes/grad/"><code>GRAD</code></a>
       <span>Changes overall stroke darkness without changing character width.</span>
     </li>
+    
+    <li>
+      <a href="/reference/axes/other/"><code>Other</code></a>
+      <span>other, project-specific axes.</span>
+    </li>
+
   </ul>
 </section>
 
@@ -100,7 +111,7 @@ navigation:
   </section>
 
   <section>
-    <h2>When a parent axis becomes several design axes</h2>
+    <h2>When a parent axis becomes several child axes</h2>
 
     <p>
       A broad transformation can sometimes be applied consistently across a
@@ -110,7 +121,7 @@ navigation:
     </p>
 
     <p>
-      Design axes are these project-specific controls. They allow a typeface to
+      Child axes are these project-specific controls. They allow a typeface to
       distinguish between transformations that belong to the same broad
       typographic dimension but need different behaviour in different parts of
       the character set.
@@ -127,7 +138,7 @@ navigation:
     </p>
 
     <p>
-      The project can therefore divide <code>YTRA</code> into separate design
+      The project can therefore divide <code>YTRA</code> into separate child
       axes: <code>YTUC</code> for uppercase, <code>YTLC</code> for lowercase,
       and <code>YTFI</code> for figures. Each axis can respond to the
       structure of its own glyph group while remaining part of the larger
@@ -145,10 +156,10 @@ navigation:
   </section>
 
   <section>
-    <h2>From design axes to parametric sources</h2>
+    <h2>From parametric axes to parametric sources</h2>
 
     <p>
-      A design axis defines what should change. Parametric sources define how
+      A parametric axis defines what should change. Parametric sources define how
       that change is made in the glyphs. A source functions like a master for a
       specific transformation, recording the measurements, constructions, and
       outline adjustments needed to produce it.
@@ -166,14 +177,14 @@ navigation:
     <h2>Blending</h2>
 
     <p>
-      Design axes can be combined to produce blended axes or more familiar
+      Child axes can be combined to produce blended axes or more familiar
       design states. Blending builds on the individual parametric
       transformations, rather than replacing their logic.
     </p>
 
     <p>
       This archive discusses blending separately. Here, the important point is
-      that design axes preserve the individual decisions from which combined
+      that child axes preserve the individual decisions from which combined
       states are made.
     </p>
   </section>
@@ -200,7 +211,7 @@ navigation:
     <h2>Where to go next</h2>
 
     <p>
-      Continue to the project documentation to see how parent and design
+      Continue to the project documentation to see how parent and child
       axes are realised in a specific typeface. The reference material records
       the individual parameters, source data, mappings, and proof specimens.
     </p>
@@ -208,7 +219,7 @@ navigation:
     <p>
       Where one parameter depends on another, the relevant pages link directly
       to each other. For example, an <code>XOPQ</code> adjustment in a
-      single-stem glyph may require a related <a href="/reference/parameters/xtra/">XTRA</a>
+      single-stem glyph may require a related <a href="/reference/axes/xtra/">XTRA</a>
       adjustment to maintain the intended proportion.
     </p>
   </section>

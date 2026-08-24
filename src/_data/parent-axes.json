@@ -20,8 +20,6 @@
         "YSVA": ["YSVU", "YSVL", "YSVF"],
         "XVAA": ["XVAU"],
         
-        "XTEQ": ["XQUC", "XQLC", "XQFI"],
-        "YTEQ": ["YQUC", "YQLC", "YQFI"],
         "YTOS": ["YTOS"]
       }
     }

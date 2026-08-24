@@ -19,17 +19,17 @@ function readChildAxis(projectId, fileName) {
     filePath
   );
 
-  const fileId = path.basename(fileName, ".md");
+  const fileSlug = path.basename(fileName, ".md");
 
-  for (const field of ["id", "tag", "project", "parentAxis", "scope", "summary"]) {
+  for (const field of ["tag", "project", "parentAxis", "scope", "summary"]) {
     if (!axis[field]) {
       throw new Error(`Missing "${field}" in ${filePath}`);
     }
   }
 
-  if (axis.id !== fileId) {
+  if (axis.tag.toLowerCase() !== fileSlug) {
     throw new Error(
-      `Axis id "${axis.id}" does not match file name "${fileName}"`
+      `Child axis tag "${axis.tag}" does not match file name "${fileName}"`
     );
   }
 
@@ -67,7 +67,7 @@ export default function projectChildAxes() {
 
   for (const axis of all) {
     byProjectAndTag[axis.project] ||= {};
-    byProjectAndTag[axis.project][axis.id] = axis;
+    byProjectAndTag[axis.project][axis.tag] = axis;
   }
 
   return {

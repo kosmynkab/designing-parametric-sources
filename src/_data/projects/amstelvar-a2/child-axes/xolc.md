@@ -3,12 +3,12 @@ tag: XOLC
 project: amstelvar-a2
 parentAxis: xopq
 scope: Uppercase
-summary: Controls the weight of thick strokes of uppercase glyphs.
+summary: Controls the weight of thick strokes of lowercase glyphs.
 ---
 
 ## Expected behaviour
 
-XOLC changes the thickness of uppercase thick-stroke components while
+XOLC changes the thickness of lowercase thick-stroke components while
 preserving the intended construction and overall proportions of the glyph
 where possible.
 

@@ -1,0 +1,13 @@
+---
+layout: base.njk
+title: YTLC – Lowercase x-height transparency
+navigation: { section: reference, group: child-axes, id: ytlc, label: "YTLC – Lowercase x-height transparency", order: 230 }
+permalink: /reference/child-axes/ytlc/
+---
+{% set projectId = "amstelvar-a2" %}
+{% set childAxisTag = "YTLC" %}
+{% include "project-child-axis-document.njk" %}
+{% set specimenProject = projectId %}
+{% set specimenAxis = childAxisTag %}
+{% set specimenGlyphs = ["n", "o", "p", "v"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

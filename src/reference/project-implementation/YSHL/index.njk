@@ -1,0 +1,8 @@
+---
+layout: base.njk
+title: YSHL – Lowercase horizontal serif height
+navigation: { section: reference, group: child-axes, id: yshl, label: "YSHL – Lowercase horizontal serif height", order: 390 }
+permalink: /reference/child-axes/yshl/
+---
+{% set projectId = "amstelvar-a2" %}{% set childAxisTag = "YSHL" %}{% include "project-child-axis-document.njk" %}{% set specimenProject = projectId %}{% set specimenAxis = childAxisTag %}{% set specimenGlyphs = ["n", "r", "v"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

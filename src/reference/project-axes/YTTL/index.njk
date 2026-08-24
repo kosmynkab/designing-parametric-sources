@@ -1,0 +1,26 @@
+---
+layout: base.njk
+title: YTTL – Trap length
+permalink: /reference/project-axes/yttl/
+---
+
+<header class="site-header axis-header">
+  <p class="eyebrow">Reference / Project-specific axis</p>
+  <h1>YTTL</h1>
+  <p>Trap length.</p>
+</header>
+
+{% set specimenProject = "amstelvar-a2" %}
+{% set specimenAxis = "YTTL" %}
+{% set specimenGlyphs = ["A", "M", "N", "V", "v"] %}
+
+<div class="intro-content axis-page axis-evidence">
+  <section>
+    <h2>Selected evidence</h2>
+    {% for specimenGlyph in specimenGlyphs %}
+      <h3>{{ specimenGlyph }}</h3>
+      {% set specimenStyle = "roman" %}
+      {% include "project-axis-specimen-pair.njk" %}
+    {% endfor %}
+  </section>
+</div>

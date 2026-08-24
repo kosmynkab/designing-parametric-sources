@@ -1,5 +1,4 @@
 ---
-id: xouc
 tag: XOUC
 project: amstelvar-a2
 parentAxis: xopq

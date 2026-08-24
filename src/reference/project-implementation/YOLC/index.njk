@@ -1,0 +1,33 @@
+---
+layout: base.njk
+title: YOLC – Lowercase thin strokes
+
+navigation:
+  section: reference
+  group: child-axes
+  id: yolc
+  label: YOLC – Lowercase thin strokes
+  order: 70
+
+permalink: /reference/child-axes/yolc/
+---
+
+{% set projectId = "amstelvar-a2" %}
+{% set childAxisTag = "YOLC" %}
+
+{% include "project-child-axis-document.njk" %}
+
+{% set specimenProject = projectId %}
+{% set specimenAxis = childAxisTag %}
+{% set specimenGlyphs = ["n", "o", "p", "r", "v"] %}
+
+<div class="intro-content axis-evidence">
+  <section>
+    <h2>Selected evidence</h2>
+
+    {% for specimenGlyph in specimenGlyphs %}
+      <h3>{{ specimenGlyph }}</h3>
+      {% include "project-axis-specimen-pair.njk" %}
+    {% endfor %}
+  </section>
+</div>

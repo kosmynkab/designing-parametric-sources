@@ -1,0 +1,29 @@
+---
+layout: base.njk
+title: WDSP – Word space width
+permalink: /reference/project-axes/wdsp/
+---
+
+<header class="site-header axis-header">
+  <p class="eyebrow">Reference / Project-specific axis</p>
+  <h1>WDSP</h1>
+  <p>Word space width.</p>
+</header>
+
+{% set specimenProject = "amstelvar-a2" %}
+{% set specimenAxis = "WDSP" %}
+{% set specimenGlyph = "space" %}
+
+<div class="intro-content axis-page axis-evidence">
+  <section>
+    <h2>Roman</h2>
+    {% set specimenStyle = "roman" %}
+    {% include "project-axis-specimen-pair.njk" %}
+  </section>
+
+  <section>
+    <h2>Italic</h2>
+    {% set specimenStyle = "italic" %}
+    {% include "project-axis-specimen-pair.njk" %}
+  </section>
+</div>

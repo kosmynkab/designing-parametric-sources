@@ -1,5 +1,4 @@
 ---
-id: xolc
 tag: XOLC
 project: amstelvar-a2
 parentAxis: xopq

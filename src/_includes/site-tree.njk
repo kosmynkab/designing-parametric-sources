@@ -87,6 +87,21 @@
       </details>
 
       <details class="reference-tree__section" open>
+        <summary>Project-specific axes</summary>
+
+        <ul class="reference-tree__list">
+          <li>
+            <a
+              href="{{ '/reference/axes/other/' | url }}"
+              {% if page.url == '/reference/axes/other/' %}aria-current="page"{% endif %}
+            >
+              Other
+            </a>
+          </li>
+        </ul>
+      </details>
+
+      <details class="reference-tree__section" open>
         <summary>Child axes</summary>
 
         {% for project in referenceTree.projects %}

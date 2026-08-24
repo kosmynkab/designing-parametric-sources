@@ -389,6 +389,11 @@ h2 {
   display: block;
 }
 
+.other-axis-page > section:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
 .axis-page > h2 {
   margin: 0 0 0.6rem;
 }

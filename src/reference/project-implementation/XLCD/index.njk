@@ -1,0 +1,8 @@
+---
+layout: base.njk
+title: XLCD – Lowercase diagonal side spacing
+navigation: { section: reference, group: child-axes, id: xlcd, label: "XLCD – Lowercase diagonal side spacing", order: 310 }
+permalink: /reference/child-axes/xlcd/
+---
+{% set projectId = "amstelvar-a2" %}{% set childAxisTag = "XLCD" %}{% include "project-child-axis-document.njk" %}{% set specimenProject = projectId %}{% set specimenAxis = childAxisTag %}{% set specimenGlyphs = ["v"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

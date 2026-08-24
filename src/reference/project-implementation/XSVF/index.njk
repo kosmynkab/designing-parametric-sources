@@ -1,0 +1,8 @@
+---
+layout: base.njk
+title: XSVF – Figure vertical serif width
+navigation: { section: reference, group: child-axes, id: xsvf, label: "XSVF – Figure vertical serif width", order: 430 }
+permalink: /reference/child-axes/xsvf/
+---
+{% set projectId = "amstelvar-a2" %}{% set childAxisTag = "XSVF" %}{% include "project-child-axis-document.njk" %}{% set specimenProject = projectId %}{% set specimenAxis = childAxisTag %}{% set specimenGlyphs = ["seven"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

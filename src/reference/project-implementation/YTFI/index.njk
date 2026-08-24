@@ -1,0 +1,13 @@
+---
+layout: base.njk
+title: YTFI – Figure vertical transparency
+navigation: { section: reference, group: child-axes, id: ytfi, label: "YTFI – Figure vertical transparency", order: 240 }
+permalink: /reference/child-axes/ytfi/
+---
+{% set projectId = "amstelvar-a2" %}
+{% set childAxisTag = "YTFI" %}
+{% include "project-child-axis-document.njk" %}
+{% set specimenProject = projectId %}
+{% set specimenAxis = childAxisTag %}
+{% set specimenGlyphs = ["zero", "one", "seven"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

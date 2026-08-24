@@ -1,0 +1,8 @@
+---
+layout: base.njk
+title: XSHF – Figure horizontal serif width
+navigation: { section: reference, group: child-axes, id: xshf, label: "XSHF – Figure horizontal serif width", order: 370 }
+permalink: /reference/child-axes/xshf/
+---
+{% set projectId = "amstelvar-a2" %}{% set childAxisTag = "XSHF" %}{% include "project-child-axis-document.njk" %}{% set specimenProject = projectId %}{% set specimenAxis = childAxisTag %}{% set specimenGlyphs = ["one", "four"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

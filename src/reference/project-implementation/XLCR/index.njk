@@ -1,0 +1,8 @@
+---
+layout: base.njk
+title: XLCR – Lowercase round side spacing
+navigation: { section: reference, group: child-axes, id: xlcr, label: "XLCR – Lowercase round side spacing", order: 320 }
+permalink: /reference/child-axes/xlcr/
+---
+{% set projectId = "amstelvar-a2" %}{% set childAxisTag = "XLCR" %}{% include "project-child-axis-document.njk" %}{% set specimenProject = projectId %}{% set specimenAxis = childAxisTag %}{% set specimenGlyphs = ["o", "p"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

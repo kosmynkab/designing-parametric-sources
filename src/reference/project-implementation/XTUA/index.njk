@@ -1,0 +1,13 @@
+---
+layout: base.njk
+title: XTUA – Uppercase accent transparency
+navigation: { section: reference, group: child-axes, id: xtua, label: "XTUA – Uppercase accent transparency", order: 150 }
+permalink: /reference/child-axes/xtua/
+---
+{% set projectId = "amstelvar-a2" %}
+{% set childAxisTag = "XTUA" %}
+{% include "project-child-axis-document.njk" %}
+{% set specimenProject = projectId %}
+{% set specimenAxis = childAxisTag %}
+{% set specimenGlyphs = ["acutecomb.case"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

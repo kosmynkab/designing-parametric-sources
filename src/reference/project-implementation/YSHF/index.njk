@@ -1,0 +1,8 @@
+---
+layout: base.njk
+title: YSHF – Figure horizontal serif height
+navigation: { section: reference, group: child-axes, id: yshf, label: "YSHF – Figure horizontal serif height", order: 400 }
+permalink: /reference/child-axes/yshf/
+---
+{% set projectId = "amstelvar-a2" %}{% set childAxisTag = "YSHF" %}{% include "project-child-axis-document.njk" %}{% set specimenProject = projectId %}{% set specimenAxis = childAxisTag %}{% set specimenGlyphs = ["one", "four"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

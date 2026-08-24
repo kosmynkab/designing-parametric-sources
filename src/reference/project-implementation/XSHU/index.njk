@@ -1,0 +1,8 @@
+---
+layout: base.njk
+title: XSHU – Uppercase horizontal serif width
+navigation: { section: reference, group: child-axes, id: xshu, label: "XSHU – Uppercase horizontal serif width", order: 350 }
+permalink: /reference/child-axes/xshu/
+---
+{% set projectId = "amstelvar-a2" %}{% set childAxisTag = "XSHU" %}{% include "project-child-axis-document.njk" %}{% set specimenProject = projectId %}{% set specimenAxis = childAxisTag %}{% set specimenGlyphs = ["H", "E", "V"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

@@ -1,0 +1,42 @@
+---
+layout: base.njk
+title: BARS – Bars
+permalink: /reference/project-axes/bars/
+---
+
+<header class="site-header axis-header">
+  <p class="eyebrow">Reference / Project-specific axis</p>
+  <h1>BARS</h1>
+  <p>Bars.</p>
+</header>
+
+<div class="intro-content axis-page axis-evidence">
+  <section>
+    <h2>Recorded sources</h2>
+    <p>
+      The measurements file records one BARS source for each style. These are
+      source records rather than a min/max specimen pair.
+    </p>
+
+    <div class="specimen-grid">
+      {% for specimen in specimens.specimens %}
+        {% if specimen.project == "amstelvar-a2"
+          and specimen.axis == "BARS"
+          and specimen.glyph == "dollar" %}
+          <figure class="specimen-card">
+            <button class="specimen-zoom" type="button">
+              <img
+                src="{{ ('/' + specimen.image) | url }}"
+                alt="{{ specimen.style | capitalize }} dollar at {{ specimen.axis }} {{ specimen.source }}"
+              >
+            </button>
+            <figcaption>
+              {{ specimen.glyph }} · {{ specimen.style | capitalize }} ·
+              {{ specimen.axis }} · {{ specimen.source }}
+            </figcaption>
+          </figure>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</div>

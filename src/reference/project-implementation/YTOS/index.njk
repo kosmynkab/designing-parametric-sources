@@ -1,0 +1,25 @@
+---
+layout: base.njk
+title: YTOS – Vertical overshoot
+navigation: { section: reference, group: child-axes, id: ytos, label: "YTOS – Vertical overshoot", order: 470 }
+permalink: /reference/child-axes/ytos/
+---
+{% set projectId = "amstelvar-a2" %}
+{% set childAxisTag = "YTOS" %}
+{% include "project-child-axis-document.njk" %}
+{% set specimenProject = projectId %}
+{% set specimenAxis = childAxisTag %}
+{% set specimenGlyphs = ["O", "V", "o", "v", "zero", "four"] %}
+<div class="intro-content axis-evidence">
+    <section>
+        <h2>Selected evidence</h2>
+
+        {% for specimenGlyph in specimenGlyphs %}
+
+        <h3>{{ specimenGlyph }}</h3>
+
+        {% include "project-axis-specimen-pair.njk" %}
+        {% endfor %}
+        
+        </section>
+        </div>

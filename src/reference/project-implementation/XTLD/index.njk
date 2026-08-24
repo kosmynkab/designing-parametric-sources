@@ -1,0 +1,13 @@
+---
+layout: base.njk
+title: XTLD – Lowercase diagonal transparency
+navigation: { section: reference, group: child-axes, id: xtld, label: "XTLD – Lowercase diagonal transparency", order: 180 }
+permalink: /reference/child-axes/xtld/
+---
+{% set projectId = "amstelvar-a2" %}
+{% set childAxisTag = "XTLD" %}
+{% include "project-child-axis-document.njk" %}
+{% set specimenProject = projectId %}
+{% set specimenAxis = childAxisTag %}
+{% set specimenGlyphs = ["v"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

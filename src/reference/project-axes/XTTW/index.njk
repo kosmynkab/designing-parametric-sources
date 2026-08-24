@@ -1,0 +1,26 @@
+---
+layout: base.njk
+title: XTTW – Trap width
+permalink: /reference/project-axes/xttw/
+---
+
+<header class="site-header axis-header">
+  <p class="eyebrow">Reference / Project-specific axis</p>
+  <h1>XTTW</h1>
+  <p>Trap width.</p>
+</header>
+
+{% set specimenProject = "amstelvar-a2" %}
+{% set specimenAxis = "XTTW" %}
+{% set specimenGlyphs = ["A", "B", "M", "N", "V", "v"] %}
+
+<div class="intro-content axis-page axis-evidence">
+  <section>
+    <h2>Selected evidence</h2>
+    {% for specimenGlyph in specimenGlyphs %}
+      <h3>{{ specimenGlyph }}</h3>
+      {% set specimenStyle = "roman" %}
+      {% include "project-axis-specimen-pair.njk" %}
+    {% endfor %}
+  </section>
+</div>

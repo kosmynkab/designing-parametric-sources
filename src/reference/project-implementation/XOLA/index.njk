@@ -1,0 +1,33 @@
+---
+layout: base.njk
+title: XOLA – Lowercase accent thick strokes
+
+navigation:
+  section: reference
+  group: child-axes
+  id: xola
+  label: XOLA – Lowercase accent thick strokes
+  order: 60
+
+permalink: /reference/child-axes/xola/
+---
+
+{% set projectId = "amstelvar-a2" %}
+{% set childAxisTag = "XOLA" %}
+
+{% include "project-child-axis-document.njk" %}
+
+{% set specimenProject = projectId %}
+{% set specimenAxis = childAxisTag %}
+{% set specimenGlyphs = ["acutecomb"] %}
+
+<div class="intro-content axis-evidence">
+  <section>
+    <h2>Selected evidence</h2>
+
+    {% for specimenGlyph in specimenGlyphs %}
+      <h3>{{ specimenGlyph }}</h3>
+      {% include "project-axis-specimen-pair.njk" %}
+    {% endfor %}
+  </section>
+</div>

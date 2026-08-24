@@ -1,0 +1,8 @@
+---
+layout: base.njk
+title: XUCR – Uppercase round side spacing
+navigation: { section: reference, group: child-axes, id: xucr, label: "XUCR – Uppercase round side spacing", order: 290 }
+permalink: /reference/child-axes/xucr/
+---
+{% set projectId = "amstelvar-a2" %}{% set childAxisTag = "XUCR" %}{% include "project-child-axis-document.njk" %}{% set specimenProject = projectId %}{% set specimenAxis = childAxisTag %}{% set specimenGlyphs = ["C", "O", "P"] %}
+<div class="intro-content axis-evidence"><section><h2>Selected evidence</h2>{% for specimenGlyph in specimenGlyphs %}<h3>{{ specimenGlyph }}</h3>{% include "project-axis-specimen-pair.njk" %}{% endfor %}</section></div>

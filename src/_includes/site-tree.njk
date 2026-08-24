@@ -67,29 +67,35 @@
         Glossary
       </a>
       <details class="reference-tree__section" open>
-        <summary>Parent axes</summary>
+        <summary>Parametric axes</summary>
 
         <ul class="reference-tree__list">
-          {% for item in collections.siteNavigation %}
-            {% if item.data.navigation.section == "reference"
-            and item.data.navigation.group == "parent-axes" %}
-              <li>
-                <a 
-                  href="{{ item.url | url }}"
-                  {% if page.url == item.url %}aria-current="page"{% endif %}
-                >
-                  {{ item.data.navigation.id | upper }}
-                </a>
-              </li>
-            {% endif %}
+          {% for parentAxis in referenceTree.parentAxes %}
+            <li>
+              <a
+                href="{{ parentAxis.url | url }}"
+                {% if page.url == parentAxis.url %}aria-current="page"{% endif %}
+              >
+                {{ parentAxis.tag }}
+              </a>
+
+              {% if parentAxis.childAxes.length %}
+                <ul class="reference-tree__children">
+                  {% for childAxis in parentAxis.childAxes %}
+                    <li>
+                      <a
+                        href="{{ childAxis.url | url }}"
+                        {% if page.url == childAxis.url %}aria-current="page"{% endif %}
+                      >
+                        {{ childAxis.tag }}
+                      </a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
           {% endfor %}
-        </ul>
-      </details>
 
-      <details class="reference-tree__section" open>
-        <summary>Project-specific axes</summary>
-
-        <ul class="reference-tree__list">
           <li>
             <a
               href="{{ '/reference/axes/other/' | url }}"
@@ -97,31 +103,21 @@
             >
               Other
             </a>
-          </li>
-        </ul>
-      </details>
 
-      <details class="reference-tree__section" open>
-        <summary>Child axes</summary>
-
-        {% for project in referenceTree.projects %}
-          <div class="reference-tree__project">
-            <span>{{ project.name }}</span>
-
-            <ul>
-              {% for childAxis in project.childAxes %}
+            <ul class="reference-tree__children">
+              {% for axis in referenceTree.otherAxes %}
                 <li>
                   <a
-                    href="{{ childAxis.url | url }}"
-                    {% if page.url == childAxis.url %}aria-current="page"{% endif %}
+                    href="{{ axis.url | url }}"
+                    {% if page.url == axis.url %}aria-current="page"{% endif %}
                   >
-                    {{ childAxis.tag }}
+                    {{ axis.tag }}
                   </a>
                 </li>
               {% endfor %}
             </ul>
-          </div>
-        {% endfor %}
+          </li>
+        </ul>
       </details>
 
       <a class="reference-tree__specimens" href="{{ '/reference/specimens/' | url }}">

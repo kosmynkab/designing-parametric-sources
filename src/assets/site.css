@@ -678,6 +678,18 @@ h2 {
   font-weight: 500;
 }
 
+.reference-tree__children {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0.25rem 0 0 0.75rem;
+  padding: 0;
+  list-style: none;
+}
+
+.reference-tree__children a {
+  font-size: 0.75rem;
+}
+
 .reference-tree a[aria-current="page"] {
   text-decoration: underline;
   text-decoration-thickness: 1px;

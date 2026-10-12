@@ -21,33 +21,32 @@ Uppercase
 
 ##### YTRA min
 
-![](imgs/uc/AmstelvarA2-Roman_H_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_YTUCmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_YTUCmin.svg)
 
 ##### YTRA max
 
-![](imgs/uc/AmstelvarA2-Roman_H_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_YTUCmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_YTUCmax.svg)
 
 
 ### Round glyphs
 
-- internal curvature is controlled separately by XTEQ YTEQ parametric axes
 - in Italic, xy-direction deltas are allowed for slanted & rotated shapes
 
 ##### YTRA min
 
-![](imgs/uc/AmstelvarA2-Roman_O_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_YTUCmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_YTUCmin.svg)
 
 ##### YTRA max
 
-![](imgs/uc/AmstelvarA2-Roman_O_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_YTUCmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_YTUCmax.svg)
 
 ### Diagonal glyphs
 
@@ -58,15 +57,15 @@ AmstelvarA2:
 
 ##### YTRA min
 
-![](imgs/uc/AmstelvarA2-Roman_V_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_YTUCmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_YTUCmin.svg)
 
 ##### YTRA max
 
-![](imgs/uc/AmstelvarA2-Roman_V_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_YTUCmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_YTUCmax.svg)
 
 
 Lowercase
@@ -81,15 +80,15 @@ AmstelvarA2 Roman:
 
 ##### YTRA min
 
-![](imgs/lc/AmstelvarA2-Roman_n_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_YTLCmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_YTLCmin.svg)
 
 ##### YTRA max
 
-![](imgs/lc/AmstelvarA2-Roman_n_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_YTLCmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_YTLCmax.svg)
 
 ### Round glyphs
 
@@ -97,19 +96,18 @@ AmstelvarA2 Roman:
 
 - only YTRA changes
 - only y direction deltas 
-- There might be situations where you need to change XTEQ YTEQ parametric axes
 
 ##### YTRA min
 
-![](imgs/lc/AmstelvarA2-Roman_o_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_YTLCmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_YTLCmin.svg)
 
 ##### YTRA max
 
-![](imgs/lc/AmstelvarA2-Roman_o_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_YTLCmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_YTLCmax.svg)
 
 
 ### Diagonal glyphs
@@ -123,15 +121,15 @@ AmstelvarA2 Roman:
 
 ##### YTRA min
 
-![](imgs/lc/AmstelvarA2-Roman_v_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_YTLCmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_YTLCmin.svg)
 
 ##### YTRA max
 
-![](imgs/lc/AmstelvarA2-Roman_v_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_YTLCmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_YTLCmax.svg)
 
 
 Figures
@@ -145,15 +143,15 @@ AmstelvarA2 Roman:
 
 ##### YTRA min
 
-![](imgs/other/AmstelvarA2-Roman_one_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_YTFImin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_YTFImin.svg)
 
 ##### YTRA max
 
-![](imgs/other/AmstelvarA2-Roman_one_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_YTFImax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_YTFImax.svg)
 
 
 ### Round glyphs
@@ -162,19 +160,18 @@ AmstelvarA2 Roman:
 
 - only YOFI changes
 - only y direction deltas 
-- There might be situations where you need to change XTEQ YTEQ parametric axes
 
 ##### YTRA min
 
-![](imgs/other/AmstelvarA2-Roman_zero_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_YTFImin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_YTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_YTFImin.svg)
 
 ##### YTRA max
 
-![](imgs/other/AmstelvarA2-Roman_zero_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_YTFImax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_YTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_YTFImax.svg)
 
 
 Etcetera

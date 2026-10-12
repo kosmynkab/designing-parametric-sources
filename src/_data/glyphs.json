@@ -99,6 +99,13 @@
       "tags": ["control", "straight", "single_stem"],
       "review": "provisional"
     },
+    "G": {
+      "unicode": "U+0047",
+      "group": "uppercase",
+      "script": "latin",
+      "tags": ["round", "vertical_serif"],
+      "review": "provisional"
+    },
     "H": {
       "unicode": "U+0048",
       "group": "uppercase",
@@ -167,6 +174,13 @@
       "group": "uppercase",
       "script": "latin",
       "tags": ["control", "straight", "diagonal"],
+      "review": "provisional"
+    },
+    "c": {
+      "unicode": "U+0063",
+      "group": "lowercase",
+      "script": "latin",
+      "tags": ["round", "vertical_serif"],
       "review": "provisional"
     },
     "l": {

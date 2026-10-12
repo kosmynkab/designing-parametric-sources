@@ -33,7 +33,7 @@ function selectedSpecimens(researchFile, parentAxis) {
   );
   const references = [
     ...markdown.matchAll(
-      /AmstelvarA2-(Roman|Italic)_([^_]+)_[A-Z]+(min|max)\.png/g
+      /AmstelvarA2-(Roman|Italic)_([^_]+)_[A-Z]+(min|max)\.svg/g
     )
   ];
   const groups = [];

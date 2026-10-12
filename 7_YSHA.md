@@ -10,30 +10,30 @@ Uppercase
 
 ##### YSHA min
 
-![](imgs/uc/AmstelvarA2-Roman_H_YSHAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_YSHUmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_YSHAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_YSHUmin.svg)
 
 ##### YSHA max
 
-![](imgs/uc/AmstelvarA2-Roman_H_YSHAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_YSHUmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_YSHAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_YSHUmax.svg)
 
 
 ### Diagonal to serif
 
 ##### YSHA min
 
-![](imgs/uc/AmstelvarA2-Roman_V_YSHAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_YSHUmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_YSHAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_YSHUmin.svg)
 
 ##### YSHA max
 
-![](imgs/uc/AmstelvarA2-Roman_V_YSHAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_YSHUmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_YSHAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_YSHUmax.svg)
 
 
 Lowercase
@@ -48,15 +48,15 @@ AmstelvarA2 Roman:
 
 ##### YSHA min
 
-![](imgs/lc/AmstelvarA2-Roman_n_YSHAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_YSHLmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_YSHAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_YSHLmin.svg)
 
 ##### YSHA max
 
-![](imgs/lc/AmstelvarA2-Roman_n_YSHAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_YSHLmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_YSHAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_YSHLmax.svg)
 
 
 ### Diagonal glyphs
@@ -70,15 +70,15 @@ AmstelvarA2 Roman:
 
 ##### YSHA min
 
-![](imgs/lc/AmstelvarA2-Roman_v_YSHAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_YSHLmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_YSHAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_YSHLmin.svg)
 
 ##### YSHA max
 
-![](imgs/lc/AmstelvarA2-Roman_v_YSHAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_YSHLmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_YSHAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_YSHLmax.svg)
 
 
 Etcetera

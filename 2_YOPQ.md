@@ -13,44 +13,44 @@ Uppercase
 
 ##### YOPQ min
 
-![](imgs/uc/AmstelvarA2-Roman_H_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_YOUCmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_YOUCmin.svg)
 
 ##### YOPQ max
 
-![](imgs/uc/AmstelvarA2-Roman_H_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_YOUCmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_YOUCmax.svg)
 
 
 ### Round glyphs
 
 ##### YOPQ min
 
-![](imgs/uc/AmstelvarA2-Roman_O_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_YOUCmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_YOUCmin.svg)
 
 ##### YOPQ max
 
-![](imgs/uc/AmstelvarA2-Roman_O_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_YOUCmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_YOUCmax.svg)
 
 ### Diagonal glyphs
 
 ##### YOPQ min
 
-![](imgs/uc/AmstelvarA2-Roman_V_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_YOUCmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_YOUCmin.svg)
 
 ##### YOPQ max
 
-![](imgs/uc/AmstelvarA2-Roman_V_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_YOUCmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_YOUCmax.svg)
 
 
 Lowercase
@@ -65,15 +65,15 @@ AmstelvarA2 Roman:
 
 ##### YOPQ min
 
-![](imgs/lc/AmstelvarA2-Roman_n_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_YOLCmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_YOLCmin.svg)
 
 ##### YOPQ max
 
-![](imgs/lc/AmstelvarA2-Roman_n_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_YOLCmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_YOLCmax.svg)
 
 ### Round glyphs
 
@@ -81,19 +81,18 @@ AmstelvarA2 Roman:
 
 - only YOPQ changes
 - only y direction deltas 
-- There might be situations where you need to change XTEQ YTEQ parametric axes
 
 ##### YOPQ min
 
-![](imgs/lc/AmstelvarA2-Roman_o_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_YOLCmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_YOLCmin.svg)
 
 ##### YOPQ max
 
-![](imgs/lc/AmstelvarA2-Roman_o_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_YOLCmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_YOLCmax.svg)
 
 
 ### Diagonal glyphs
@@ -107,15 +106,15 @@ AmstelvarA2 Roman:
 
 ##### YOPQ min
 
-![](imgs/lc/AmstelvarA2-Roman_v_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_YOLCmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_YOLCmin.svg)
 
 ##### YOPQ max
 
-![](imgs/lc/AmstelvarA2-Roman_v_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_YOLCmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_YOLCmax.svg)
 
 
 Figures
@@ -129,15 +128,15 @@ AmstelvarA2 Roman:
 
 ##### YOPQ min
 
-![](imgs/other/AmstelvarA2-Roman_one_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_YOFImin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_YOFImin.svg)
 
 ##### YOPQ max
 
-![](imgs/other/AmstelvarA2-Roman_one_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_YOFImax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_YOFImax.svg)
 
 
 ### Round glyphs
@@ -146,19 +145,18 @@ AmstelvarA2 Roman:
 
 - only YOFI changes
 - only y direction deltas 
-- There might be situations where you need to change XTEQ YTEQ parametric axes
 
 ##### YOPQ min
 
-![](imgs/other/AmstelvarA2-Roman_zero_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_YOFImin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_YOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_YOFImin.svg)
 
 ##### YOPQ max
 
-![](imgs/other/AmstelvarA2-Roman_zero_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_YOFImax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_YOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_YOFImax.svg)
 
 
 Etcetera

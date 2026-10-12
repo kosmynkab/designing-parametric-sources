@@ -13,34 +13,33 @@ Uppercase
 
 ##### XTRA min
 
-![](imgs/uc/AmstelvarA2-Roman_H_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_XTUCmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_XTUCmin.svg)
 
 ##### XTRA max
 
-![](imgs/uc/AmstelvarA2-Roman_H_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_XTUCmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_XTUCmax.svg)
 
 ### Round glyphs
 
 AmstelvarA2:
 
-- internal curvature is controlled separately by XTEQ YTEQ parametric axes
 - in Italic, xy-direction deltas are allowed for slanted & rotated shapes
 
 ##### XTRA min
 
-![](imgs/uc/AmstelvarA2-Roman_O_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_XTURmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_XTURmin.svg)
 
 ##### XTRA max
 
-![](imgs/uc/AmstelvarA2-Roman_O_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_XTURmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_XTURmax.svg)
 
 ### Diagonal glyphs
 
@@ -55,15 +54,15 @@ RobotoDelta:
 
 ##### XTRA min
 
-![](imgs/uc/AmstelvarA2-Roman_V_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_XTUDmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_XTUDmin.svg)
 
 ##### XTRA max
 
-![](imgs/uc/AmstelvarA2-Roman_V_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_XTUDmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_XTUDmax.svg)
 
 
 Lowercase
@@ -76,34 +75,33 @@ Lowercase
 
 ##### XTRA min
 
-![](imgs/lc/AmstelvarA2-Roman_n_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_XTLCmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_XTLCmin.svg)
 
 ##### XTRA max
 
-![](imgs/lc/AmstelvarA2-Roman_n_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_XTLCmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_XTLCmax.svg)
 
 ### Round glyphs
 
 AmstelvarA2 Roman:
 
 - only XTRA changes
-- internal curvature is controlled separately by XTEQ YTEQ parametric axes
 
 ##### XTRA min
 
-![](imgs/lc/AmstelvarA2-Roman_o_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_XTLRmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_XTLRmin.svg)
 
 ##### XTRA max
 
-![](imgs/lc/AmstelvarA2-Roman_o_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_XTLRmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_XTLRmax.svg)
 
 ### Diagonal glyphs
 
@@ -115,15 +113,15 @@ AmstelvarA2 Roman:
 
 ##### XTRA min
 
-![](imgs/lc/AmstelvarA2-Roman_v_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_XTLDmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_XTLDmin.svg)
 
 ##### XTRA max
 
-![](imgs/lc/AmstelvarA2-Roman_v_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_XTLDmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_XTLDmax.svg)
 
 
 
@@ -140,34 +138,33 @@ AmstelvarA2 Roman:
 
 ##### XTRA min
 
-![](imgs/other/AmstelvarA2-Roman_one_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_XTFImin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_XTFImin.svg)
 
 ##### XTRA max
 
-![](imgs/other/AmstelvarA2-Roman_one_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_XTFImax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_XTFImax.svg)
 
 ### Round glyphs
 
 AmstelvarA2 Roman:
 
 - only XTRA changes
-- internal curvature is controlled separately by XTEQ YTEQ parametric axes
 
 ##### XTRA min
 
-![](imgs/other/AmstelvarA2-Roman_zero_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_XTFImin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_XTRAmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_XTFImin.svg)
 
 ##### XTRA max
 
-![](imgs/other/AmstelvarA2-Roman_zero_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_XTFImax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_XTRAmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_XTFImax.svg)
 
 
 Etcetera

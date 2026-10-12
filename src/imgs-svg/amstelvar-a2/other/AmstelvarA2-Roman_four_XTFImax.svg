@@ -1,0 +1,570 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1105.0" height="850" viewBox="0 0 1105.0 850" version="1.1">
+ <defs><style type="text/css">@font-face{font-family:ProofRoboto;src:url(data:font/opentype;base64,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) format('opentype');font-style:normal;font-weight:400;}</style></defs><path d="M0,272 l850,0" fill="rgb(0,0,0)" stroke="rgb(216,216,216)" stroke-width="1" transform="matrix(1,0,0,-1,0,850)" />
+ <path d="M0,572 l850,0" fill="rgb(0,0,0)" stroke="rgb(216,216,216)" stroke-width="1" transform="matrix(1,0,0,-1,0,850)" />
+ <path d="M0,128 l850,0" fill="rgb(0,0,0)" stroke="rgb(216,216,216)" stroke-width="1" transform="matrix(1,0,0,-1,0,850)" />
+ <path d="M0,722 l850,0" fill="rgb(0,0,0)" stroke="rgb(216,216,216)" stroke-width="1" transform="matrix(1,0,0,-1,0,850)" />
+ <path d="M140.6,0 l0,850" fill="rgb(0,0,0)" stroke="rgb(216,216,216)" stroke-width="1" transform="matrix(1,0,0,-1,0,850)" />
+ <path d="M709.4,0 l0,850" fill="rgb(0,0,0)" stroke="rgb(216,216,216)" stroke-width="1" transform="matrix(1,0,0,-1,0,850)" />
+ <path d="M143.43,269.17 c1.56,1.56,1.56,4.09,0,5.66 c-1.56,1.56,-4.09,1.56,-5.66,0 c-1.56,-1.56,-1.56,-4.09,0,-5.66 c1.56,-1.56,4.09,-1.56,5.66,0 Z M143.43,269.17" fill="none" stroke="rgb(127,127,127)" stroke-width="1" transform="matrix(1,0,0,-1,0,850)" />
+ <path d="M130.6,272 l20,0" fill="none" stroke="rgb(127,127,127)" stroke-width="1" transform="matrix(1,0,0,-1,0,850)" />
+ <path d="M140.6,262 l0,20" fill="none" stroke="rgb(127,127,127)" stroke-width="1" transform="matrix(1,0,0,-1,0,850)" />
+ <path d="M48,554 l1265,993 l97,-37 l32,-16 l-6,-1003 l0,-362 l228,-35 l0,-94 l-642,0 l0,94 l238,35 l9,360 l0,893 l-1032,-808 l6,-10 l1613,-26 l0,-96 l-1788,-4 Z M48,554" fill="rgb(242,242,242)" stroke="rgb(204,204,204)" stroke-linejoin="round" stroke-width="5" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <path d="M52.95,549.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M52.95,549.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,150.03295898437503,180.30000000000007)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10" y="802">
+   0
+  </tspan>
+ </text>
+ <path d="M1317.95,1542.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1317.95,1542.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,529.532958984375,-117.60000000000002)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10" y="802">
+   1
+  </tspan>
+ </text>
+ <path d="M1414.95,1505.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1414.95,1505.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,558.6329589843749,-106.50000000000011)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10" y="802">
+   2
+  </tspan>
+ </text>
+ <path d="M1446.95,1489.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1446.95,1489.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,568.232958984375,-101.70000000000005)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10" y="802">
+   3
+  </tspan>
+ </text>
+ <path d="M1440.95,486.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1440.95,486.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,566.432958984375,199.2)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10" y="802">
+   4
+  </tspan>
+ </text>
+ <path d="M1440.95,124.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1440.95,124.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,566.432958984375,307.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10" y="802">
+   5
+  </tspan>
+ </text>
+ <path d="M1668.95,89.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1668.95,89.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,634.832958984375,318.3)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10" y="802">
+   6
+  </tspan>
+ </text>
+ <path d="M1668.95,-4.95 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0.0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,-0.0 Z M1668.95,-4.95" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,634.832958984375,346.5)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10" y="802">
+   7
+  </tspan>
+ </text>
+ <path d="M1026.95,-4.95 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0.0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,-0.0 Z M1026.95,-4.95" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,442.23295898437505,346.5)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10" y="802">
+   8
+  </tspan>
+ </text>
+ <path d="M1026.95,89.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1026.95,89.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,442.23295898437505,318.3)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10" y="802">
+   9
+  </tspan>
+ </text>
+ <path d="M1264.95,124.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1264.95,124.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,511.66591796875,307.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10.0" y="802">
+   10
+  </tspan>
+ </text>
+ <path d="M1273.95,484.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1273.95,484.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,514.36591796875,199.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10.0" y="802">
+   11
+  </tspan>
+ </text>
+ <path d="M1273.95,1377.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1273.95,1377.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,514.36591796875,-68.10000000000002)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10.0" y="802">
+   12
+  </tspan>
+ </text>
+ <path d="M241.95,569.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M241.95,569.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,204.76591796875002,174.30000000000007)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10.0" y="802">
+   13
+  </tspan>
+ </text>
+ <path d="M247.95,559.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M247.95,559.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,206.56591796875,177.30000000000007)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10.0" y="802">
+   14
+  </tspan>
+ </text>
+ <path d="M1860.95,533.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1860.95,533.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,690.46591796875,185.09999999999997)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10.0" y="802">
+   15
+  </tspan>
+ </text>
+ <path d="M1860.95,437.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M1860.95,437.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,690.46591796875,213.89999999999998)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10.0" y="802">
+   16
+  </tspan>
+ </text>
+ <path d="M72.95,433.05 c2.73,2.73,2.73,7.17,0,9.9 c-2.73,2.73,-7.17,2.73,-9.9,0 c-2.73,-2.73,-2.73,-7.17,0,-9.9 c2.73,-2.73,7.17,-2.73,9.9,0 Z M72.95,433.05" fill="rgb(89,89,89)" stroke-linejoin="round" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(0.3,0.0,0.0,0.3,154.06591796875003,215.09999999999997)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,0,0)" font-family="ProofRoboto" font-size="23.33" stroke-linejoin="round" x="10.0" y="802">
+   17
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,13,-811)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="0" y="836">
+   four
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,13,-811)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="387.73" y="836">
+   XTFI868
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,13,-811)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="794.78" y="836">
+   0034
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,13,0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="397.39" y="836">
+   1896
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,13,0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="0" y="836">
+   48.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,13,0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="791.35" y="836">
+   40.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-798.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   name
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,901.67404296875,-798.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   p1
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,936.02404296875,-798.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   p2
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,981.7007617187501,-798.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   units
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1041.35986328125,-798.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   scale
+  </tspan>
+ </text>
+ <path d="M863,816.2 l229,0" fill="rgb(153,153,153)" stroke="rgb(153,153,153)" stroke-width="0.5" transform="matrix(1,0,0,-1,0,850)" />
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-774.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   XOFI
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,901.6676953125,-774.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   10
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,943.32384765625,-774.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   5
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,988.2515429687501,-774.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   176
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-774.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-759.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   YOFI
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,901.6676953125,-759.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   17
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,936.0176953125,-759.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   14
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,988.2515429687501,-759.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   126
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-759.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-743.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(255,0,0)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   YOFI
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,908.97384765625,-743.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   0
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,936.0176953125,-743.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   13
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,988.2515429687501,-743.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   189
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-743.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(255,0,0)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.17
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-727.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(255,0,0)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   XTFI
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,901.6676953125,-727.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   14
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,936.0176953125,-727.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   10
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,980.9453906250001,-727.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1017
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-727.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(255,0,0)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   2.03
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-712.2)" font-family="ProofRoboto">
+  <tspan fill="rgb(255,0,0)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   XTFI
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,908.97384765625,-712.2)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   5
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,936.0176953125,-712.2)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   16
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,988.2515429687501,-712.2)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   420
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-712.2)" font-family="ProofRoboto">
+  <tspan fill="rgb(255,0,0)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.49
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-696.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   XSHF
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,908.97384765625,-696.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   5
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,943.32384765625,-696.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   7
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,988.2515429687501,-696.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   228
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-696.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-681.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   XSHF
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,908.97384765625,-681.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   8
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,936.0176953125,-681.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   10
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,988.2515429687501,-681.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   238
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-681.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-665.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   YSHF
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,908.97384765625,-665.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   8
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,943.32384765625,-665.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   9
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,995.5576953125001,-665.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   94
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-665.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-649.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   YSHF
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,908.97384765625,-649.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   7
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,943.32384765625,-649.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   6
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,995.5576953125001,-649.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   94
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-649.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-634.2)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   YHAF
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,908.97384765625,-634.2)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   9
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,936.0176953125,-634.2)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   10
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,995.5576953125001,-634.2)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   35
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-634.2)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-618.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   YHAF
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,908.97384765625,-618.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   6
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,943.32384765625,-618.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   5
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,995.5576953125001,-618.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   35
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-618.5999999999999)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-603.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   XFIR
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,901.6676953125,-603.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   16
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,936.0176953125,-603.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   99
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,995.5576953125001,-603.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   40
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-603.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-587.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   XFIR
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,905.38107421875,-587.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   -1
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,936.0176953125,-587.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   17
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,995.5576953125001,-587.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   68
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-587.4000000000001)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.00
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,-571.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   YTOS
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,907.81857421875,-571.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   C
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,943.32384765625,-571.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,995.5576953125001,-571.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(153,153,153)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   47
+  </tspan>
+ </text>
+ <text text-anchor="start" transform="matrix(1,0,0,1,1046.65380859375,-571.8)" font-family="ProofRoboto">
+  <tspan fill="rgb(0,84,255)" font-family="ProofRoboto" font-size="13" x="20" y="824">
+   1.00
+  </tspan>
+ </text>
+ <path d="M48,554 l720,993 l97,-37 l32,-16 l-6,-1003 l0,-362 l228,-35 l0,-94 l-642,0 l0,94 l238,35 l9,360 l0,806 l-515,-721 l6,-10 l957,-26 l0,-96 l-1104,-4 Z M48,554" fill="none" stroke="rgb(204,204,204)" stroke-dasharray="5,5" stroke-linejoin="round" stroke-width="5" transform="matrix(0.3,0.0,0.0,-0.3,140.60000000000002,578.0)" />
+ <path d="M17.23,163.37 c1.56,1.56,1.56,4.09,0,5.66 c-1.56,1.56,-4.09,1.56,-5.66,0 c-1.56,-1.56,-1.56,-4.09,-0.0,-5.66 c1.56,-1.56,4.09,-1.56,5.66,0 Z M17.23,163.37" fill="none" stroke="rgb(0,84,255)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M393.9,464.1 l-163.5,0" fill="none" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M231.88,462.62 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M231.88,462.62" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M423,453 l-163.5,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M260.98,451.52 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M260.98,451.52" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M432.6,448.2 l-163.5,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M270.58,446.72 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M270.58,446.72" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M430.8,147.3 l-163.5,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M268.78,145.82 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M268.78,145.82" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M430.8,38.7 l-163.5,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M268.78,37.22 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M268.78,37.22" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M499.2,28.2 l-163.5,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M337.18,26.72 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M337.18,26.72" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M499.2,0 l-163.5,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M337.18,-1.48 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0.0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,-0.0 Z M337.18,-1.48" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M306.6,0 l-163.5,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M144.58,-1.48 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0.0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,-0.0 Z M144.58,-1.48" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M306.6,28.2 l-163.5,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M144.58,26.72 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M144.58,26.72" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M378,38.7 l-163.5,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M215.98,37.22 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M215.98,37.22" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M380.7,146.7 l-163.5,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M218.68,145.22 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M218.68,145.22" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M380.7,414.6 l-163.5,-26.1" fill="rgb(204,204,204)" stroke="rgb(255,0,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M218.68,387.02 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M218.68,387.02" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M71.1,172.2 l-8.4,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M64.18,170.72 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M64.18,170.72" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M72.9,169.2 l-8.4,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M65.98,167.72 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M65.98,167.72" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M556.8,161.4 l-205.2,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M353.08,159.92 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M353.08,159.92" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M556.8,132.6 l-205.2,0" fill="rgb(204,204,204)" stroke="rgb(0,178,0)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M353.08,131.12 c0.82,0.82,0.82,2.15,0,2.97 c-0.82,0.82,-2.15,0.82,-2.97,0 c-0.82,-0.82,-0.82,-2.15,0,-2.97 c0.82,-0.82,2.15,-0.82,2.97,0 Z M353.08,131.12" fill="rgb(204,204,204)" stroke-linejoin="round" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <path d="M23.23,128.57 c1.56,1.56,1.56,4.09,0,5.66 c-1.56,1.56,-4.09,1.56,-5.66,0 c-1.56,-1.56,-1.56,-4.09,0,-5.66 c1.56,-1.56,4.09,-1.56,5.66,0 Z M23.23,128.57" fill="none" stroke="rgb(0,84,255)" stroke-linejoin="round" stroke-width="1" transform="matrix(1,0,0,-1,140.60000000000002,578.0)" />
+ <text text-anchor="start" transform="matrix(1,0,0,1,863.0,13.0)" font-family="ProofRoboto">
+  <tspan fill="rgb(255,0,0)" font-family="ProofRoboto" font-size="13" x="0" y="824">
+   W 
+  </tspan>
+  <tspan fill="rgb(0,178,0)" font-family="ProofRoboto" font-size="13" x="14.19" y="824">
+   L R P C A U 
+  </tspan>
+ </text>
+</svg>

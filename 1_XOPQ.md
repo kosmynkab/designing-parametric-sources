@@ -15,15 +15,15 @@ Uppercase
 
 ##### XOPQ max
 
-![](imgs/uc/AmstelvarA2-Roman_H_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_XOUCmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_XOUCmax.svg)
 
 ##### XOPQ min
 
-![](imgs/uc/AmstelvarA2-Roman_H_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_XOUCmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_XOUCmin.svg)
 
 
 ### Round glyphs
@@ -35,15 +35,15 @@ Uppercase
 
 ##### XOPQ max
 
-![](imgs/uc/AmstelvarA2-Roman_O_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_XOUCmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_XOUCmax.svg)
 
 ##### XOPQ min
 
-![](imgs/uc/AmstelvarA2-Roman_O_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_XOUCmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_XOUCmin.svg)
 
 
 ### Diagonal glyphs
@@ -58,15 +58,15 @@ Uppercase
 
 ##### XOPQ max
 
-![](imgs/uc/AmstelvarA2-Roman_V_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_XOUCmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_XOUCmax.svg)
 
 ##### XOPQ min
 
-![](imgs/uc/AmstelvarA2-Roman_V_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_XOUCmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_XOUCmin.svg)
 
 > The italic V in XOPQmin seems like its too thick.
 
@@ -76,15 +76,15 @@ Uppercase
 
 ##### XOPQ max
 
-![](imgs/uc/AmstelvarA2-Roman_E_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_E_XOUCmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_E_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_E_XOUCmax.svg)
 
 ##### XOPQ min
 
-![](imgs/uc/AmstelvarA2-Roman_E_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_E_XOUCmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_E_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_E_XOUCmin.svg)
 
 > Is the italic E not too narrow in XOPQmin?
 
@@ -101,15 +101,15 @@ AmstelvarA2 Roman:
 
 ##### XOPQ max
 
-![](imgs/lc/AmstelvarA2-Roman_n_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_XOLCmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_XOLCmax.svg)
 
 ##### XOPQ min
 
-![](imgs/lc/AmstelvarA2-Roman_n_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_XOLCmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_XOLCmin.svg)
 
 ### Round glyphs
 
@@ -119,15 +119,15 @@ AmstelvarA2 Roman:
 
 ##### XOPQ max
 
-![](imgs/lc/AmstelvarA2-Roman_o_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_XOLCmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_XOLCmax.svg)
 
 ##### XOPQ min
 
-![](imgs/lc/AmstelvarA2-Roman_o_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_XOLCmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_XOLCmin.svg)
 
 ### Diagonal glyphs
 
@@ -140,15 +140,15 @@ AmstelvarA2 Roman:
 
 ##### XOPQ max
 
-![](imgs/lc/AmstelvarA2-Roman_v_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_XOLCmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_XOLCmax.svg)
 
 ##### XOPQ min
 
-![](imgs/lc/AmstelvarA2-Roman_v_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_XOLCmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_XOLCmin.svg)
 
 
 Figures
@@ -163,15 +163,15 @@ AmstelvarA2 Roman:
 
 ##### XOPQ max
 
-![](imgs/other/AmstelvarA2-Roman_one_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_XOFImax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_XOFImax.svg)
 
 ##### XOPQ min
 
-![](imgs/other/AmstelvarA2-Roman_one_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_XOFImin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_XOFImin.svg)
 
 ### Round glyphs
 
@@ -181,15 +181,15 @@ AmstelvarA2 Roman:
 
 ##### XOPQ max
 
-![](imgs/other/AmstelvarA2-Roman_zero_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_XOFImax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_XOPQmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_XOFImax.svg)
 
 ##### XOPQ min
 
-![](imgs/other/AmstelvarA2-Roman_zero_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_XOFImin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_XOPQmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_XOFImin.svg)
 
 
 Etcetera

@@ -25,8 +25,6 @@ Each parent axis has a Markdown source and a page template.
 | [-] | YSHA | `src/_data/parent-axes/ysha.md` | `src/reference/axes/YSHA/index.njk` |
 | [-] | XSVA | `src/_data/parent-axes/xsva.md` | `src/reference/axes/XSVA/index.njk` |
 | [-] | YSVA | `src/_data/parent-axes/ysva.md` | `src/reference/axes/YSVA/index.njk` |
-| [-] | XTEQ | `src/_data/parent-axes/xteq.md` | `src/reference/axes/XTEQ/index.njk` |
-| [-] | YTEQ | `src/_data/parent-axes/yteq.md` | `src/reference/axes/YTEQ/index.njk` |
 | [-] | YTOS | `src/_data/parent-axes/ytos.md` | `src/reference/axes/YTOS/index.njk` |
 | [-] | GRAD | `src/_data/parent-axes/grad.md` | `src/reference/axes/GRAD/index.njk` |
 
@@ -82,8 +80,6 @@ src/reference/project-implementation/<TAG-UPPERCASE>/index.njk
 
 ### Equalisation, overshoot, and grade
 
-- [ ] XTEQ: XQUC, XQLC, XQFI
-- [ ] YTEQ: YQUC, YQLC, YQFI
 - [ ] YTOS: YTOS
 - [ ] GRAD: GRAD
 

@@ -13,58 +13,58 @@ Uppercase
 
 ##### GRAD max
 
-![](imgs/uc/AmstelvarA2-Roman_H_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_GRADmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_GRADmax.svg)
 
 ##### GRAD min
 
-![](imgs/uc/AmstelvarA2-Roman_H_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_GRADmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_GRADmin.svg)
 
 ### Round glyphs
 
 ##### GRAD max
 
-![](imgs/uc/AmstelvarA2-Roman_O_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_GRADmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_GRADmax.svg)
 
 ##### GRAD min
 
-![](imgs/uc/AmstelvarA2-Roman_O_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_GRADmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_GRADmin.svg)
 
 
 ### Diagonal glyphs
 
 ##### GRAD max
 
-![](imgs/uc/AmstelvarA2-Roman_V_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_GRADmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_GRADmax.svg)
 
 ##### GRAD min
 
-![](imgs/uc/AmstelvarA2-Roman_V_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_GRADmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_GRADmin.svg)
 
 ### Single-stem glyphs
 
 ##### GRAD max
 
-![](imgs/uc/AmstelvarA2-Roman_E_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_E_GRADmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_E_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_E_GRADmax.svg)
 
 ##### GRAD min
 
-![](imgs/uc/AmstelvarA2-Roman_E_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_E_GRADmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_E_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_E_GRADmin.svg)
 
 Lowercase
 ---------
@@ -73,43 +73,43 @@ Lowercase
 
 ##### GRAD max
 
-![](imgs/lc/AmstelvarA2-Roman_n_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_GRADmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_GRADmax.svg)
 
 ##### GRAD min
 
-![](imgs/lc/AmstelvarA2-Roman_n_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_GRADmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_GRADmin.svg)
 
 ### Round glyphs
 
 ##### GRAD max
 
-![](imgs/lc/AmstelvarA2-Roman_o_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_GRADmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_GRADmax.svg)
 
 ##### GRAD min
 
-![](imgs/lc/AmstelvarA2-Roman_o_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_GRADmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_GRADmin.svg)
 
 ### Diagonal glyphs
 
 ##### GRAD max
 
-![](imgs/lc/AmstelvarA2-Roman_v_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_GRADmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_GRADmax.svg)
 
 ##### GRAD min
 
-![](imgs/lc/AmstelvarA2-Roman_v_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_GRADmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_GRADmin.svg)
 
 
 Figures
@@ -119,15 +119,15 @@ Figures
 
 ##### GRAD max
 
-![](imgs/other/AmstelvarA2-Roman_one_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_GRADmax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_GRADmax.svg)
 
 ##### GRAD min
 
-![](imgs/other/AmstelvarA2-Roman_one_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_GRADmin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_GRADmin.svg)
 
 ### Round glyphs
 
@@ -137,15 +137,15 @@ AmstelvarA2 Roman:
 
 ##### GRAD max
 
-![](imgs/other/AmstelvarA2-Roman_zero_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_GRADmax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_GRADmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_GRADmax.svg)
 
 ##### GRAD min
 
-![](imgs/other/AmstelvarA2-Roman_zero_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_GRADmin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_GRADmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_GRADmin.svg)
 
 
 Etcetera

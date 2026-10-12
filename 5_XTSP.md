@@ -12,45 +12,45 @@ Uppercase
 
 ##### XTSP min
 
-![](imgs/uc/AmstelvarA2-Roman_H_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_XUCSmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_XUCSmin.svg)
 
 ##### XTSP max
 
-![](imgs/uc/AmstelvarA2-Roman_H_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_H_XUCSmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_H_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_H_XUCSmax.svg)
 
 
 ### Round glyphs
 
 ##### XTSP min
 
-![](imgs/uc/AmstelvarA2-Roman_O_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_XUCRmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_XUCRmin.svg)
 
 ##### XTSP max
 
-![](imgs/uc/AmstelvarA2-Roman_O_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_XUCRmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_O_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_XUCRmax.svg)
 
 
 ### Diagonal glyphs
 
 ##### XTSP min
 
-![](imgs/uc/AmstelvarA2-Roman_V_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_XUCDmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_XUCDmin.svg)
 
 ##### XTSP max
 
-![](imgs/uc/AmstelvarA2-Roman_V_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_XUCDmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_V_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_XUCDmax.svg)
 
 
 Lowercase
@@ -62,45 +62,45 @@ Lowercase
 
 ##### XTSP min
 
-![](imgs/lc/AmstelvarA2-Roman_n_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_XLCSmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_XLCSmin.svg)
 
 ##### XTSP max
 
-![](imgs/lc/AmstelvarA2-Roman_n_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_XLCSmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_n_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_XLCSmax.svg)
 
 
 ### Round glyphs
 
 ##### XTSP min
 
-![](imgs/lc/AmstelvarA2-Roman_o_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_XLCRmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_XLCRmin.svg)
 
 ##### XTSP max
 
-![](imgs/lc/AmstelvarA2-Roman_o_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_XLCRmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_o_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_XLCRmax.svg)
 
 
 ### Diagonal glyphs
 
 ##### XTSP min
 
-![](imgs/lc/AmstelvarA2-Roman_v_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_XLCDmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_XLCDmin.svg)
 
 ##### XTSP max
 
-![](imgs/lc/AmstelvarA2-Roman_v_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_XLCDmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_v_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_XLCDmax.svg)
 
 
 Figures
@@ -110,30 +110,30 @@ Figures
 
 ##### XTSP min
 
-![](imgs/other/AmstelvarA2-Roman_one_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_XFIRmin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_XFIRmin.svg)
 
 ##### XTSP max
 
-![](imgs/other/AmstelvarA2-Roman_one_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_one_XFIRmax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_one_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_one_XFIRmax.svg)
 
 
 ### Round glyphs
 
 ##### XTSP min
 
-![](imgs/other/AmstelvarA2-Roman_zero_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_XFIRmin.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_XTSPmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_XFIRmin.svg)
 
 ##### XTSP max
 
-![](imgs/other/AmstelvarA2-Roman_zero_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_XFIRmax.svg)
 
-![](imgs/other/AmstelvarA2-Italic_zero_XTSPmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_XFIRmax.svg)
 
 
 Etcetera

@@ -13,15 +13,15 @@ Uppercase
 
 ##### YTOS max
 
-![](imgs/amstelvar-a2/uc/AmstelvarA2-Roman_O_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_YTOSmax.svg)
 
-![](imgs/amstelvar-a2/uc/AmstelvarA2-Italic_O_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_YTOSmax.svg)
 
 ##### YTOS min
 
-![](imgs/amstelvar-a2/uc/AmstelvarA2-Roman_O_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_O_YTOSmin.svg)
 
-![](imgs/amstelvar-a2/uc/AmstelvarA2-Italic_O_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_O_YTOSmin.svg)
 
 
 ### Diagonal glyphs
@@ -30,15 +30,15 @@ Uppercase
 
 ##### YTOS max
 
-![](imgs/amstelvar-a2/uc/AmstelvarA2-Roman_V_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_YTOSmax.svg)
 
-![](imgs/amstelvar-a2/uc/AmstelvarA2-Italic_V_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_YTOSmax.svg)
 
 ##### YTOS min
 
-![](imgs/amstelvar-a2/uc/AmstelvarA2-Roman_V_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_V_YTOSmin.svg)
 
-![](imgs/amstelvar-a2/uc/AmstelvarA2-Italic_V_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_V_YTOSmin.svg)
 
 
 Lowercase
@@ -50,15 +50,15 @@ Lowercase
 
 ##### YTOS max
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Roman_n_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_YTOSmax.svg)
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Italic_n_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_YTOSmax.svg)
 
 ##### YTOS min
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Roman_n_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_n_YTOSmin.svg)
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Italic_n_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_n_YTOSmin.svg)
 
 
 ### Round glyphs
@@ -67,15 +67,15 @@ Lowercase
 
 ##### YTOS max
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Roman_o_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_YTOSmax.svg)
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Italic_o_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_YTOSmax.svg)
 
 ##### YTOS min
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Roman_o_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_o_YTOSmin.svg)
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Italic_o_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_o_YTOSmin.svg)
 
 
 ### Diagonal glyphs
@@ -84,15 +84,15 @@ Lowercase
 
 ##### YTOS max
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Roman_v_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_YTOSmax.svg)
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Italic_v_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_YTOSmax.svg)
 
 ##### YTOS min
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Roman_v_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_v_YTOSmin.svg)
 
-![](imgs/amstelvar-a2/lc/AmstelvarA2-Italic_v_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_v_YTOSmin.svg)
 
 
 Figures
@@ -104,15 +104,15 @@ Figures
 
 ##### YTOS max
 
-![](imgs/amstelvar-a2/other/AmstelvarA2-Roman_zero_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_YTOSmax.svg)
 
-![](imgs/amstelvar-a2/other/AmstelvarA2-Italic_zero_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_YTOSmax.svg)
 
 ##### YTOS min
 
-![](imgs/amstelvar-a2/other/AmstelvarA2-Roman_zero_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_zero_YTOSmin.svg)
 
-![](imgs/amstelvar-a2/other/AmstelvarA2-Italic_zero_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_zero_YTOSmin.svg)
 
 
 ### Diagonal glyphs
@@ -121,13 +121,13 @@ Figures
 
 ##### YTOS max
 
-![](imgs/amstelvar-a2/other/AmstelvarA2-Roman_four_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_four_YTOSmax.svg)
 
-![](imgs/amstelvar-a2/other/AmstelvarA2-Italic_four_YTOSmax.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_four_YTOSmax.svg)
 
 ##### YTOS min
 
-![](imgs/amstelvar-a2/other/AmstelvarA2-Roman_four_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Roman_four_YTOSmin.svg)
 
-![](imgs/amstelvar-a2/other/AmstelvarA2-Italic_four_YTOSmin.png)
+![](src/imgs-svg/amstelvar-a2/other/AmstelvarA2-Italic_four_YTOSmin.svg)
 

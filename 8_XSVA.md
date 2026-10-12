@@ -10,30 +10,30 @@ Uppercase
 
 ##### XSVA min
 
-![](imgs/uc/AmstelvarA2-Roman_T_XSVAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_T_XSVUmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_T_XSVAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_T_XSVUmin.svg)
 
 ##### XSVA max
 
-![](imgs/uc/AmstelvarA2-Roman_T_XSVAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_T_XSVUmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_T_XSVAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_T_XSVUmax.svg)
 
 
 ### Round to serif
 
 ##### XSVA min
 
-![](imgs/uc/AmstelvarA2-Roman_G_XSVAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_G_XSVUmin.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_G_XSVAmin.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_G_XSVUmin.svg)
 
 ##### XSVA max
 
-![](imgs/uc/AmstelvarA2-Roman_G_XSVAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Roman_G_XSVUmax.svg)
 
-![](imgs/uc/AmstelvarA2-Italic_G_XSVAmax.png)
+![](src/imgs-svg/amstelvar-a2/uc/AmstelvarA2-Italic_G_XSVUmax.svg)
 
 
 Lowercase
@@ -48,15 +48,15 @@ AmstelvarA2 Roman:
 
 ##### XSVA min
 
-![](imgs/lc/AmstelvarA2-Roman_r_XSVAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_r_XSVLmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_r_XSVAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_r_XSVLmin.svg)
 
 ##### XSVA max
 
-![](imgs/lc/AmstelvarA2-Roman_r_XSVAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_r_XSVLmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_r_XSVAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_r_XSVLmax.svg)
 
 
 ### Round to serif
@@ -70,15 +70,15 @@ AmstelvarA2 Roman:
 
 ##### XSVA min
 
-![](imgs/lc/AmstelvarA2-Roman_c_XSVAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_c_XSVLmin.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_c_XSVAmin.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_c_XSVLmin.svg)
 
 ##### XSVA max
 
-![](imgs/lc/AmstelvarA2-Roman_c_XSVAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Roman_c_XSVLmax.svg)
 
-![](imgs/lc/AmstelvarA2-Italic_c_XSVAmax.png)
+![](src/imgs-svg/amstelvar-a2/lc/AmstelvarA2-Italic_c_XSVLmax.svg)
 
 
 Etcetera

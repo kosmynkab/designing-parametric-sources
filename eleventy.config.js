@@ -1,5 +1,5 @@
 export default function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy({ "src/imgs": "imgs" });
+  eleventyConfig.addPassthroughCopy({ "src/imgs-svg": "imgs-svg" });
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addWatchTarget("./src/_data/projects");
   eleventyConfig.addCollection("siteNavigation", (collectionApi) => {

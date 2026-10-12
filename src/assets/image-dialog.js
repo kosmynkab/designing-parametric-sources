@@ -15,7 +15,7 @@ if (specimenZoomButtons.length) {
       </button>
 
       <figure class="image-dialog__figure">
-        <img class="image-dialog__image" alt="">
+        <div class="image-dialog__proof"></div>
         <figcaption class="image-dialog__caption"></figcaption>
       </figure>
     </div>
@@ -23,7 +23,7 @@ if (specimenZoomButtons.length) {
 
   document.body.append(imageDialog);
 
-  const dialogImage = imageDialog.querySelector(".image-dialog__image");
+  const dialogProof = imageDialog.querySelector(".image-dialog__proof");
   const dialogCaption = imageDialog.querySelector(".image-dialog__caption");
   const closeButton = imageDialog.querySelector(".image-dialog__close");
 
@@ -36,11 +36,28 @@ if (specimenZoomButtons.length) {
 
     button.addEventListener("click", () => {
       const caption = button.closest("figure").querySelector("figcaption");
+      const inlineProof = button.querySelector(".proof-viewer__svg");
+      const fallbackImage = button.querySelector("img");
 
-      dialogImage.src = image.currentSrc || image.src;
-      dialogImage.alt = image.alt;
+      dialogProof.replaceChildren();
+
+      if (inlineProof) {
+        const dialogSvg = inlineProof.cloneNode(true);
+
+        dialogSvg.removeAttribute("id");
+        dialogSvg.setAttribute("aria-hidden", "true");
+
+        dialogProof.append(dialogSvg);
+      } else if (fallbackImage) {
+        const dialogImage = document.createElement("img");
+
+        dialogImage.src = fallbackImage.currentSrc || fallbackImage.src;
+        dialogImage.alt = fallbackImage.alt;
+
+        dialogProof.append(dialogImage);
+      }
+
       dialogCaption.textContent = caption ? caption.textContent : "";
-
       imageDialog.showModal();
     });
   });

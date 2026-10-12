@@ -3,10 +3,10 @@
   <div class="specimen-grid">
     {% for specimen in group.specimens %}
       <figure class="specimen-card">
-        <img
-          src="{{ '/' + specimen.image | url }}"
-          alt="{{ specimen.style | capitalize }} {{ specimen.glyph }} at {{ specimen.axis }} {{ specimen.instance }}"
-        >
+        {% set proofImageUrl = ("/" + specimen.image) | url %}
+        {% set proofImageAlt = specimen.style | capitalize + " " + specimen.glyph + " at " + specimen.axis + " " + specimen.instance %}
+        {% set proofLoading = "lazy" %}
+        {% include "proof-viewer.njk" %}
         <figcaption>{{ specimen.glyph }} · {{ specimen.style }} · {{ specimen.axis }} {{ specimen.instance }}</figcaption>
       </figure>
     {% endfor %}

@@ -4,12 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ title }} · Designing Parametric Sources</title>
+    <script>
+      (() => {
+        const savedTheme = localStorage.getItem("theme");
+        const systemTheme = window.matchMedia("(prefers-color-scheme: dark)")
+          .matches
+          ? "dark"
+          : "light";
+
+        document.documentElement.dataset.theme = savedTheme || systemTheme;
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ '/assets/site.css' | url }}">
     <script src="{{ '/assets/filters.js' | url }}" defer></script>
     <script src="{{ '/assets/image-dialog.js' | url }}" defer></script>
+    <script src="{{ '/assets/theme-toggle.js' | url }}" defer></script>
+    <script src="{{ '/assets/proof-viewer.js' | url }}" defer></script>
   </head>
   <body>
     <header class="site-nav">
@@ -24,6 +37,14 @@
 #}
         <a href="{{ '/explanation/' | url }}">Explanation</a>
         <a href="{{ '/reference/specimens/' | url }}">Reference</a>
+        <button
+          class="theme-toggle"
+          type="button"
+          data-theme-toggle
+          aria-label="Switch colour theme"
+        >
+          Theme
+        </button>
       </nav>
     </header>
 

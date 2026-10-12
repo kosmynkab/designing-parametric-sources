@@ -68,11 +68,10 @@ navigation:
       data-glyph="{{ specimen.glyph }}"
       data-tags="{{ specimen.tags | join(' ') }}"
     >
-      <img
-        src="{{ ("/" + specimen.image) | url }}"
-        alt="{{ specimen.glyph }} — {{ specimen.style }}, {{ specimen.axis }}"
-        loading="lazy"
-      >
+      {% set proofImageUrl = ("/" + specimen.image) | url %}
+      {% set proofImageAlt = specimen.glyph + " — " + specimen.style + ", " + specimen.axis %}
+      {% set proofLoading = "lazy" %}
+      {% include "proof-viewer.njk" %}
       <p>{{ specimen.glyph }} · {{ specimen.axis }}{{ specimen.instance }}</p>
     </article>
   {% endfor %}

@@ -25,10 +25,10 @@ permalink: /reference/project-axes/bars/
           and specimen.glyph == "dollar" %}
           <figure class="specimen-card">
             <button class="specimen-zoom" type="button">
-              <img
-                src="{{ ('/' + specimen.image) | url }}"
-                alt="{{ specimen.style | capitalize }} dollar at {{ specimen.axis }} {{ specimen.source }}"
-              >
+              {% set proofImageUrl = ("/" + specimen.image) | url %}
+              {% set proofImageAlt = specimen.style | capitalize + " dollar at " + specimen.axis + " " + specimen.source %}
+              {% set proofLoading = "lazy" %}
+              {% include "proof-viewer.njk" %}
             </button>
             <figcaption>
               {{ specimen.glyph }} · {{ specimen.style | capitalize }} ·
